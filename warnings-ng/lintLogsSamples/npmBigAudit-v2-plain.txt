@@ -1,0 +1,1665 @@
+# npm audit report
+
+acorn  5.5.0 - 5.7.3 || 6.0.0 - 6.4.0
+Severity: high
+Regular Expression Denial of Service in Acorn - https://github.com/advisories/GHSA-6chw-6frg-f759
+Regular Expression Denial of Service in Acorn - https://github.com/advisories/GHSA-6chw-6frg-f759
+fix available via `npm audit fix`
+node_modules/acorn-globals/node_modules/acorn
+node_modules/jsdom/node_modules/acorn
+node_modules/webpack/node_modules/acorn
+
+ansi-html  *
+Severity: high
+Uncontrolled Resource Consumption in ansi-html - https://github.com/advisories/GHSA-whgm-jr23-g3j9
+fix available via `npm audit fix`
+node_modules/ansi-html
+  webpack-dev-server  2.0.0-beta - 4.1.0
+  Depends on vulnerable versions of ansi-html
+  Depends on vulnerable versions of chokidar
+  Depends on vulnerable versions of sockjs
+  Depends on vulnerable versions of yargs
+  node_modules/webpack-dev-server
+
+ansi-regex  >2.1.1 <5.0.1
+Severity: moderate
+ Inefficient Regular Expression Complexity in chalk/ansi-regex - https://github.com/advisories/GHSA-93q8-gq69-wqmw
+fix available via `npm audit fix --force`
+Will install gulp-sass@5.0.0, which is a breaking change
+node_modules/@jest/core/node_modules/ansi-regex
+node_modules/gulp-sass/node_modules/ansi-regex
+node_modules/jest-runtime/node_modules/ansi-regex
+node_modules/jest/node_modules/ansi-regex
+node_modules/pretty-format/node_modules/ansi-regex
+node_modules/sass-graph/node_modules/ansi-regex
+node_modules/string-length/node_modules/ansi-regex
+node_modules/stylelint-no-browser-hacks/node_modules/ansi-regex
+node_modules/stylelint/node_modules/ansi-regex
+node_modules/table/node_modules/ansi-regex
+node_modules/webpack-cli/node_modules/ansi-regex
+node_modules/webpack-dev-server/node_modules/ansi-regex
+  pretty-format  20.1.0-alpha.1 - 25.0.0
+  Depends on vulnerable versions of ansi-regex
+  node_modules/pretty-format
+    jest-config  20.1.0-alpha.1 - 24.9.0
+    Depends on vulnerable versions of @jest/test-sequencer
+    Depends on vulnerable versions of jest-jasmine2
+    Depends on vulnerable versions of pretty-format
+    node_modules/jest-config
+      @jest/core  <=25.5.4
+      Depends on vulnerable versions of @jest/reporters
+      Depends on vulnerable versions of jest-config
+      Depends on vulnerable versions of strip-ansi
+      node_modules/@jest/core
+        jest-cli  20.1.0-alpha.1 - 25.0.0
+        Depends on vulnerable versions of @jest/core
+        Depends on vulnerable versions of jest-config
+        Depends on vulnerable versions of jest-validate
+        Depends on vulnerable versions of yargs
+        node_modules/jest/node_modules/jest-cli
+          jest  20.1.0-alpha.1 - 24.9.0
+          Depends on vulnerable versions of jest-cli
+          node_modules/jest
+      jest-runner  21.0.0-alpha.1 - 24.9.0
+      Depends on vulnerable versions of jest-config
+      Depends on vulnerable versions of jest-jasmine2
+      Depends on vulnerable versions of jest-leak-detector
+      node_modules/jest-runner
+      jest-runtime  20.1.0-alpha.1 - 25.0.0
+      Depends on vulnerable versions of jest-config
+      Depends on vulnerable versions of jest-snapshot
+      Depends on vulnerable versions of jest-validate
+      Depends on vulnerable versions of yargs
+      node_modules/jest-runtime
+        @jest/reporters  <=26.4.0
+        Depends on vulnerable versions of jest-runtime
+        Depends on vulnerable versions of node-notifier
+        Depends on vulnerable versions of string-length
+        node_modules/@jest/reporters
+        @jest/test-sequencer  <=24.9.0
+        Depends on vulnerable versions of jest-runtime
+        node_modules/@jest/test-sequencer
+        jest-jasmine2  20.1.0-alpha.1 - 24.9.0
+        Depends on vulnerable versions of jest-each
+        Depends on vulnerable versions of jest-runtime
+        Depends on vulnerable versions of jest-snapshot
+        Depends on vulnerable versions of pretty-format
+        node_modules/jest-jasmine2
+    jest-diff  20.1.0-alpha.1 - 24.9.0
+    Depends on vulnerable versions of pretty-format
+    node_modules/jest-diff
+      jest-matcher-utils  20.1.0-alpha.1 - 24.9.0
+      Depends on vulnerable versions of jest-diff
+      Depends on vulnerable versions of pretty-format
+      node_modules/jest-matcher-utils
+        expect  21.0.0-beta.1 - 24.9.0
+        Depends on vulnerable versions of jest-matcher-utils
+        node_modules/expect
+          jest-snapshot  20.1.0-alpha.1 - 24.9.0
+          Depends on vulnerable versions of expect
+          Depends on vulnerable versions of pretty-format
+          node_modules/jest-snapshot
+            jest-resolve-dependencies  23.0.0-alpha.5 - 24.9.0
+            Depends on vulnerable versions of jest-snapshot
+            node_modules/jest-resolve-dependencies
+    jest-each  23.0.1 - 24.9.0
+    Depends on vulnerable versions of pretty-format
+    node_modules/jest-each
+    jest-leak-detector  21.3.0-beta.9 - 24.9.0
+    Depends on vulnerable versions of pretty-format
+    node_modules/jest-leak-detector
+    jest-validate  20.1.0-alpha.1 - 24.9.0
+    Depends on vulnerable versions of pretty-format
+    node_modules/jest-validate
+  strip-ansi  4.0.0 - 5.2.0
+  Depends on vulnerable versions of ansi-regex
+  node_modules/@jest/core/node_modules/strip-ansi
+  node_modules/gulp-sass/node_modules/strip-ansi
+  node_modules/jest-runtime/node_modules/strip-ansi
+  node_modules/jest/node_modules/strip-ansi
+  node_modules/sass-graph/node_modules/strip-ansi
+  node_modules/string-length/node_modules/strip-ansi
+  node_modules/stylelint-no-browser-hacks/node_modules/strip-ansi
+  node_modules/stylelint/node_modules/strip-ansi
+  node_modules/table/node_modules/strip-ansi
+  node_modules/webpack-cli/node_modules/strip-ansi
+  node_modules/webpack-dev-server/node_modules/cliui/node_modules/strip-ansi
+  node_modules/webpack-dev-server/node_modules/string-width/node_modules/strip-ansi
+    cliui  4.0.0 - 5.0.0
+    Depends on vulnerable versions of strip-ansi
+    Depends on vulnerable versions of wrap-ansi
+    node_modules/jest-runtime/node_modules/cliui
+    node_modules/jest/node_modules/cliui
+    node_modules/sass-graph/node_modules/cliui
+    node_modules/webpack-cli/node_modules/cliui
+    node_modules/webpack-dev-server/node_modules/cliui
+      yargs  8.0.0-candidate.0 - 15.0.0
+      Depends on vulnerable versions of cliui
+      Depends on vulnerable versions of string-width
+      Depends on vulnerable versions of yargs-parser
+      node_modules/jest-runtime/node_modules/yargs
+      node_modules/jest/node_modules/yargs
+      node_modules/sass-graph/node_modules/yargs
+      node_modules/webpack-cli/node_modules/yargs
+      node_modules/webpack-dev-server/node_modules/yargs
+        sass-graph  2.2.5 || >=3.0.5
+        Depends on vulnerable versions of yargs
+        node_modules/sass-graph
+          node-sass  >=3.5.0-beta.1
+          Depends on vulnerable versions of meow
+          Depends on vulnerable versions of sass-graph
+          node_modules/node-sass
+            gulp-sass  2.3.0-beta.1 - 2.3.0 || 3.0.0 - 4.1.1
+            Depends on vulnerable versions of node-sass
+            Depends on vulnerable versions of strip-ansi
+            node_modules/gulp-sass
+        webpack-cli  3.3.5 - 3.3.12
+        Depends on vulnerable versions of yargs
+        node_modules/webpack-cli
+        webpack-dev-server  2.0.0-beta - 4.1.0
+        Depends on vulnerable versions of ansi-html
+        Depends on vulnerable versions of chokidar
+        Depends on vulnerable versions of sockjs
+        Depends on vulnerable versions of yargs
+        node_modules/webpack-dev-server
+    string-length  2.0.0 - 3.1.0
+    Depends on vulnerable versions of strip-ansi
+    node_modules/string-length
+      jest-watcher  <=26.0.0-alpha.2
+      Depends on vulnerable versions of string-length
+      node_modules/jest-watcher
+    string-width  2.1.0 - 4.1.0
+    Depends on vulnerable versions of strip-ansi
+    node_modules/jest-runtime/node_modules/string-width
+    node_modules/jest/node_modules/string-width
+    node_modules/sass-graph/node_modules/string-width
+    node_modules/stylelint-no-browser-hacks/node_modules/string-width
+    node_modules/stylelint/node_modules/string-width
+    node_modules/table/node_modules/string-width
+    node_modules/webpack-cli/node_modules/string-width
+    node_modules/webpack-dev-server/node_modules/string-width
+      stylelint  7.7.1 - 13.6.1
+      Depends on vulnerable versions of globby
+      Depends on vulnerable versions of meow
+      Depends on vulnerable versions of micromatch
+      Depends on vulnerable versions of postcss-markdown
+      Depends on vulnerable versions of string-width
+      Depends on vulnerable versions of table
+      node_modules/stylelint
+      node_modules/stylelint-no-browser-hacks/node_modules/stylelint
+        gulp-stylelint  <=6.0.0
+        Depends on vulnerable versions of deep-extend
+        Depends on vulnerable versions of gulp-util
+        Depends on vulnerable versions of stylelint
+        node_modules/gulp-stylelint
+      table  4.0.2 - 5.4.6
+      Depends on vulnerable versions of string-width
+      node_modules/stylelint-no-browser-hacks/node_modules/table
+      node_modules/stylelint/node_modules/table
+      wrap-ansi  3.0.0 - 6.1.0
+      Depends on vulnerable versions of string-width
+      Depends on vulnerable versions of strip-ansi
+      node_modules/jest-runtime/node_modules/wrap-ansi
+      node_modules/jest/node_modules/wrap-ansi
+      node_modules/sass-graph/node_modules/wrap-ansi
+      node_modules/webpack-cli/node_modules/wrap-ansi
+
+atob  <2.1.0
+Severity: moderate
+Out-of-bounds Read in atob - https://github.com/advisories/GHSA-8w4h-3cm3-2pm2
+fix available via `npm audit fix`
+node_modules/atob
+  source-map-resolve  <=0.4.0
+  Depends on vulnerable versions of atob
+  node_modules/source-map-resolve
+    css  2.0.0 - 2.2.1
+    Depends on vulnerable versions of source-map-resolve
+    node_modules/css
+
+axios  <=0.21.1
+Severity: high
+Incorrect Comparison in axios - https://github.com/advisories/GHSA-cph5-m8f7-6c5x
+Server-Side Request Forgery in Axios - https://github.com/advisories/GHSA-4w2v-q235-vp99
+fix available via `npm audit fix --force`
+Will install axios@0.24.0, which is a breaking change
+node_modules/axios
+
+bl  <1.2.3
+Severity: high
+Remote Memory Exposure in bl - https://github.com/advisories/GHSA-pp7h-53gx-mx7r
+fix available via `npm audit fix`
+node_modules/bl
+
+blueimp-file-upload  <=9.22.0
+Severity: critical
+High severity vulnerability that affects blueimp-file-upload - https://github.com/advisories/GHSA-4cj8-g9cp-v5wr
+fix available via `npm audit fix --force`
+Will install blueimp-file-upload@9.34.0, which is outside the stated dependency range
+node_modules/blueimp-file-upload
+
+bootstrap-sass  3.1.1 - 3.4.0
+Severity: moderate
+Moderate severity vulnerability that affects bootstrap and bootstrap-sass - https://github.com/advisories/GHSA-wh77-3x4m-4q9g
+fix available via `npm audit fix`
+node_modules/bootstrap-sass
+
+braces  <2.3.1
+Regular Expression Denial of Service in braces - https://github.com/advisories/GHSA-g95f-p29q-9xw4
+fix available via `npm audit fix --force`
+Will install stylelint@14.0.1, which is a breaking change
+node_modules/braces
+  micromatch  0.2.0 - 2.3.11
+  Depends on vulnerable versions of braces
+  Depends on vulnerable versions of parse-glob
+  node_modules/micromatch
+    anymatch  1.2.0 - 1.3.2
+    Depends on vulnerable versions of micromatch
+    node_modules/anymatch
+      browser-sync  <=2.26.13
+      Depends on vulnerable versions of anymatch
+      Depends on vulnerable versions of browser-sync-ui
+      Depends on vulnerable versions of chokidar
+      Depends on vulnerable versions of eazy-logger
+      Depends on vulnerable versions of foxy
+      Depends on vulnerable versions of lodash
+      Depends on vulnerable versions of resp-modifier
+      Depends on vulnerable versions of socket.io
+      node_modules/browser-sync
+      chokidar  1.0.0-rc1 - 2.1.8
+      Depends on vulnerable versions of anymatch
+      Depends on vulnerable versions of glob-parent
+      node_modules/chokidar
+      node_modules/gulp/node_modules/chokidar
+      node_modules/watchpack/node_modules/chokidar
+      node_modules/webpack-dev-server/node_modules/chokidar
+        glob-watcher  >=3.0.0
+        Depends on vulnerable versions of chokidar
+        node_modules/gulp/node_modules/glob-watcher
+        watchify  3.0.0 - 3.11.1
+        Depends on vulnerable versions of anymatch
+        Depends on vulnerable versions of chokidar
+        node_modules/watchify
+        watchpack  0.2.2 - 1.6.1
+        Depends on vulnerable versions of chokidar
+        node_modules/watchpack
+        webpack-dev-server  2.0.0-beta - 4.1.0
+        Depends on vulnerable versions of ansi-html
+        Depends on vulnerable versions of chokidar
+        Depends on vulnerable versions of sockjs
+        Depends on vulnerable versions of yargs
+        node_modules/webpack-dev-server
+    stylelint  7.7.1 - 13.6.1
+    Depends on vulnerable versions of globby
+    Depends on vulnerable versions of meow
+    Depends on vulnerable versions of micromatch
+    Depends on vulnerable versions of postcss-markdown
+    Depends on vulnerable versions of string-width
+    Depends on vulnerable versions of table
+    node_modules/stylelint
+    node_modules/stylelint-no-browser-hacks/node_modules/stylelint
+      gulp-stylelint  <=6.0.0
+      Depends on vulnerable versions of deep-extend
+      Depends on vulnerable versions of gulp-util
+      Depends on vulnerable versions of stylelint
+      node_modules/gulp-stylelint
+
+browserify-hmr  <=0.3.7
+Severity: high
+Missing Origin Validation in browserify-hmr - https://github.com/advisories/GHSA-77q4-m83q-w76v
+Depends on vulnerable versions of socket.io
+fix available via `npm audit fix --force`
+Will install browserify-hmr@0.4.1, which is a breaking change
+node_modules/browserify-hmr
+
+browserslist  4.0.0 - 4.16.4
+Severity: moderate
+Regular Expression Denial of Service in browserslist - https://github.com/advisories/GHSA-w8qv-6jwh-64r5
+fix available via `npm audit fix`
+node_modules/@babel/preset-env/node_modules/browserslist
+node_modules/core-js-compat/node_modules/browserslist
+node_modules/stylelint-no-browser-hacks/node_modules/browserslist
+
+cached-path-relative  <1.0.2
+Severity: high
+Prototype Pollution in cached-path-relative - https://github.com/advisories/GHSA-hc9w-4p87-j549
+fix available via `npm audit fix`
+node_modules/cached-path-relative
+
+clean-css  <4.1.11
+Regular Expression Denial of Service in clean-css - https://github.com/advisories/GHSA-wxhq-pm8v-cw75
+No fix available
+node_modules/clean-css
+  gulp-minify-css  *
+  Depends on vulnerable versions of clean-css
+  Depends on vulnerable versions of gulp-util
+  node_modules/gulp-minify-css
+
+color-string  <1.5.5
+Severity: moderate
+Regular Expression Denial of Service (ReDOS) - https://github.com/advisories/GHSA-257v-vj4p-3w2h
+fix available via `npm audit fix --force`
+Will install vueify@5.0.2, which is a breaking change
+node_modules/color-string
+  color  <=0.11.4
+  Depends on vulnerable versions of color-string
+  node_modules/color
+    colormin  *
+    Depends on vulnerable versions of color
+    node_modules/colormin
+      postcss-colormin  <=2.2.2
+      Depends on vulnerable versions of colormin
+      node_modules/postcss-colormin
+        cssnano  <=3.10.0
+        Depends on vulnerable versions of postcss-colormin
+        Depends on vulnerable versions of postcss-svgo
+        node_modules/cssnano
+          vueify  >=5.0.3
+          Depends on vulnerable versions of cssnano
+          node_modules/vueify
+
+concat-with-sourcemaps  1.0.0 - 1.0.5
+Severity: moderate
+Out-of-bounds Read in concat-with-sourcemaps - https://github.com/advisories/GHSA-2xv3-h762-ccxv
+fix available via `npm audit fix`
+node_modules/concat-with-sourcemaps
+
+connect  <=2.8.0
+methodOverride Middleware Reflected Cross-Site Scripting in connect - https://github.com/advisories/GHSA-3fw8-66wf-pr7m
+fix available via `npm audit fix --force`
+Will install browser-sync@2.27.7, which is outside the stated dependency range
+node_modules/weinre/node_modules/connect
+  express  <=3.10.5 || 4.0.0-rc1 - 4.7.4
+  Depends on vulnerable versions of connect
+  Depends on vulnerable versions of mime
+  Depends on vulnerable versions of qs
+  node_modules/weinre/node_modules/express
+    weinre  *
+    Depends on vulnerable versions of express
+    node_modules/weinre
+      browser-sync-ui  <=0.6.3
+      Depends on vulnerable versions of weinre
+      node_modules/browser-sync-ui
+        browser-sync  <=2.26.13
+        Depends on vulnerable versions of anymatch
+        Depends on vulnerable versions of browser-sync-ui
+        Depends on vulnerable versions of chokidar
+        Depends on vulnerable versions of eazy-logger
+        Depends on vulnerable versions of foxy
+        Depends on vulnerable versions of lodash
+        Depends on vulnerable versions of resp-modifier
+        Depends on vulnerable versions of socket.io
+        node_modules/browser-sync
+
+cryptiles  <=4.1.1
+Severity: critical
+Insufficient Entropy in cryptiles - https://github.com/advisories/GHSA-rq8g-5pc5-wrhr
+Depends on vulnerable versions of boom
+fix available via `npm audit fix`
+node_modules/localtunnel/node_modules/cryptiles
+  hawk  0.0.6 - 6.0.2
+  Depends on vulnerable versions of boom
+  Depends on vulnerable versions of cryptiles
+  Depends on vulnerable versions of hoek
+  Depends on vulnerable versions of sntp
+  node_modules/localtunnel/node_modules/hawk
+    request  2.16.0 - 2.83.0 || 2.85.0 - 2.86.0
+    Depends on vulnerable versions of hawk
+    node_modules/localtunnel/node_modules/request
+      localtunnel  0.2.0 - 1.9.0
+      Depends on vulnerable versions of debug
+      Depends on vulnerable versions of request
+      node_modules/localtunnel
+
+debug  <2.6.9
+Regular Expression Denial of Service in debug - https://github.com/advisories/GHSA-gxpj-cx7g-858c
+fix available via `npm audit fix --force`
+Will install browserify-hmr@0.4.1, which is a breaking change
+node_modules/engine.io-client/node_modules/debug
+node_modules/engine.io/node_modules/debug
+node_modules/localtunnel/node_modules/debug
+node_modules/socket.io-adapter/node_modules/debug
+node_modules/socket.io-client/node_modules/debug
+node_modules/socket.io-parser/node_modules/debug
+node_modules/socket.io/node_modules/debug
+  engine.io  <=3.0.0
+  Depends on vulnerable versions of debug
+  Depends on vulnerable versions of ws
+  node_modules/engine.io
+  engine.io-client  <=3.3.2 || 3.4.0 - 3.5.1 || 4.0.0-alpha.0 - 4.1.3
+  Depends on vulnerable versions of debug
+  Depends on vulnerable versions of parsejson
+  Depends on vulnerable versions of ws
+  Depends on vulnerable versions of xmlhttprequest-ssl
+  node_modules/engine.io-client
+    socket.io-client  1.0.0-pre - 2.1.1
+    Depends on vulnerable versions of debug
+    Depends on vulnerable versions of engine.io-client
+    Depends on vulnerable versions of socket.io-parser
+    node_modules/socket.io-client
+      socket.io  <=2.3.0
+      Depends on vulnerable versions of debug
+      Depends on vulnerable versions of socket.io-client
+      Depends on vulnerable versions of socket.io-parser
+      node_modules/socket.io
+        browser-sync  <=2.26.13
+        Depends on vulnerable versions of anymatch
+        Depends on vulnerable versions of browser-sync-ui
+        Depends on vulnerable versions of chokidar
+        Depends on vulnerable versions of eazy-logger
+        Depends on vulnerable versions of foxy
+        Depends on vulnerable versions of lodash
+        Depends on vulnerable versions of resp-modifier
+        Depends on vulnerable versions of socket.io
+        node_modules/browser-sync
+        browserify-hmr  <=0.3.7
+        Depends on vulnerable versions of socket.io
+        node_modules/browserify-hmr
+  localtunnel  0.2.0 - 1.9.0
+  Depends on vulnerable versions of debug
+  Depends on vulnerable versions of request
+  node_modules/localtunnel
+  socket.io-adapter  <=1.1.0
+  Depends on vulnerable versions of debug
+  Depends on vulnerable versions of socket.io-parser
+  node_modules/socket.io-adapter
+  socket.io-parser  <=3.3.1
+  Depends on vulnerable versions of debug
+  node_modules/socket.io-parser
+
+deep-extend  <0.5.1
+Severity: critical
+Prototype Pollution in deep-extend - https://github.com/advisories/GHSA-hr2v-3952-633q
+fix available via `npm audit fix --force`
+Will install gulp-stylelint@13.0.0, which is a breaking change
+node_modules/deep-extend
+  gulp-stylelint  <=6.0.0
+  Depends on vulnerable versions of deep-extend
+  Depends on vulnerable versions of gulp-util
+  Depends on vulnerable versions of stylelint
+  node_modules/gulp-stylelint
+
+dns-packet  <1.3.2
+Severity: high
+Potential memory exposure in dns-packet - https://github.com/advisories/GHSA-3wcq-x3mq-6r9p
+fix available via `npm audit fix`
+node_modules/dns-packet
+
+dot-prop  <4.2.1
+Severity: high
+Prototype Pollution in dot-prop - https://github.com/advisories/GHSA-ff7x-qrg7-qggm
+fix available via `npm audit fix`
+node_modules/dot-prop
+
+elliptic  <=6.5.3
+Severity: high
+Use of a Broken or Risky Cryptographic Algorithm - https://github.com/advisories/GHSA-r9p9-mrjm-926w
+Signature Malleabillity in elliptic - https://github.com/advisories/GHSA-vh7m-p724-62c2
+fix available via `npm audit fix`
+node_modules/elliptic
+
+express  <=3.10.5 || 4.0.0-rc1 - 4.7.4
+Severity: high
+No Charset in Content-Type Header in express - https://github.com/advisories/GHSA-gpvr-g6gh-9mc2
+Depends on vulnerable versions of connect
+Depends on vulnerable versions of mime
+Depends on vulnerable versions of qs
+fix available via `npm audit fix --force`
+Will install browser-sync@2.27.7, which is outside the stated dependency range
+node_modules/weinre/node_modules/express
+  weinre  *
+  Depends on vulnerable versions of express
+  node_modules/weinre
+    browser-sync-ui  <=0.6.3
+    Depends on vulnerable versions of weinre
+    node_modules/browser-sync-ui
+      browser-sync  <=2.26.13
+      Depends on vulnerable versions of anymatch
+      Depends on vulnerable versions of browser-sync-ui
+      Depends on vulnerable versions of chokidar
+      Depends on vulnerable versions of eazy-logger
+      Depends on vulnerable versions of foxy
+      Depends on vulnerable versions of lodash
+      Depends on vulnerable versions of resp-modifier
+      Depends on vulnerable versions of socket.io
+      node_modules/browser-sync
+
+extend  3.0.0 - 3.0.1
+Severity: moderate
+Prototype Pollution in extend - https://github.com/advisories/GHSA-qrmc-fj45-qfc2
+fix available via `npm audit fix`
+node_modules/extend
+
+fresh  <0.5.2
+Severity: high
+Regular Expression Denial of Service in fresh - https://github.com/advisories/GHSA-9qj9-36jm-prpv
+fix available via `npm audit fix`
+node_modules/browser-sync-client/node_modules/fresh
+  browser-sync-client  2.2.0 - 2.5.1
+  Depends on vulnerable versions of fresh
+  node_modules/browser-sync-client
+
+fstream  <1.0.12
+Severity: high
+Arbitrary File Overwrite in fstream - https://github.com/advisories/GHSA-xf7w-r453-m56c
+fix available via `npm audit fix`
+node_modules/fstream
+
+glob-parent  <5.1.2
+Severity: high
+Regular expression denial of service - https://github.com/advisories/GHSA-ww39-953v-wcq6
+fix available via `npm audit fix --force`
+Will install gulp@3.9.1, which is a breaking change
+node_modules/copy-webpack-plugin/node_modules/glob-parent
+node_modules/fast-glob/node_modules/glob-parent
+node_modules/glob-parent
+node_modules/gulp-scss-lint/node_modules/glob-parent
+node_modules/gulp/node_modules/glob-parent
+node_modules/watchpack/node_modules/glob-parent
+node_modules/webpack-dev-server/node_modules/glob-parent
+  chokidar  1.0.0-rc1 - 2.1.8
+  Depends on vulnerable versions of anymatch
+  Depends on vulnerable versions of glob-parent
+  node_modules/chokidar
+  node_modules/gulp/node_modules/chokidar
+  node_modules/watchpack/node_modules/chokidar
+  node_modules/webpack-dev-server/node_modules/chokidar
+    browser-sync  <=2.26.13
+    Depends on vulnerable versions of anymatch
+    Depends on vulnerable versions of browser-sync-ui
+    Depends on vulnerable versions of chokidar
+    Depends on vulnerable versions of eazy-logger
+    Depends on vulnerable versions of foxy
+    Depends on vulnerable versions of lodash
+    Depends on vulnerable versions of resp-modifier
+    Depends on vulnerable versions of socket.io
+    node_modules/browser-sync
+    glob-watcher  >=3.0.0
+    Depends on vulnerable versions of chokidar
+    node_modules/gulp/node_modules/glob-watcher
+    watchify  3.0.0 - 3.11.1
+    Depends on vulnerable versions of anymatch
+    Depends on vulnerable versions of chokidar
+    node_modules/watchify
+    watchpack  0.2.2 - 1.6.1
+    Depends on vulnerable versions of chokidar
+    node_modules/watchpack
+    webpack-dev-server  2.0.0-beta - 4.1.0
+    Depends on vulnerable versions of ansi-html
+    Depends on vulnerable versions of chokidar
+    Depends on vulnerable versions of sockjs
+    Depends on vulnerable versions of yargs
+    node_modules/webpack-dev-server
+  copy-webpack-plugin  4.3.0 - 5.1.2
+  Depends on vulnerable versions of glob-parent
+  Depends on vulnerable versions of serialize-javascript
+  node_modules/copy-webpack-plugin
+  fast-glob  <=2.2.7
+  Depends on vulnerable versions of glob-parent
+  node_modules/fast-glob
+    globby  8.0.0 - 9.2.0
+    Depends on vulnerable versions of fast-glob
+    node_modules/stylelint-no-browser-hacks/node_modules/globby
+      stylelint  7.7.1 - 13.6.1
+      Depends on vulnerable versions of globby
+      Depends on vulnerable versions of meow
+      Depends on vulnerable versions of micromatch
+      Depends on vulnerable versions of postcss-markdown
+      Depends on vulnerable versions of string-width
+      Depends on vulnerable versions of table
+      node_modules/stylelint
+      node_modules/stylelint-no-browser-hacks/node_modules/stylelint
+        gulp-stylelint  <=6.0.0
+        Depends on vulnerable versions of deep-extend
+        Depends on vulnerable versions of gulp-util
+        Depends on vulnerable versions of stylelint
+        node_modules/gulp-stylelint
+  glob-base  *
+  Depends on vulnerable versions of glob-parent
+  node_modules/glob-base
+    parse-glob  >=2.1.0
+    Depends on vulnerable versions of glob-base
+    node_modules/parse-glob
+      micromatch  0.2.0 - 2.3.11
+      Depends on vulnerable versions of braces
+      Depends on vulnerable versions of parse-glob
+      node_modules/micromatch
+        anymatch  1.2.0 - 1.3.2
+        Depends on vulnerable versions of micromatch
+        node_modules/anymatch
+  glob-stream  5.3.0 - 6.1.0
+  Depends on vulnerable versions of glob-parent
+  node_modules/gulp-scss-lint/node_modules/glob-stream
+  node_modules/gulp/node_modules/glob-stream
+    vinyl-fs  >=2.4.2
+    Depends on vulnerable versions of glob-stream
+    node_modules/gulp-scss-lint/node_modules/vinyl-fs
+    node_modules/gulp/node_modules/vinyl-fs
+      gulp  >=4.0.0
+      Depends on vulnerable versions of vinyl-fs
+      node_modules/gulp
+      gulp-scss-lint  *
+      Depends on vulnerable versions of vinyl-fs
+      node_modules/gulp-scss-lint
+
+gulp-scss-lint  *
+Severity: critical
+OS Command Injection in gulp-scss-lint - https://github.com/advisories/GHSA-g4hj-r7r3-9rwv
+Depends on vulnerable versions of vinyl-fs
+No fix available
+node_modules/gulp-scss-lint
+
+handlebars  <=4.7.6
+Severity: critical
+Remote code execution in handlebars when compiling templates - https://github.com/advisories/GHSA-f2jv-r9rf-7988
+Prototype Pollution in handlebars - https://github.com/advisories/GHSA-g9r4-xpmj-mj65
+Arbitrary Code Execution in handlebars - https://github.com/advisories/GHSA-2cf5-4w76-r9qv
+Denial of Service in handlebars - https://github.com/advisories/GHSA-f52g-6jhx-586p
+Prototype Pollution in handlebars - https://github.com/advisories/GHSA-w457-6q6x-cgp9
+Prototype Pollution in handlebars - https://github.com/advisories/GHSA-q42p-pg8m-cqh6
+Depends on vulnerable versions of optimist
+fix available via `npm audit fix --force`
+Will install handlebars@4.7.7, which is outside the stated dependency range
+node_modules/handlebars
+
+highcharts  <9.0.0
+Severity: high
+Options structure open to XSS if passed unfiltered - https://github.com/advisories/GHSA-8j65-4pcq-xq95
+fix available via `npm audit fix --force`
+Will install highcharts@9.3.1, which is a breaking change
+node_modules/highcharts
+
+hoek  <4.2.1
+Severity: moderate
+Prototype Pollution in hoek - https://github.com/advisories/GHSA-jp4x-w63m-7wgm
+fix available via `npm audit fix`
+node_modules/localtunnel/node_modules/hoek
+  boom  <=3.1.2
+  Depends on vulnerable versions of hoek
+  node_modules/localtunnel/node_modules/boom
+    cryptiles  <=4.1.1
+    Depends on vulnerable versions of boom
+    node_modules/localtunnel/node_modules/cryptiles
+      hawk  0.0.6 - 6.0.2
+      Depends on vulnerable versions of boom
+      Depends on vulnerable versions of cryptiles
+      Depends on vulnerable versions of hoek
+      Depends on vulnerable versions of sntp
+      node_modules/localtunnel/node_modules/hawk
+        request  2.16.0 - 2.83.0 || 2.85.0 - 2.86.0
+        Depends on vulnerable versions of hawk
+        node_modules/localtunnel/node_modules/request
+          localtunnel  0.2.0 - 1.9.0
+          Depends on vulnerable versions of debug
+          Depends on vulnerable versions of request
+          node_modules/localtunnel
+  sntp  0.0.0 || 0.1.1 - 2.0.0
+  Depends on vulnerable versions of hoek
+  node_modules/localtunnel/node_modules/sntp
+
+hosted-git-info  <2.8.9
+Severity: moderate
+Regular Expression Denial of Service in hosted-git-info - https://github.com/advisories/GHSA-43f8-2h32-f4cj
+fix available via `npm audit fix`
+node_modules/hosted-git-info
+
+http-proxy  <1.18.1
+Severity: high
+Denial of Service in http-proxy - https://github.com/advisories/GHSA-6x33-pw7p-hmpq
+fix available via `npm audit fix`
+node_modules/http-proxy
+node_modules/http-proxy-middleware/node_modules/http-proxy
+
+i  <0.3.7
+Severity: moderate
+Inefficient Regular Expression in inflect - https://github.com/advisories/GHSA-x55w-vjjp-222r
+fix available via `npm audit fix`
+node_modules/i
+
+ini  <1.3.6
+Severity: high
+Prototype Pollution - https://github.com/advisories/GHSA-qqgx-2p2h-9c37
+fix available via `npm audit fix`
+node_modules/global-modules/node_modules/ini
+node_modules/ini
+
+is-my-json-valid  >=2.0.0
+Severity: high
+Regular Expression Denial of Service in is-my-json-valid - https://github.com/advisories/GHSA-f522-ffg8-j8r6
+Depends on vulnerable versions of jsonpointer
+fix available via `npm audit fix`
+node_modules/is-my-json-valid
+
+is-svg  2.1.0 - 4.2.1
+Severity: high
+Regular Expression Denial of Service (ReDoS) - https://github.com/advisories/GHSA-7r28-3m3f-r2pr
+fix available via `npm audit fix`
+node_modules/is-svg
+
+jquery  <=3.4.1
+Severity: moderate
+Potential XSS vulnerability in jQuery - https://github.com/advisories/GHSA-gxr4-xjj5-5px2
+Potential XSS vulnerability in jQuery - https://github.com/advisories/GHSA-jpcq-cgw6-v4j6
+XSS in jQuery as used in Drupal, Backdrop CMS, and other products - https://github.com/advisories/GHSA-6c3j-c64m-qhgq
+Cross-Site Scripting (XSS) in jquery - https://github.com/advisories/GHSA-rmxg-73gg-4p98
+fix available via `npm audit fix --force`
+Will install jquery@3.6.0, which is a breaking change
+node_modules/jquery
+node_modules/jquery-dotdotdot/node_modules/jquery
+node_modules/jquery-sticky/node_modules/jquery
+node_modules/rangeslider.js/node_modules/jquery
+node_modules/slick-carousel/node_modules/jquery
+
+jquery-ui  <1.13.0
+Severity: moderate
+XSS in the `altField` option of the Datepicker widget in jquery-ui - https://github.com/advisories/GHSA-9gj3-hwp5-pmwc
+fix available via `npm audit fix`
+node_modules/vanderlee-colorpicker/node_modules/jquery-ui
+
+js-yaml  <=3.13.0
+Severity: high
+Denial of Service in js-yaml - https://github.com/advisories/GHSA-2pr6-76vf-7546
+Code Injection in js-yaml - https://github.com/advisories/GHSA-8j8c-7jfh-h6hx
+fix available via `npm audit fix --force`
+Will install vueify@5.0.2, which is a breaking change
+node_modules/js-yaml
+node_modules/svgo/node_modules/js-yaml
+  svgo  0.4.2 - 1.0.5
+  Depends on vulnerable versions of js-yaml
+  node_modules/svgo
+    postcss-svgo  <=2.1.6
+    Depends on vulnerable versions of svgo
+    node_modules/postcss-svgo
+      cssnano  <=3.10.0
+      Depends on vulnerable versions of postcss-colormin
+      Depends on vulnerable versions of postcss-svgo
+      node_modules/cssnano
+        vueify  >=5.0.3
+        Depends on vulnerable versions of cssnano
+        node_modules/vueify
+
+jsonpointer  <5.0.0
+Severity: moderate
+Prototype Pollution in node-jsonpointer - https://github.com/advisories/GHSA-282f-qqgm-c34q
+fix available via `npm audit fix`
+node_modules/jsonpointer
+  is-my-json-valid  >=2.0.0
+  Depends on vulnerable versions of jsonpointer
+  node_modules/is-my-json-valid
+
+kind-of  6.0.0 - 6.0.2
+Severity: high
+Validation Bypass in kind-of - https://github.com/advisories/GHSA-6c8f-qphg-qjgp
+fix available via `npm audit fix`
+node_modules/base/node_modules/kind-of
+node_modules/clone-deep/node_modules/kind-of
+node_modules/define-property/node_modules/kind-of
+node_modules/fast-glob/node_modules/kind-of
+node_modules/findup-sync/node_modules/kind-of
+node_modules/global-modules/node_modules/kind-of
+node_modules/gulp/node_modules/kind-of
+node_modules/http-proxy-middleware/node_modules/kind-of
+node_modules/make-iterator/node_modules/kind-of
+node_modules/matchdep/node_modules/kind-of
+node_modules/nanomatch/node_modules/kind-of
+node_modules/snapdragon-node/node_modules/kind-of
+node_modules/watchpack/node_modules/kind-of
+node_modules/webpack-dev-server/node_modules/kind-of
+node_modules/webpack/node_modules/kind-of
+
+lodash  <=4.17.20
+Severity: critical
+Command Injection in lodash - https://github.com/advisories/GHSA-35jh-r3h4-6jhm
+Prototype Pollution in lodash - https://github.com/advisories/GHSA-p6mc-m468-83gw
+Prototype Pollution in lodash - https://github.com/advisories/GHSA-jf85-cpcp-j695
+Prototype Pollution in lodash - https://github.com/advisories/GHSA-4xc9-xhrj-v574
+Prototype Pollution in lodash - https://github.com/advisories/GHSA-fvqr-27wr-82fm
+fix available via `npm audit fix --force`
+Will install browser-sync@2.27.7, which is outside the stated dependency range
+node_modules/browser-sync/node_modules/lodash
+node_modules/easy-extender/node_modules/lodash
+node_modules/opt-merger/node_modules/lodash
+  browser-sync  <=2.26.13
+  Depends on vulnerable versions of anymatch
+  Depends on vulnerable versions of browser-sync-ui
+  Depends on vulnerable versions of chokidar
+  Depends on vulnerable versions of eazy-logger
+  Depends on vulnerable versions of foxy
+  Depends on vulnerable versions of lodash
+  Depends on vulnerable versions of resp-modifier
+  Depends on vulnerable versions of socket.io
+  node_modules/browser-sync
+  easy-extender  1.1.1 - 2.3.2
+  Depends on vulnerable versions of lodash
+  node_modules/easy-extender
+  opt-merger  *
+  Depends on vulnerable versions of lodash
+  node_modules/opt-merger
+    eazy-logger  <=3.0.2
+    Depends on vulnerable versions of opt-merger
+    Depends on vulnerable versions of tfunk
+    node_modules/eazy-logger
+      foxy  >=5.0.1
+      Depends on vulnerable versions of eazy-logger
+      Depends on vulnerable versions of lodash.merge
+      Depends on vulnerable versions of resp-modifier
+      node_modules/foxy
+
+lodash.merge  <=4.6.1
+Severity: critical
+Prototype Pollution in lodash.merge - https://github.com/advisories/GHSA-2m96-9w4j-wgv7
+Prototype Pollution in lodash - https://github.com/advisories/GHSA-jf85-cpcp-j695
+fix available via `npm audit fix --force`
+Will install browser-sync@2.27.7, which is outside the stated dependency range
+node_modules/lodash.merge
+  foxy  >=5.0.1
+  Depends on vulnerable versions of eazy-logger
+  Depends on vulnerable versions of lodash.merge
+  Depends on vulnerable versions of resp-modifier
+  node_modules/foxy
+    browser-sync  <=2.26.13
+    Depends on vulnerable versions of anymatch
+    Depends on vulnerable versions of browser-sync-ui
+    Depends on vulnerable versions of chokidar
+    Depends on vulnerable versions of eazy-logger
+    Depends on vulnerable versions of foxy
+    Depends on vulnerable versions of lodash
+    Depends on vulnerable versions of resp-modifier
+    Depends on vulnerable versions of socket.io
+    node_modules/browser-sync
+
+lodash.template  <4.5.0
+Severity: critical
+Prototype Pollution in lodash - https://github.com/advisories/GHSA-jf85-cpcp-j695
+fix available via `npm audit fix --force`
+Will install gulp-stylelint@13.0.0, which is a breaking change
+node_modules/lodash.template
+  gulp-util  >=1.1.0
+  Depends on vulnerable versions of lodash.template
+  node_modules/gulp-util
+    gulp-babel  <=6.1.2 || 7.0.0-alpha.18 - 7.0.0 || 8.0.0-beta.0 - 8.0.0-beta.2
+    Depends on vulnerable versions of gulp-util
+    node_modules/gulp-babel
+    gulp-eslint  <=4.0.0
+    Depends on vulnerable versions of gulp-util
+    node_modules/gulp-eslint
+    gulp-minify-css  *
+    Depends on vulnerable versions of clean-css
+    Depends on vulnerable versions of gulp-util
+    node_modules/gulp-minify-css
+    gulp-plumber  0.2.3 - 1.1.0
+    Depends on vulnerable versions of gulp-util
+    node_modules/gulp-plumber
+    gulp-postcss  <=7.0.0
+    Depends on vulnerable versions of gulp-util
+    node_modules/gulp-postcss
+    gulp-stylelint  <=6.0.0
+    Depends on vulnerable versions of deep-extend
+    Depends on vulnerable versions of gulp-util
+    Depends on vulnerable versions of stylelint
+    node_modules/gulp-stylelint
+
+macaddress  <0.2.9
+Severity: critical
+Command Injection in macaddress - https://github.com/advisories/GHSA-pp57-mqmh-44h7
+fix available via `npm audit fix`
+node_modules/macaddress
+
+materialize-css  *
+Severity: moderate
+Cross-Site Scripting in materialize-css - https://github.com/advisories/GHSA-7752-f4gf-94gc
+No fix available
+node_modules/materialize-css
+
+mime  <1.4.1
+Severity: moderate
+Regular Expression Denial of Service in mime - https://github.com/advisories/GHSA-wrvr-8mpx-r7pp
+fix available via `npm audit fix --force`
+Will install browser-sync@2.27.7, which is outside the stated dependency range
+node_modules/gulp-css-rebase-urls/node_modules/mime
+node_modules/weinre/node_modules/mime
+  express  <=3.10.5 || 4.0.0-rc1 - 4.7.4
+  Depends on vulnerable versions of connect
+  Depends on vulnerable versions of mime
+  Depends on vulnerable versions of qs
+  node_modules/weinre/node_modules/express
+    weinre  *
+    Depends on vulnerable versions of express
+    node_modules/weinre
+      browser-sync-ui  <=0.6.3
+      Depends on vulnerable versions of weinre
+      node_modules/browser-sync-ui
+        browser-sync  <=2.26.13
+        Depends on vulnerable versions of anymatch
+        Depends on vulnerable versions of browser-sync-ui
+        Depends on vulnerable versions of chokidar
+        Depends on vulnerable versions of eazy-logger
+        Depends on vulnerable versions of foxy
+        Depends on vulnerable versions of lodash
+        Depends on vulnerable versions of resp-modifier
+        Depends on vulnerable versions of socket.io
+        node_modules/browser-sync
+  rework  0.14.0 - 0.20.3
+  Depends on vulnerable versions of mime
+  node_modules/gulp-css-rebase-urls/node_modules/rework
+
+minimatch  <3.0.2
+Severity: high
+Regular Expression Denial of Service in minimatch - https://github.com/advisories/GHSA-hxm2-r34f-qmc5
+fix available via `npm audit fix --force`
+Will install browser-sync@2.27.7, which is outside the stated dependency range
+node_modules/foxy/node_modules/minimatch
+node_modules/resp-modifier/node_modules/minimatch
+  resp-modifier  1.0.0 - 6.0.1
+  Depends on vulnerable versions of minimatch
+  node_modules/foxy/node_modules/resp-modifier
+  node_modules/resp-modifier
+    browser-sync  <=2.26.13
+    Depends on vulnerable versions of anymatch
+    Depends on vulnerable versions of browser-sync-ui
+    Depends on vulnerable versions of chokidar
+    Depends on vulnerable versions of eazy-logger
+    Depends on vulnerable versions of foxy
+    Depends on vulnerable versions of lodash
+    Depends on vulnerable versions of resp-modifier
+    Depends on vulnerable versions of socket.io
+    node_modules/browser-sync
+    foxy  >=5.0.1
+    Depends on vulnerable versions of eazy-logger
+    Depends on vulnerable versions of lodash.merge
+    Depends on vulnerable versions of resp-modifier
+    node_modules/foxy
+
+minimist  <0.2.1 || >=1.0.0 <1.2.3
+Severity: moderate
+Prototype Pollution in minimist - https://github.com/advisories/GHSA-vh95-rmgr-6w4m
+Prototype Pollution in minimist - https://github.com/advisories/GHSA-vh95-rmgr-6w4m
+fix available via `npm audit fix --force`
+Will install handlebars@4.7.7, which is outside the stated dependency range
+node_modules/@babel/core/node_modules/minimist
+node_modules/@cnakazawa/watch/node_modules/minimist
+node_modules/browser-sync/node_modules/minimist
+node_modules/cosmiconfig/node_modules/minimist
+node_modules/gonzales-pe/node_modules/minimist
+node_modules/gulp-util/node_modules/minimist
+node_modules/jsonfilter/node_modules/minimist
+node_modules/loader-utils/node_modules/minimist
+node_modules/meow/node_modules/minimist
+node_modules/minimist
+node_modules/opt-merger/node_modules/minimist
+node_modules/sane/node_modules/minimist
+node_modules/stylehacks/node_modules/minimist
+node_modules/subarg/node_modules/minimist
+  gonzales-pe  3.0.0-1 - 4.2.4
+  Depends on vulnerable versions of minimist
+  node_modules/gonzales-pe
+  mkdirp  0.4.1 - 0.5.1
+  Depends on vulnerable versions of minimist
+  node_modules/mkdirp
+  optimist  >=0.6.0
+  Depends on vulnerable versions of minimist
+  node_modules/optimist
+    handlebars  <=4.7.6
+    Depends on vulnerable versions of optimist
+    node_modules/handlebars
+
+mixin-deep  <1.3.2
+Severity: critical
+Prototype Pollution in mixin-deep - https://github.com/advisories/GHSA-fhjf-83wg-r2j9
+fix available via `npm audit fix`
+node_modules/mixin-deep
+
+moment  <2.19.3
+Severity: high
+Regular Expression Denial of Service in moment - https://github.com/advisories/GHSA-446m-mv8f-q348
+fix available via `npm audit fix`
+node_modules/moment
+
+node-fetch  <2.6.1
+The `size` option isn't honored after following a redirect in node-fetch - https://github.com/advisories/GHSA-w7rc-rwvf-8q5r
+fix available via `npm audit fix`
+node_modules/node-fetch
+  isomorphic-fetch  2.0.0 - 2.2.1
+  Depends on vulnerable versions of node-fetch
+  node_modules/isomorphic-fetch
+    fbjs  0.7.0 - 1.0.0
+    Depends on vulnerable versions of isomorphic-fetch
+    node_modules/fbjs
+      prop-types  15.5.0-alpha.0 - 15.6.1
+      Depends on vulnerable versions of fbjs
+      node_modules/prop-types
+
+node-forge  <0.10.0
+Severity: high
+Prototype Pollution in node-forge - https://github.com/advisories/GHSA-92xj-mqp7-vmcj
+fix available via `npm audit fix`
+node_modules/node-forge
+  selfsigned  1.1.1 - 1.10.7
+  Depends on vulnerable versions of node-forge
+  node_modules/selfsigned
+
+node-notifier  <8.0.1
+Severity: moderate
+OS Command Injection in node-notifier - https://github.com/advisories/GHSA-5fw9-fq32-wv5p
+fix available via `npm audit fix --force`
+Will install jest@27.3.1, which is a breaking change
+node_modules/node-notifier
+  @jest/reporters  <=26.4.0
+  Depends on vulnerable versions of jest-runtime
+  Depends on vulnerable versions of node-notifier
+  Depends on vulnerable versions of string-length
+  node_modules/@jest/reporters
+    @jest/core  <=25.5.4
+    Depends on vulnerable versions of @jest/reporters
+    Depends on vulnerable versions of jest-config
+    Depends on vulnerable versions of strip-ansi
+    node_modules/@jest/core
+      jest-cli  20.1.0-alpha.1 - 25.0.0
+      Depends on vulnerable versions of @jest/core
+      Depends on vulnerable versions of jest-config
+      Depends on vulnerable versions of jest-validate
+      Depends on vulnerable versions of yargs
+      node_modules/jest/node_modules/jest-cli
+        jest  20.1.0-alpha.1 - 24.9.0
+        Depends on vulnerable versions of jest-cli
+        node_modules/jest
+
+object-path  <=0.11.7
+Severity: high
+Prototype Pollution in object-path - https://github.com/advisories/GHSA-8v63-cqqc-6r2c
+Prototype Pollution in object-path - https://github.com/advisories/GHSA-v39p-96qg-c8rf
+Prototype pollution in object-path - https://github.com/advisories/GHSA-cwx2-736x-mf6w
+fix available via `npm audit fix --force`
+Will install browser-sync@2.27.7, which is outside the stated dependency range
+node_modules/object-path
+  tfunk  1.0.0 - 3.1.0
+  Depends on vulnerable versions of object-path
+  node_modules/tfunk
+    eazy-logger  <=3.0.2
+    Depends on vulnerable versions of opt-merger
+    Depends on vulnerable versions of tfunk
+    node_modules/eazy-logger
+      browser-sync  <=2.26.13
+      Depends on vulnerable versions of anymatch
+      Depends on vulnerable versions of browser-sync-ui
+      Depends on vulnerable versions of chokidar
+      Depends on vulnerable versions of eazy-logger
+      Depends on vulnerable versions of foxy
+      Depends on vulnerable versions of lodash
+      Depends on vulnerable versions of resp-modifier
+      Depends on vulnerable versions of socket.io
+      node_modules/browser-sync
+      foxy  >=5.0.1
+      Depends on vulnerable versions of eazy-logger
+      Depends on vulnerable versions of lodash.merge
+      Depends on vulnerable versions of resp-modifier
+      node_modules/foxy
+
+parsejson  *
+Severity: high
+Regular Expression Denial of Service in parsejson - https://github.com/advisories/GHSA-q75g-2496-mxpp
+fix available via `npm audit fix --force`
+Will install browserify-hmr@0.4.1, which is a breaking change
+node_modules/parsejson
+  engine.io-client  <=3.3.2 || 3.4.0 - 3.5.1 || 4.0.0-alpha.0 - 4.1.3
+  Depends on vulnerable versions of debug
+  Depends on vulnerable versions of parsejson
+  Depends on vulnerable versions of ws
+  Depends on vulnerable versions of xmlhttprequest-ssl
+  node_modules/engine.io-client
+    socket.io-client  1.0.0-pre - 2.1.1
+    Depends on vulnerable versions of debug
+    Depends on vulnerable versions of engine.io-client
+    Depends on vulnerable versions of socket.io-parser
+    node_modules/socket.io-client
+      socket.io  <=2.3.0
+      Depends on vulnerable versions of debug
+      Depends on vulnerable versions of socket.io-client
+      Depends on vulnerable versions of socket.io-parser
+      node_modules/socket.io
+        browser-sync  <=2.26.13
+        Depends on vulnerable versions of anymatch
+        Depends on vulnerable versions of browser-sync-ui
+        Depends on vulnerable versions of chokidar
+        Depends on vulnerable versions of eazy-logger
+        Depends on vulnerable versions of foxy
+        Depends on vulnerable versions of lodash
+        Depends on vulnerable versions of resp-modifier
+        Depends on vulnerable versions of socket.io
+        node_modules/browser-sync
+        browserify-hmr  <=0.3.7
+        Depends on vulnerable versions of socket.io
+        node_modules/browserify-hmr
+
+path-parse  <1.0.7
+Severity: moderate
+Regular Expression Denial of Service in path-parse - https://github.com/advisories/GHSA-hj48-42vr-x3v9
+fix available via `npm audit fix`
+node_modules/path-parse
+
+postcss  7.0.0 - 7.0.35
+Severity: moderate
+Regular Expression Denial of Service in postcss - https://github.com/advisories/GHSA-hwj9-h5mp-3pm3
+fix available via `npm audit fix`
+node_modules/@vue/component-compiler-utils/node_modules/postcss
+node_modules/css-loader/node_modules/postcss
+node_modules/icss-utils/node_modules/postcss
+node_modules/postcss-loader/node_modules/postcss
+node_modules/postcss-modules-extract-imports/node_modules/postcss
+node_modules/postcss-modules-local-by-default/node_modules/postcss
+node_modules/postcss-modules-scope/node_modules/postcss
+node_modules/postcss-modules-values/node_modules/postcss
+node_modules/postcss-safe-parser/node_modules/postcss
+node_modules/postcss-sass/node_modules/postcss
+node_modules/postcss-sorting/node_modules/postcss
+node_modules/stylelint-no-browser-hacks/node_modules/postcss
+node_modules/stylelint-order/node_modules/postcss
+
+qs  <=6.0.3
+Severity: high
+Prototype Pollution Protection Bypass in qs - https://github.com/advisories/GHSA-gqgv-6jq5-jjj9
+Denial-of-Service Memory Exhaustion in qs - https://github.com/advisories/GHSA-jjv7-qpx3-h62q
+fix available via `npm audit fix --force`
+Will install browser-sync@2.27.7, which is outside the stated dependency range
+node_modules/weinre/node_modules/qs
+  express  <=3.10.5 || 4.0.0-rc1 - 4.7.4
+  Depends on vulnerable versions of connect
+  Depends on vulnerable versions of mime
+  Depends on vulnerable versions of qs
+  node_modules/weinre/node_modules/express
+    weinre  *
+    Depends on vulnerable versions of express
+    node_modules/weinre
+      browser-sync-ui  <=0.6.3
+      Depends on vulnerable versions of weinre
+      node_modules/browser-sync-ui
+        browser-sync  <=2.26.13
+        Depends on vulnerable versions of anymatch
+        Depends on vulnerable versions of browser-sync-ui
+        Depends on vulnerable versions of chokidar
+        Depends on vulnerable versions of eazy-logger
+        Depends on vulnerable versions of foxy
+        Depends on vulnerable versions of lodash
+        Depends on vulnerable versions of resp-modifier
+        Depends on vulnerable versions of socket.io
+        node_modules/browser-sync
+
+randomatic  <3.0.0
+Cryptographically Weak PRNG in randomatic - https://github.com/advisories/GHSA-6g33-f262-xjp4
+fix available via `npm audit fix`
+node_modules/randomatic
+  fill-range  1.0.0 - 2.2.3
+  Depends on vulnerable versions of randomatic
+  node_modules/fill-range
+
+serialize-javascript  <=3.0.0
+Severity: high
+Insecure serialization leading to RCE in serialize-javascript - https://github.com/advisories/GHSA-hxcc-f52p-wc94
+Cross-Site Scripting in serialize-javascript - https://github.com/advisories/GHSA-h9rv-jmmf-4pgx
+fix available via `npm audit fix --force`
+Will install copy-webpack-plugin@9.0.1, which is a breaking change
+node_modules/serialize-javascript
+  copy-webpack-plugin  4.3.0 - 5.1.2
+  Depends on vulnerable versions of glob-parent
+  Depends on vulnerable versions of serialize-javascript
+  node_modules/copy-webpack-plugin
+  terser-webpack-plugin  <=1.4.1
+  Depends on vulnerable versions of serialize-javascript
+  node_modules/terser-webpack-plugin
+
+set-value  <=4.0.0
+Severity: critical
+Prototype Pollution in set-value - https://github.com/advisories/GHSA-4jqc-8m5r-9rpr
+Prototype Pollution in set-value - https://github.com/advisories/GHSA-4g88-fppr-53pp
+fix available via `npm audit fix`
+node_modules/set-value
+node_modules/union-value/node_modules/set-value
+  union-value  <=1.0.0 || 2.0.0
+  Depends on vulnerable versions of set-value
+  node_modules/union-value
+
+socket.io  <=2.3.0
+Severity: high
+Insecure defaults due to CORS misconfiguration in socket.io - https://github.com/advisories/GHSA-fxwf-4rqh-v8g3
+Depends on vulnerable versions of debug
+Depends on vulnerable versions of socket.io-client
+Depends on vulnerable versions of socket.io-parser
+fix available via `npm audit fix --force`
+Will install browserify-hmr@0.4.1, which is a breaking change
+node_modules/socket.io
+  browser-sync  <=2.26.13
+  Depends on vulnerable versions of anymatch
+  Depends on vulnerable versions of browser-sync-ui
+  Depends on vulnerable versions of chokidar
+  Depends on vulnerable versions of eazy-logger
+  Depends on vulnerable versions of foxy
+  Depends on vulnerable versions of lodash
+  Depends on vulnerable versions of resp-modifier
+  Depends on vulnerable versions of socket.io
+  node_modules/browser-sync
+  browserify-hmr  <=0.3.7
+  Depends on vulnerable versions of socket.io
+  node_modules/browserify-hmr
+
+socket.io-parser  <=3.3.1
+Severity: high
+Resource exhaustion in socket.io-parser - https://github.com/advisories/GHSA-xfhh-g9f5-x4m4
+Depends on vulnerable versions of debug
+fix available via `npm audit fix --force`
+Will install browserify-hmr@0.4.1, which is a breaking change
+node_modules/socket.io-parser
+  socket.io  <=2.3.0
+  Depends on vulnerable versions of debug
+  Depends on vulnerable versions of socket.io-client
+  Depends on vulnerable versions of socket.io-parser
+  node_modules/socket.io
+    browser-sync  <=2.26.13
+    Depends on vulnerable versions of anymatch
+    Depends on vulnerable versions of browser-sync-ui
+    Depends on vulnerable versions of chokidar
+    Depends on vulnerable versions of eazy-logger
+    Depends on vulnerable versions of foxy
+    Depends on vulnerable versions of lodash
+    Depends on vulnerable versions of resp-modifier
+    Depends on vulnerable versions of socket.io
+    node_modules/browser-sync
+    browserify-hmr  <=0.3.7
+    Depends on vulnerable versions of socket.io
+    node_modules/browserify-hmr
+  socket.io-adapter  <=1.1.0
+  Depends on vulnerable versions of debug
+  Depends on vulnerable versions of socket.io-parser
+  node_modules/socket.io-adapter
+  socket.io-client  1.0.0-pre - 2.1.1
+  Depends on vulnerable versions of debug
+  Depends on vulnerable versions of engine.io-client
+  Depends on vulnerable versions of socket.io-parser
+  node_modules/socket.io-client
+
+sockjs  <0.3.20
+Severity: moderate
+Improper Input Validation in SocksJS-Node - https://github.com/advisories/GHSA-c9g6-9335-x697
+fix available via `npm audit fix`
+node_modules/sockjs
+  webpack-dev-server  2.0.0-beta - 4.1.0
+  Depends on vulnerable versions of ansi-html
+  Depends on vulnerable versions of chokidar
+  Depends on vulnerable versions of sockjs
+  Depends on vulnerable versions of yargs
+  node_modules/webpack-dev-server
+
+sshpk  <1.13.2
+Severity: high
+Regular Expression Denial of Service in sshpk - https://github.com/advisories/GHSA-2m39-62fm-q8r3
+fix available via `npm audit fix`
+node_modules/sshpk
+
+ssri  5.2.2 - 6.0.1
+Severity: high
+Regular Expression Denial of Service (ReDoS) - https://github.com/advisories/GHSA-vx3p-948g-6vhq
+fix available via `npm audit fix`
+node_modules/ssri
+
+stringstream  <0.0.6
+Severity: moderate
+Out-of-bounds Read in stringstream - https://github.com/advisories/GHSA-mf6x-7mm4-x2g7
+fix available via `npm audit fix`
+node_modules/stringstream
+
+swiper  <6.5.1
+Severity: critical
+Prototype Pollution in swiper - https://github.com/advisories/GHSA-p3hc-fv2j-rp68
+fix available via `npm audit fix --force`
+Will install swiper@7.2.0, which is a breaking change
+node_modules/swiper
+
+tar  <=4.4.17
+Severity: high
+Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning using symbolic links - https://github.com/advisories/GHSA-qq89-hq3f-393p
+Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning using symbolic links - https://github.com/advisories/GHSA-9r2w-394v-53qc
+Arbitrary File Creation/Overwrite due to insufficient absolute path sanitization - https://github.com/advisories/GHSA-3jfq-g458-7qm9
+Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning - https://github.com/advisories/GHSA-r628-mhmh-qjhw
+Arbitrary File Overwrite in tar - https://github.com/advisories/GHSA-j44m-qm6p-hp7m
+fix available via `npm audit fix`
+node_modules/tar
+
+tinymce  <=5.9.2
+Severity: high
+Cross-site scripting vulnerability in TinyMCE - https://github.com/advisories/GHSA-5vm8-hhgr-jcjp
+Regex denial of service vulnerability in codesample plugin - https://github.com/advisories/GHSA-h96f-fc7c-9r55
+Cross-site scripting vulnerability in TinyMCE - https://github.com/advisories/GHSA-vrv8-v4w8-f95h
+XSS in TinyMCE - https://github.com/advisories/GHSA-c78w-2gw7-gjv3
+Cross-site scripting vulnerability in TinyMCE - https://github.com/advisories/GHSA-27gm-ghr9-4v95
+Cross-site scripting vulnerability in TinyMCE - https://github.com/advisories/GHSA-5h9g-x5rv-25wg
+Cross-site scripting vulnerability in TinyMCE plugins - https://github.com/advisories/GHSA-r8hm-w5f7-wj39
+fix available via `npm audit fix --force`
+Will install tinymce@5.10.1, which is a breaking change
+node_modules/tinymce
+
+tmpl  <1.0.5
+Severity: moderate
+Regular Expression Denial of Service in tmpl - https://github.com/advisories/GHSA-jgrx-mgxx-jf9v
+fix available via `npm audit fix`
+node_modules/tmpl
+
+trim  <0.0.3
+Severity: high
+Regular Expression Denial of Service in trim - https://github.com/advisories/GHSA-w5p7-h5w8-2hfq
+fix available via `npm audit fix --force`
+Will install stylelint@14.0.1, which is a breaking change
+node_modules/trim
+  parse-headers  <=2.0.1
+  Depends on vulnerable versions of trim
+  node_modules/parse-headers
+  remark-parse  <=8.0.3
+  Depends on vulnerable versions of trim
+  node_modules/remark-parse
+    remark  5.0.0 - 12.0.1
+    Depends on vulnerable versions of remark-parse
+    node_modules/remark
+      postcss-markdown  <=0.36.0
+      Depends on vulnerable versions of remark
+      node_modules/postcss-markdown
+        stylelint  7.7.1 - 13.6.1
+        Depends on vulnerable versions of globby
+        Depends on vulnerable versions of meow
+        Depends on vulnerable versions of micromatch
+        Depends on vulnerable versions of postcss-markdown
+        Depends on vulnerable versions of string-width
+        Depends on vulnerable versions of table
+        node_modules/stylelint
+        node_modules/stylelint-no-browser-hacks/node_modules/stylelint
+          gulp-stylelint  <=6.0.0
+          Depends on vulnerable versions of deep-extend
+          Depends on vulnerable versions of gulp-util
+          Depends on vulnerable versions of stylelint
+          node_modules/gulp-stylelint
+
+trim-newlines  <3.0.1
+Severity: high
+Regular Expression Denial of Service in trim-newlines - https://github.com/advisories/GHSA-7p7h-4mm5-852v
+fix available via `npm audit fix --force`
+Will install stylelint@14.0.1, which is a breaking change
+node_modules/stylelint-no-browser-hacks/node_modules/trim-newlines
+node_modules/trim-newlines
+  meow  3.4.0 - 5.0.0
+  Depends on vulnerable versions of trim-newlines
+  Depends on vulnerable versions of yargs-parser
+  node_modules/meow
+  node_modules/stylelint-no-browser-hacks/node_modules/meow
+    node-sass  >=3.5.0-beta.1
+    Depends on vulnerable versions of meow
+    Depends on vulnerable versions of sass-graph
+    node_modules/node-sass
+      gulp-sass  2.3.0-beta.1 - 2.3.0 || 3.0.0 - 4.1.1
+      Depends on vulnerable versions of node-sass
+      Depends on vulnerable versions of strip-ansi
+      node_modules/gulp-sass
+    stylelint  7.7.1 - 13.6.1
+    Depends on vulnerable versions of globby
+    Depends on vulnerable versions of meow
+    Depends on vulnerable versions of micromatch
+    Depends on vulnerable versions of postcss-markdown
+    Depends on vulnerable versions of string-width
+    Depends on vulnerable versions of table
+    node_modules/stylelint
+    node_modules/stylelint-no-browser-hacks/node_modules/stylelint
+      gulp-stylelint  <=6.0.0
+      Depends on vulnerable versions of deep-extend
+      Depends on vulnerable versions of gulp-util
+      Depends on vulnerable versions of stylelint
+      node_modules/gulp-stylelint
+
+ua-parser-js  <=0.7.23
+Severity: high
+Regular Expression Denial of Service in ua-parser-js - https://github.com/advisories/GHSA-662x-fhqg-9p8v
+Regular Expression Denial of Service (ReDoS) in ua-parser-js - https://github.com/advisories/GHSA-78cj-fxph-m83p
+fix available via `npm audit fix`
+node_modules/ua-parser-js
+
+underscore  1.3.2 - 1.12.0
+Severity: high
+Arbitrary Code Execution in underscore - https://github.com/advisories/GHSA-cf4h-3jhx-xvhq
+fix available via `npm audit fix --force`
+Will install underscore@1.13.1, which is outside the stated dependency range
+node_modules/underscore
+node_modules/weinre/node_modules/underscore
+
+url-parse  <=1.5.1
+Severity: high
+Open redirect in url-parse - https://github.com/advisories/GHSA-hh27-ffr2-f2jc
+Path traversal in url-parse - https://github.com/advisories/GHSA-9m6j-fcg5-2442
+fix available via `npm audit fix`
+node_modules/url-parse
+
+validator  <=13.6.0
+Severity: high
+Regular Expression Denial of Service in validator - https://github.com/advisories/GHSA-f5w6-r7rg-mcgq
+Inefficient Regular Expression Complexity in validator.js - https://github.com/advisories/GHSA-qgmg-gppg-76g5
+No fix available
+node_modules/validator
+  gulp-css-rebase-urls  *
+  Depends on vulnerable versions of validator
+  node_modules/gulp-css-rebase-urls
+
+video.js  <7.14.3
+Severity: moderate
+Cross-site Scripting in video.js - https://github.com/advisories/GHSA-pp7m-6j83-m7r6
+fix available via `npm audit fix --force`
+Will install video.js@7.15.4, which is a breaking change
+node_modules/video.js
+
+websocket-extensions  <0.1.4
+Severity: high
+Regular Expression Denial of Service in websocket-extensions (NPM package) - https://github.com/advisories/GHSA-g78m-2chm-r7qv
+fix available via `npm audit fix`
+node_modules/websocket-extensions
+
+ws  <=1.1.4 || 5.0.0 - 5.2.2 || 6.0.0 - 6.2.1
+Severity: high
+ReDoS in Sec-Websocket-Protocol header - https://github.com/advisories/GHSA-6fc8-4gx4-v693
+ReDoS in Sec-Websocket-Protocol header - https://github.com/advisories/GHSA-6fc8-4gx4-v693
+Denial of Service in ws - https://github.com/advisories/GHSA-5v72-xg48-5rpm
+fix available via `npm audit fix --force`
+Will install browserify-hmr@0.4.1, which is a breaking change
+node_modules/engine.io-client/node_modules/ws
+node_modules/jsdom/node_modules/ws
+node_modules/webpack-dev-server/node_modules/ws
+node_modules/ws
+  engine.io  <=3.0.0
+  Depends on vulnerable versions of debug
+  Depends on vulnerable versions of ws
+  node_modules/engine.io
+  engine.io-client  <=3.3.2 || 3.4.0 - 3.5.1 || 4.0.0-alpha.0 - 4.1.3
+  Depends on vulnerable versions of debug
+  Depends on vulnerable versions of parsejson
+  Depends on vulnerable versions of ws
+  Depends on vulnerable versions of xmlhttprequest-ssl
+  node_modules/engine.io-client
+    socket.io-client  1.0.0-pre - 2.1.1
+    Depends on vulnerable versions of debug
+    Depends on vulnerable versions of engine.io-client
+    Depends on vulnerable versions of socket.io-parser
+    node_modules/socket.io-client
+      socket.io  <=2.3.0
+      Depends on vulnerable versions of debug
+      Depends on vulnerable versions of socket.io-client
+      Depends on vulnerable versions of socket.io-parser
+      node_modules/socket.io
+        browser-sync  <=2.26.13
+        Depends on vulnerable versions of anymatch
+        Depends on vulnerable versions of browser-sync-ui
+        Depends on vulnerable versions of chokidar
+        Depends on vulnerable versions of eazy-logger
+        Depends on vulnerable versions of foxy
+        Depends on vulnerable versions of lodash
+        Depends on vulnerable versions of resp-modifier
+        Depends on vulnerable versions of socket.io
+        node_modules/browser-sync
+        browserify-hmr  <=0.3.7
+        Depends on vulnerable versions of socket.io
+        node_modules/browserify-hmr
+
+xmlhttprequest-ssl  <=1.6.1
+Severity: critical
+Improper Certificate Validation in xmlhttprequest-ssl - https://github.com/advisories/GHSA-72mh-269x-7mh5
+Arbitrary Code Injection - https://github.com/advisories/GHSA-h4j5-c7cj-74xg
+fix available via `npm audit fix --force`
+Will install browserify-hmr@0.4.1, which is a breaking change
+node_modules/xmlhttprequest-ssl
+  engine.io-client  <=3.3.2 || 3.4.0 - 3.5.1 || 4.0.0-alpha.0 - 4.1.3
+  Depends on vulnerable versions of debug
+  Depends on vulnerable versions of parsejson
+  Depends on vulnerable versions of ws
+  Depends on vulnerable versions of xmlhttprequest-ssl
+  node_modules/engine.io-client
+    socket.io-client  1.0.0-pre - 2.1.1
+    Depends on vulnerable versions of debug
+    Depends on vulnerable versions of engine.io-client
+    Depends on vulnerable versions of socket.io-parser
+    node_modules/socket.io-client
+      socket.io  <=2.3.0
+      Depends on vulnerable versions of debug
+      Depends on vulnerable versions of socket.io-client
+      Depends on vulnerable versions of socket.io-parser
+      node_modules/socket.io
+        browser-sync  <=2.26.13
+        Depends on vulnerable versions of anymatch
+        Depends on vulnerable versions of browser-sync-ui
+        Depends on vulnerable versions of chokidar
+        Depends on vulnerable versions of eazy-logger
+        Depends on vulnerable versions of foxy
+        Depends on vulnerable versions of lodash
+        Depends on vulnerable versions of resp-modifier
+        Depends on vulnerable versions of socket.io
+        node_modules/browser-sync
+        browserify-hmr  <=0.3.7
+        Depends on vulnerable versions of socket.io
+        node_modules/browserify-hmr
+
+y18n  <3.2.2 || =4.0.0
+Severity: high
+Prototype Pollution - https://github.com/advisories/GHSA-c4w7-xm78-47vh
+Prototype Pollution - https://github.com/advisories/GHSA-c4w7-xm78-47vh
+fix available via `npm audit fix`
+node_modules/cacache/node_modules/y18n
+node_modules/copy-webpack-plugin/node_modules/y18n
+node_modules/jest-runtime/node_modules/y18n
+node_modules/jest/node_modules/y18n
+node_modules/webpack-cli/node_modules/y18n
+node_modules/y18n
+
+yargs-parser  <=5.0.0 || 6.0.0 - 13.1.1
+Severity: moderate
+Prototype Pollution in yargs-parser - https://github.com/advisories/GHSA-p9pc-299p-vxgp
+Prototype Pollution in yargs-parser - https://github.com/advisories/GHSA-p9pc-299p-vxgp
+fix available via `npm audit fix --force`
+Will install stylelint@14.0.1, which is a breaking change
+node_modules/jest-runtime/node_modules/yargs-parser
+node_modules/jest/node_modules/yargs-parser
+node_modules/stylelint-no-browser-hacks/node_modules/yargs-parser
+node_modules/webpack-cli/node_modules/yargs-parser
+node_modules/webpack-dev-server/node_modules/yargs-parser
+node_modules/yargs-parser
+  meow  3.4.0 - 5.0.0
+  Depends on vulnerable versions of trim-newlines
+  Depends on vulnerable versions of yargs-parser
+  node_modules/meow
+  node_modules/stylelint-no-browser-hacks/node_modules/meow
+    node-sass  >=3.5.0-beta.1
+    Depends on vulnerable versions of meow
+    Depends on vulnerable versions of sass-graph
+    node_modules/node-sass
+      gulp-sass  2.3.0-beta.1 - 2.3.0 || 3.0.0 - 4.1.1
+      Depends on vulnerable versions of node-sass
+      Depends on vulnerable versions of strip-ansi
+      node_modules/gulp-sass
+    stylelint  7.7.1 - 13.6.1
+    Depends on vulnerable versions of globby
+    Depends on vulnerable versions of meow
+    Depends on vulnerable versions of micromatch
+    Depends on vulnerable versions of postcss-markdown
+    Depends on vulnerable versions of string-width
+    Depends on vulnerable versions of table
+    node_modules/stylelint
+    node_modules/stylelint-no-browser-hacks/node_modules/stylelint
+      gulp-stylelint  <=6.0.0
+      Depends on vulnerable versions of deep-extend
+      Depends on vulnerable versions of gulp-util
+      Depends on vulnerable versions of stylelint
+      node_modules/gulp-stylelint
+  yargs  8.0.0-candidate.0 - 15.0.0
+  Depends on vulnerable versions of cliui
+  Depends on vulnerable versions of string-width
+  Depends on vulnerable versions of yargs-parser
+  node_modules/jest-runtime/node_modules/yargs
+  node_modules/jest/node_modules/yargs
+  node_modules/sass-graph/node_modules/yargs
+  node_modules/webpack-cli/node_modules/yargs
+  node_modules/webpack-dev-server/node_modules/yargs
+    jest-cli  20.1.0-alpha.1 - 25.0.0
+    Depends on vulnerable versions of @jest/core
+    Depends on vulnerable versions of jest-config
+    Depends on vulnerable versions of jest-validate
+    Depends on vulnerable versions of yargs
+    node_modules/jest/node_modules/jest-cli
+      jest  20.1.0-alpha.1 - 24.9.0
+      Depends on vulnerable versions of jest-cli
+      node_modules/jest
+    jest-runtime  20.1.0-alpha.1 - 25.0.0
+    Depends on vulnerable versions of jest-config
+    Depends on vulnerable versions of jest-snapshot
+    Depends on vulnerable versions of jest-validate
+    Depends on vulnerable versions of yargs
+    node_modules/jest-runtime
+      @jest/reporters  <=26.4.0
+      Depends on vulnerable versions of jest-runtime
+      Depends on vulnerable versions of node-notifier
+      Depends on vulnerable versions of string-length
+      node_modules/@jest/reporters
+        @jest/core  <=25.5.4
+        Depends on vulnerable versions of @jest/reporters
+        Depends on vulnerable versions of jest-config
+        Depends on vulnerable versions of strip-ansi
+        node_modules/@jest/core
+      @jest/test-sequencer  <=24.9.0
+      Depends on vulnerable versions of jest-runtime
+      node_modules/@jest/test-sequencer
+        jest-config  20.1.0-alpha.1 - 24.9.0
+        Depends on vulnerable versions of @jest/test-sequencer
+        Depends on vulnerable versions of jest-jasmine2
+        Depends on vulnerable versions of pretty-format
+        node_modules/jest-config
+          jest-runner  21.0.0-alpha.1 - 24.9.0
+          Depends on vulnerable versions of jest-config
+          Depends on vulnerable versions of jest-jasmine2
+          Depends on vulnerable versions of jest-leak-detector
+          node_modules/jest-runner
+      jest-jasmine2  20.1.0-alpha.1 - 24.9.0
+      Depends on vulnerable versions of jest-each
+      Depends on vulnerable versions of jest-runtime
+      Depends on vulnerable versions of jest-snapshot
+      Depends on vulnerable versions of pretty-format
+      node_modules/jest-jasmine2
+    sass-graph  2.2.5 || >=3.0.5
+    Depends on vulnerable versions of yargs
+    node_modules/sass-graph
+    webpack-cli  3.3.5 - 3.3.12
+    Depends on vulnerable versions of yargs
+    node_modules/webpack-cli
+    webpack-dev-server  2.0.0-beta - 4.1.0
+    Depends on vulnerable versions of ansi-html
+    Depends on vulnerable versions of chokidar
+    Depends on vulnerable versions of sockjs
+    Depends on vulnerable versions of yargs
+    node_modules/webpack-dev-server
+
+183 vulnerabilities (13 low, 67 moderate, 77 high, 26 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.

@@ -1,0 +1,68 @@
+{
+  "_class": "io.jenkins.plugins.analysis.core.restapi.ReportApi",
+  "issues": [
+    {
+      "fileName": "./src/popup/popup.css",
+      "category": "StyleLint",
+      "lineStart": 36,
+      "columnStart": 1,
+      "message": "no-descending-specificity",
+      "description": "invalidOptionWarnings Expected selector \"#ckToolbar .repo-element\" to come before selector \"#ckToolbar .multi-repos-list > .repo-element\" (no-descending-specificity)",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./src/popup/popup.css",
+      "category": "StyleLint",
+      "lineStart": 36,
+      "columnStart": 1,
+      "message": "no-descending-specificity",
+      "description": "deprecations Expected selector \"#ckToolbar .repo-element\" to come before selector \"#ckToolbar .multi-repos-list > .repo-element\" (no-descending-specificity)",
+      "severity": "LOW"
+    },
+    {
+      "fileName": "./src/popup/popup.css",
+      "category": "StyleLint",
+      "lineStart": 36,
+      "columnStart": 1,
+      "message": "no-descending-specificity",
+      "description": "parseErrors Expected selector \"#ckToolbar .repo-element\" to come before selector \"#ckToolbar .multi-repos-list > .repo-element\" (no-descending-specificity)",
+      "severity": "ERROR"
+    },
+    {
+      "fileName": "./src/apps/jira/branch-name.css",
+      "category": "StyleLint",
+      "lineStart": 36,
+      "columnStart": 1,
+      "message": "no-descending-specificity",
+      "description": "warnings Expected selector \"#ckToolbar .repo-element\" to come before selector \"#ckToolbar .multi-repos-list > .repo-element\" (no-descending-specificity)",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./src/apps/jira/logs.css",
+      "category": "StyleLint",
+      "lineStart": 82,
+      "columnStart": 1,
+      "message": "no-descending-specificity",
+      "description": "Expected selector \"aui-inline-dialog.extension-stats-modal .value\" to come before selector \"aui-inline-dialog.extension-stats-modal .stat-element-info .value\" (no-descending-specificity)",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./src/apps/jira/logs.css",
+      "category": "StyleLint",
+      "lineStart": 82,
+      "columnStart": 1,
+      "message": "no-descending-specificity",
+      "description": "Expected selector \"aui-inline-dialog.extension-stats-modal .value\" to come before selector \"aui-inline-dialog.extension-stats-modal .stat-element-warn .value\" (no-descending-specificity)",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./src/apps/jira/logs.css",
+      "category": "StyleLint",
+      "lineStart": 82,
+      "columnStart": 1,
+      "message": "no-descending-specificity",
+      "description": "Expected selector \"aui-inline-dialog.extension-stats-modal .value\" to come before selector \"aui-inline-dialog.extension-stats-modal .stat-element-error .value\" (no-descending-specificity)",
+      "severity": "NORMAL"
+    }
+  ]
+}

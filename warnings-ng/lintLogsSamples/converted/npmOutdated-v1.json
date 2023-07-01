@@ -1,0 +1,53 @@
+{
+  "_class": "io.jenkins.plugins.analysis.core.restapi.ReportApi",
+  "issues": [
+    {
+      "fileName": "./package.json",
+      "category": "npmOutdated",
+      "directory": "./node_modules/copy-webpack-plugin",
+      "message": "Module 'node_modules/copy-webpack-plugin' is deprecated",
+      "description": "current version: 5.1.2, latest : 6.1.0, minimum version wanted: 5.1.2",
+      "severity": "LOW"
+    },
+    {
+      "fileName": "./package.json",
+      "category": "npmOutdated",
+      "directory": "./node_modules/css-loader",
+      "message": "Module 'node_modules/css-loader' is deprecated",
+      "description": "current version: 4.2.2, latest : 4.3.0, minimum version wanted: 4.3.0",
+      "severity": "LOW"
+    },
+    {
+      "fileName": "./package.json",
+      "category": "npmOutdated",
+      "directory": "./node_modules/preload-webpack-plugin",
+      "message": "Module 'node_modules/preload-webpack-plugin' is deprecated",
+      "description": "current version: 3.0.0-beta.4, latest : 2.3.0, minimum version wanted: 3.0.0-beta.4",
+      "severity": "LOW"
+    },
+    {
+      "fileName": "./package.json",
+      "category": "npmOutdated",
+      "directory": "./node_modules/stylelint",
+      "message": "Module 'node_modules/stylelint' is deprecated",
+      "description": "current version: 13.7.0, latest : 13.7.1, minimum version wanted: 13.7.1",
+      "severity": "LOW"
+    },
+    {
+      "fileName": "./package.json",
+      "category": "npmOutdated",
+      "directory": "./node_modules/terser-webpack-plugin",
+      "message": "Module 'node_modules/terser-webpack-plugin' is deprecated",
+      "description": "current version: 4.1.0, latest : 4.2.0, minimum version wanted: 4.2.0",
+      "severity": "LOW"
+    },
+    {
+      "fileName": "./package.json",
+      "category": "npmOutdated",
+      "directory": "./node_modules/whatwg-fetch",
+      "message": "Module 'node_modules/whatwg-fetch' is deprecated",
+      "description": "current version: 3.4.0, latest : 3.4.1, minimum version wanted: 3.4.1",
+      "severity": "LOW"
+    }
+  ]
+}

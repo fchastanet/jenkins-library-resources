@@ -1,0 +1,470 @@
+{
+  "_class": "io.jenkins.plugins.analysis.core.restapi.ReportApi",
+  "issues": [
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "service-worker",
+      "directory": "dist",
+      "message": "Does not register a service worker that controls page and `start_url` - The service worker is the technology that enables your app to use many Progressive Web App features, such as offline, add to homescreen, and push notifications. [Learn more](https://web.dev/service-worker/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "0",
+      "scoreDisplayMode": "binary"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "first-contentful-paint",
+      "directory": "dist",
+      "message": "First Contentful Paint - First Contentful Paint marks the time at which the first text or image is painted. [Learn more](https://web.dev/first-contentful-paint/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "0.88",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "largest-contentful-paint",
+      "directory": "dist",
+      "message": "Largest Contentful Paint - Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more](https://web.dev/lighthouse-largest-contentful-paint/)",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "0.81",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "first-meaningful-paint",
+      "directory": "dist",
+      "message": "First Meaningful Paint - First Meaningful Paint measures when the primary content of a page is visible. [Learn more](https://web.dev/first-meaningful-paint/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "0.96",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "speed-index",
+      "directory": "dist",
+      "message": "Speed Index - Speed Index shows how quickly the contents of a page are visibly populated. [Learn more](https://web.dev/speed-index/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "0.92",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "total-blocking-time",
+      "directory": "dist",
+      "message": "Total Blocking Time - Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds. [Learn more](https://web.dev/lighthouse-total-blocking-time/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "0.68",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "max-potential-fid",
+      "directory": "dist",
+      "message": "Max Potential First Input Delay - The maximum potential First Input Delay that your users could experience is the duration of the longest task. [Learn more](https://web.dev/lighthouse-max-potential-fid/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "0.06",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "cumulative-layout-shift",
+      "directory": "dist",
+      "message": "Cumulative Layout Shift - Cumulative Layout Shift measures the movement of visible elements within the viewport. [Learn more](https://web.dev/cls/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "1",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "errors-in-console",
+      "directory": "dist",
+      "message": "Browser errors were logged to the console - Errors logged to the console indicate unresolved problems. They can come from network request failures and other browser concerns. [Learn more](https://web.dev/errors-in-console/)",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "0",
+      "scoreDisplayMode": "binary"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "interactive",
+      "directory": "dist",
+      "message": "Time to Interactive - Time to interactive is the amount of time it takes for the page to become fully interactive. [Learn more](https://web.dev/interactive/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "0.97",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "redirects",
+      "directory": "dist",
+      "message": "Avoid multiple page redirects - Redirects introduce additional delays before the page can be loaded. [Learn more](https://web.dev/redirects/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "1",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "installable-manifest",
+      "directory": "dist",
+      "message": "Web app manifest or service worker do not meet the installability requirements - Service worker is the technology that enables your app to use many Progressive Web App features, such as offline, add to homescreen, and push notifications. With proper service worker and manifest implementations, browsers can proactively prompt users to add your app to their homescreen, which can lead to higher engagement. [Learn more](https://web.dev/installable-manifest/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "0",
+      "scoreDisplayMode": "binary"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "apple-touch-icon",
+      "directory": "dist",
+      "message": "Does not provide a valid `apple-touch-icon` - For ideal appearance on iOS when users add a progressive web app to the home screen, define an `apple-touch-icon`. It must point to a non-transparent 192px (or 180px) square PNG. [Learn More](https://web.dev/apple-touch-icon/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "0",
+      "scoreDisplayMode": "binary"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "splash-screen",
+      "directory": "dist",
+      "message": "Is not configured for a custom splash screen - A themed splash screen ensures a high-quality experience when users launch your app from their homescreens. [Learn more](https://web.dev/splash-screen/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "0",
+      "scoreDisplayMode": "binary"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "themed-omnibox",
+      "directory": "dist",
+      "message": "Does not set a theme color for the address bar. - The browser address bar can be themed to match your site. [Learn more](https://web.dev/themed-omnibox/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "0",
+      "scoreDisplayMode": "binary"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "maskable-icon",
+      "directory": "dist",
+      "message": "Manifest doesn't have a maskable icon - A maskable icon ensures that the image fills the entire shape without being letterboxed when installing the app on a device. [Learn more](https://web.dev/maskable-icon-audit/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "0",
+      "scoreDisplayMode": "binary"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "content-width",
+      "directory": "dist",
+      "message": "Content is not sized correctly for the viewport - If the width of your app's content doesn't match the width of the viewport, your app might not be optimized for mobile screens. [Learn more](https://web.dev/content-width/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "0",
+      "scoreDisplayMode": "binary"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "mainthread-work-breakdown",
+      "directory": "dist",
+      "message": "Minimize main-thread work - Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. [Learn more](https://web.dev/mainthread-work-breakdown/)",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "0.03",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "bootup-time",
+      "directory": "dist",
+      "message": "JavaScript execution time - Consider reducing the time spent parsing, compiling, and executing JS. You may find delivering smaller JS payloads helps with this. [Learn more](https://web.dev/bootup-time/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "0.96",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "uses-rel-preload",
+      "directory": "dist",
+      "message": "Preload key requests - Consider using `<link rel=preload>` to prioritize fetching resources that are currently requested later in page load. [Learn more](https://web.dev/uses-rel-preload/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "1",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "uses-rel-preconnect",
+      "directory": "dist",
+      "message": "Preconnect to required origins - Consider adding `preconnect` or `dns-prefetch` resource hints to establish early connections to important third-party origins. [Learn more](https://web.dev/uses-rel-preconnect/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "1",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "preload-lcp-image",
+      "directory": "dist",
+      "message": "Preload Largest Contentful Paint image - Preload the image used by the LCP element in order to improve your LCP time. [Learn more](https://web.dev/optimize-lcp/#preload-important-resources).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "1",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "html-has-lang",
+      "directory": "dist",
+      "message": "`<html>` element does not have a `[lang]` attribute - If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://web.dev/html-has-lang/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "0",
+      "scoreDisplayMode": "binary"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "uses-long-cache-ttl",
+      "directory": "dist",
+      "message": "Serve static assets with an efficient cache policy - A long cache lifetime can speed up repeat visits to your page. [Learn more](https://web.dev/uses-long-cache-ttl/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "0.81",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "total-byte-weight",
+      "directory": "dist",
+      "message": "Avoids enormous network payloads - Large network payloads cost users real money and are highly correlated with long load times. [Learn more](https://web.dev/total-byte-weight/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "1",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "offscreen-images",
+      "directory": "dist",
+      "message": "Defer offscreen images - Consider lazy-loading offscreen and hidden images after all critical resources have finished loading to lower time to interactive. [Learn more](https://web.dev/offscreen-images/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "1",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "render-blocking-resources",
+      "directory": "dist",
+      "message": "Eliminate render-blocking resources - Resources are blocking the first paint of your page. Consider delivering critical JS/CSS inline and deferring all non-critical JS/styles. [Learn more](https://web.dev/render-blocking-resources/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "1",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "unminified-css",
+      "directory": "dist",
+      "message": "Minify CSS - Minifying CSS files can reduce network payload sizes. [Learn more](https://web.dev/unminified-css/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "1",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "unminified-javascript",
+      "directory": "dist",
+      "message": "Minify JavaScript - Minifying JavaScript files can reduce payload sizes and script parse time. [Learn more](https://web.dev/unminified-javascript/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "1",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "unused-css-rules",
+      "directory": "dist",
+      "message": "Reduce unused CSS - Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn more](https://web.dev/unused-css-rules/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "1",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "unused-javascript",
+      "directory": "dist",
+      "message": "Reduce unused JavaScript - Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn more](https://web.dev/unused-javascript/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "0.49",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "modern-image-formats",
+      "directory": "dist",
+      "message": "Serve images in next-gen formats - Image formats like JPEG 2000, JPEG XR, and WebP often provide better compression than PNG or JPEG, which means faster downloads and less data consumption. [Learn more](https://web.dev/uses-webp-images/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "1",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "uses-optimized-images",
+      "directory": "dist",
+      "message": "Efficiently encode images - Optimized images load faster and consume less cellular data. [Learn more](https://web.dev/uses-optimized-images/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "1",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "uses-text-compression",
+      "directory": "dist",
+      "message": "Enable text compression - Text-based resources should be served with compression (gzip, deflate or brotli) to minimize total network bytes. [Learn more](https://web.dev/uses-text-compression/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "1",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "uses-responsive-images",
+      "directory": "dist",
+      "message": "Properly size images - Serve images that are appropriately-sized to save cellular data and improve load time. [Learn more](https://web.dev/uses-responsive-images/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "1",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "efficient-animated-content",
+      "directory": "dist",
+      "message": "Use video formats for animated content - Large GIFs are inefficient for delivering animated content. Consider using MPEG4/WebM videos for animations and PNG/WebP for static images instead of GIF to save network bytes. [Learn more](https://web.dev/efficient-animated-content/)",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "1",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "duplicated-javascript",
+      "directory": "dist",
+      "message": "Remove duplicate modules in JavaScript bundles - Remove large, duplicate JavaScript modules from bundles to reduce unnecessary bytes consumed by network activity. ",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "1",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "legacy-javascript",
+      "directory": "dist",
+      "message": "Avoid serving legacy JavaScript to modern browsers - Polyfills and transforms enable legacy browsers to use new JavaScript features. However, many aren't necessary for modern browsers. For your bundled JavaScript, adopt a modern script deployment strategy using module/nomodule feature detection to reduce the amount of code shipped to modern browsers, while retaining support for legacy browsers. [Learn More](https://philipwalton.com/articles/deploying-es2015-code-in-production-today/)",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "0.88",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "dom-size",
+      "directory": "dist",
+      "message": "Avoids an excessive DOM size - A large DOM will increase memory usage, cause longer [style calculations](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations), and produce costly [layout reflows](https://developers.google.com/speed/articles/reflow). [Learn more](https://web.dev/dom-size/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "1",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "meta-description",
+      "directory": "dist",
+      "message": "Document does not have a meta description - Meta descriptions may be included in search results to concisely summarize page content. [Learn more](https://web.dev/meta-description/).",
+      "type": "audit",
+      "severity": "LOW",
+      "score": "0",
+      "scoreDisplayMode": "binary"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "runWarnings",
+      "type": "warning",
+      "directory": "dist",
+      "message": "error during run",
+      "score": "null",
+      "scoreDisplayMode": "numeric",
+      "severity": "HIGH"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "performance",
+      "directory": "dist",
+      "message": "Performance",
+      "type": "category",
+      "description": "",
+      "severity": "LOW",
+      "score": "0.83",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "accessibility",
+      "directory": "dist",
+      "message": "Accessibility - These checks highlight opportunities to [improve the accessibility of your web app](https://developers.google.com/web/fundamentals/accessibility). Only a subset of accessibility issues can be automatically detected so manual testing is also encouraged.",
+      "type": "category",
+      "description": "These items address areas which an automated testing tool cannot cover. Learn more in our guide on [conducting an accessibility review](https://developers.google.com/web/fundamentals/accessibility/how-to-review).",
+      "severity": "LOW",
+      "score": "0.98",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "best-practices",
+      "directory": "dist",
+      "message": "Best Practices",
+      "type": "category",
+      "description": "",
+      "severity": "LOW",
+      "score": "0.93",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "seo",
+      "directory": "dist",
+      "message": "SEO - These checks ensure that your page is optimized for search engine results ranking. There are additional factors Lighthouse does not check that may affect your search ranking. [Learn more](https://support.google.com/webmasters/answer/35769).",
+      "type": "category",
+      "description": "Run these additional validators on your site to check additional SEO best practices.",
+      "severity": "LOW",
+      "score": "0.91",
+      "scoreDisplayMode": "numeric"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "pwa",
+      "directory": "dist",
+      "message": "Progressive Web App - These checks validate the aspects of a Progressive Web App. [Learn more](https://developers.google.com/web/progressive-web-apps/checklist).",
+      "type": "category",
+      "description": "These checks are required by the baseline [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist) but are not automatically checked by Lighthouse. They do not affect your score but it's important that you verify them manually.",
+      "severity": "LOW",
+      "score": "0.2",
+      "scoreDisplayMode": "numeric"
+    }
+  ]
+}

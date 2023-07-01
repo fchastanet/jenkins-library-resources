@@ -1,0 +1,1265 @@
+{
+  "_class": "io.jenkins.plugins.analysis.core.restapi.ReportApi",
+  "issues": [
+    {
+      "moduleName": "ansi-regex",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/ansi-regex",
+      "message": "dependency ansi-regex >2.1.1 <5.0.1 :  Inefficient Regular Expression Complexity in chalk/ansi-regex => https://github.com/advisories/GHSA-93q8-gq69-wqmw",
+      "description": "Fix available via `npm audit fix --force` Will install gulp-sass@5.0.0, which is a breaking change for \npretty-format,strip-ansi has effects on pretty-format,strip-ansi (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\">2.1.1 <5.0.1\",\"title\":\" Inefficient Regular Expression Complexity in chalk/ansi-regex\",\"url\":\"https://github.com/advisories/GHSA-93q8-gq69-wqmw\",\"fixAvailable\":null,\"nodes\":[\"node_modules/@jest/core/node_modules/ansi-regex\",\"node_modules/gulp-sass/node_modules/ansi-regex\",\"node_modules/jest-runtime/node_modules/ansi-regex\",\"node_modules/jest/node_modules/ansi-regex\",\"node_modules/pretty-format/node_modules/ansi-regex\",\"node_modules/sass-graph/node_modules/ansi-regex\",\"node_modules/string-length/node_modules/ansi-regex\",\"node_modules/stylelint-no-browser-hacks/node_modules/ansi-regex\",\"node_modules/stylelint/node_modules/ansi-regex\",\"node_modules/table/node_modules/ansi-regex\",\"node_modules/webpack-cli/node_modules/ansi-regex\",\"node_modules/webpack-dev-server/node_modules/ansi-regex\"],\"effects\":[\"pretty-format\",\"strip-ansi\"],\"overallSeverity\":\"NORMAL\",\"overallRange\":\">2.1.1 <5.0.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "acorn",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/acorn",
+      "message": "dependency acorn >=5.5.0 <5.7.4 : Regular Expression Denial of Service in Acorn => https://github.com/advisories/GHSA-6chw-6frg-f759",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\">=5.5.0 <5.7.4\",\"title\":\"Regular Expression Denial of Service in Acorn\",\"url\":\"https://github.com/advisories/GHSA-6chw-6frg-f759\",\"fixAvailable\":null,\"nodes\":[\"node_modules/acorn-globals/node_modules/acorn\",\"node_modules/jsdom/node_modules/acorn\",\"node_modules/webpack/node_modules/acorn\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"5.5.0 - 5.7.3 || 6.0.0 - 6.4.0\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "acorn",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/acorn",
+      "message": "dependency acorn >=6.0.0 <6.4.1 : Regular Expression Denial of Service in Acorn => https://github.com/advisories/GHSA-6chw-6frg-f759",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\">=6.0.0 <6.4.1\",\"title\":\"Regular Expression Denial of Service in Acorn\",\"url\":\"https://github.com/advisories/GHSA-6chw-6frg-f759\",\"fixAvailable\":null,\"nodes\":[\"node_modules/acorn-globals/node_modules/acorn\",\"node_modules/jsdom/node_modules/acorn\",\"node_modules/webpack/node_modules/acorn\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"5.5.0 - 5.7.3 || 6.0.0 - 6.4.0\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "ansi-html",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/ansi-html",
+      "message": "dependency ansi-html <=0.0.7 : Uncontrolled Resource Consumption in ansi-html => https://github.com/advisories/GHSA-whgm-jr23-g3j9",
+      "description": "Fix available via `npm audit fix --force` has effects on webpack-dev-server (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<=0.0.7\",\"title\":\"Uncontrolled Resource Consumption in ansi-html\",\"url\":\"https://github.com/advisories/GHSA-whgm-jr23-g3j9\",\"fixAvailable\":null,\"nodes\":[\"node_modules/ansi-html\"],\"effects\":[\"webpack-dev-server\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"*\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "atob",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/atob",
+      "message": "dependency atob <2.1.0 : Out-of-bounds Read in atob => https://github.com/advisories/GHSA-8w4h-3cm3-2pm2",
+      "description": "Fix available via `npm audit fix --force` has effects on source-map-resolve (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<2.1.0\",\"title\":\"Out-of-bounds Read in atob\",\"url\":\"https://github.com/advisories/GHSA-8w4h-3cm3-2pm2\",\"fixAvailable\":null,\"nodes\":[\"node_modules/atob\"],\"effects\":[\"source-map-resolve\"],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"<2.1.0\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "axios",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/axios",
+      "message": "dependency axios <=0.21.1 : Incorrect Comparison in axios => https://github.com/advisories/GHSA-cph5-m8f7-6c5x",
+      "description": "Fix available via `npm audit fix --force` Will install axios@0.24.0, which is a breaking change for \n has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<=0.21.1\",\"title\":\"Incorrect Comparison in axios\",\"url\":\"https://github.com/advisories/GHSA-cph5-m8f7-6c5x\",\"fixAvailable\":null,\"nodes\":[\"node_modules/axios\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=0.21.1\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "axios",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/axios",
+      "message": "dependency axios <0.21.1 : Server-Side Request Forgery in Axios => https://github.com/advisories/GHSA-4w2v-q235-vp99",
+      "description": "Fix available via `npm audit fix --force` Will install axios@0.24.0, which is a breaking change for \n has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<0.21.1\",\"title\":\"Server-Side Request Forgery in Axios\",\"url\":\"https://github.com/advisories/GHSA-4w2v-q235-vp99\",\"fixAvailable\":null,\"nodes\":[\"node_modules/axios\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=0.21.1\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "bl",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/bl",
+      "message": "dependency bl <1.2.3 : Remote Memory Exposure in bl => https://github.com/advisories/GHSA-pp7h-53gx-mx7r",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<1.2.3\",\"title\":\"Remote Memory Exposure in bl\",\"url\":\"https://github.com/advisories/GHSA-pp7h-53gx-mx7r\",\"fixAvailable\":null,\"nodes\":[\"node_modules/bl\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<1.2.3\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "blueimp-file-upload",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/blueimp-file-upload",
+      "message": "dependency blueimp-file-upload <=9.22.0 : High severity vulnerability that affects blueimp-file-upload => https://github.com/advisories/GHSA-4cj8-g9cp-v5wr",
+      "description": "Fix available via `npm audit fix` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<=9.22.0\",\"title\":\"High severity vulnerability that affects blueimp-file-upload\",\"url\":\"https://github.com/advisories/GHSA-4cj8-g9cp-v5wr\",\"fixAvailable\":null,\"nodes\":[\"node_modules/blueimp-file-upload\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=9.22.0\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "bootstrap-sass",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/bootstrap-sass",
+      "message": "dependency bootstrap-sass >=3.0.0 <3.4.1 : Moderate severity vulnerability that affects bootstrap and bootstrap-sass => https://github.com/advisories/GHSA-wh77-3x4m-4q9g",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\">=3.0.0 <3.4.1\",\"title\":\"Moderate severity vulnerability that affects bootstrap and bootstrap-sass\",\"url\":\"https://github.com/advisories/GHSA-wh77-3x4m-4q9g\",\"fixAvailable\":null,\"nodes\":[\"node_modules/bootstrap-sass\"],\"effects\":[],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"3.1.1 - 3.4.0\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "braces",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/braces",
+      "message": "dependency braces <2.3.1 : Regular Expression Denial of Service in braces => https://github.com/advisories/GHSA-g95f-p29q-9xw4",
+      "description": "Fix available via `npm audit fix --force` Will install stylelint@14.0.1, which is a breaking change for \nmicromatch has effects on micromatch (check npm audit output to see dependencies tree)",
+      "severity": "LOW",
+      "additionalProperties": "{\"range\":\"<2.3.1\",\"title\":\"Regular Expression Denial of Service in braces\",\"url\":\"https://github.com/advisories/GHSA-g95f-p29q-9xw4\",\"fixAvailable\":null,\"nodes\":[\"node_modules/braces\"],\"effects\":[\"micromatch\"],\"overallSeverity\":\"LOW\",\"overallRange\":\"<2.3.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "browserify-hmr",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/browserify-hmr",
+      "message": "dependency browserify-hmr <0.4.0 : Missing Origin Validation in browserify-hmr => https://github.com/advisories/GHSA-77q4-m83q-w76v",
+      "description": "Fix available via `npm audit fix --force` Will install browserify-hmr@0.4.1, which is a breaking change for \n has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<0.4.0\",\"title\":\"Missing Origin Validation in browserify-hmr\",\"url\":\"https://github.com/advisories/GHSA-77q4-m83q-w76v\",\"fixAvailable\":null,\"nodes\":[\"node_modules/browserify-hmr\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=0.3.7\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "browserslist",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/browserslist",
+      "message": "dependency browserslist >=4.0.0 <4.16.5 : Regular Expression Denial of Service in browserslist => https://github.com/advisories/GHSA-w8qv-6jwh-64r5",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\">=4.0.0 <4.16.5\",\"title\":\"Regular Expression Denial of Service in browserslist\",\"url\":\"https://github.com/advisories/GHSA-w8qv-6jwh-64r5\",\"fixAvailable\":null,\"nodes\":[\"node_modules/@babel/preset-env/node_modules/browserslist\",\"node_modules/core-js-compat/node_modules/browserslist\",\"node_modules/stylelint-no-browser-hacks/node_modules/browserslist\"],\"effects\":[],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"4.0.0 - 4.16.4\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "cached-path-relative",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/cached-path-relative",
+      "message": "dependency cached-path-relative <1.0.2 : Prototype Pollution in cached-path-relative => https://github.com/advisories/GHSA-hc9w-4p87-j549",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<1.0.2\",\"title\":\"Prototype Pollution in cached-path-relative\",\"url\":\"https://github.com/advisories/GHSA-hc9w-4p87-j549\",\"fixAvailable\":null,\"nodes\":[\"node_modules/cached-path-relative\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<1.0.2\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "clean-css",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/clean-css",
+      "message": "dependency clean-css <4.1.11 : Regular Expression Denial of Service in clean-css => https://github.com/advisories/GHSA-wxhq-pm8v-cw75",
+      "description": "No fix available has effects on gulp-minify-css (check npm audit output to see dependencies tree)",
+      "severity": "LOW",
+      "additionalProperties": "{\"range\":\"<4.1.11\",\"title\":\"Regular Expression Denial of Service in clean-css\",\"url\":\"https://github.com/advisories/GHSA-wxhq-pm8v-cw75\",\"fixAvailable\":null,\"nodes\":[\"node_modules/clean-css\"],\"effects\":[\"gulp-minify-css\"],\"overallSeverity\":\"LOW\",\"overallRange\":\"<4.1.11\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "color-string",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/color-string",
+      "message": "dependency color-string <1.5.5 : Regular Expression Denial of Service (ReDOS) => https://github.com/advisories/GHSA-257v-vj4p-3w2h",
+      "description": "Fix available via `npm audit fix --force` Will install vueify@5.0.2, which is a breaking change for \ncolor has effects on color (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<1.5.5\",\"title\":\"Regular Expression Denial of Service (ReDOS)\",\"url\":\"https://github.com/advisories/GHSA-257v-vj4p-3w2h\",\"fixAvailable\":null,\"nodes\":[\"node_modules/color-string\"],\"effects\":[\"color\"],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"<1.5.5\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "concat-with-sourcemaps",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/concat-with-sourcemaps",
+      "message": "dependency concat-with-sourcemaps >=1.0.0 <1.0.6 : Out-of-bounds Read in concat-with-sourcemaps => https://github.com/advisories/GHSA-2xv3-h762-ccxv",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\">=1.0.0 <1.0.6\",\"title\":\"Out-of-bounds Read in concat-with-sourcemaps\",\"url\":\"https://github.com/advisories/GHSA-2xv3-h762-ccxv\",\"fixAvailable\":null,\"nodes\":[\"node_modules/concat-with-sourcemaps\"],\"effects\":[],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"1.0.0 - 1.0.5\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "connect",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/connect",
+      "message": "dependency connect <=2.8.0 : methodOverride Middleware Reflected Cross-Site Scripting in connect => https://github.com/advisories/GHSA-3fw8-66wf-pr7m",
+      "description": "Fix available via `npm audit fix` has effects on express (check npm audit output to see dependencies tree)",
+      "severity": "LOW",
+      "additionalProperties": "{\"range\":\"<=2.8.0\",\"title\":\"methodOverride Middleware Reflected Cross-Site Scripting in connect\",\"url\":\"https://github.com/advisories/GHSA-3fw8-66wf-pr7m\",\"fixAvailable\":null,\"nodes\":[\"node_modules/weinre/node_modules/connect\"],\"effects\":[\"express\"],\"overallSeverity\":\"LOW\",\"overallRange\":\"<=2.8.0\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "cryptiles",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/cryptiles",
+      "message": "dependency cryptiles <4.1.2 : Insufficient Entropy in cryptiles => https://github.com/advisories/GHSA-rq8g-5pc5-wrhr",
+      "description": "Fix available via `npm audit fix --force` has effects on hawk (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<4.1.2\",\"title\":\"Insufficient Entropy in cryptiles\",\"url\":\"https://github.com/advisories/GHSA-rq8g-5pc5-wrhr\",\"fixAvailable\":null,\"nodes\":[\"node_modules/localtunnel/node_modules/cryptiles\"],\"effects\":[\"hawk\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=4.1.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "debug",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/debug",
+      "message": "dependency debug <2.6.9 : Regular Expression Denial of Service in debug => https://github.com/advisories/GHSA-gxpj-cx7g-858c",
+      "description": "Fix available via `npm audit fix --force` Will install browserify-hmr@0.4.1, which is a breaking change for \nengine.io,engine.io-client,localtunnel,socket.io,socket.io-adapter,socket.io-client,socket.io-parser has effects on engine.io,engine.io-client,localtunnel,socket.io,socket.io-adapter,socket.io-client,socket.io-parser (check npm audit output to see dependencies tree)",
+      "severity": "LOW",
+      "additionalProperties": "{\"range\":\"<2.6.9\",\"title\":\"Regular Expression Denial of Service in debug\",\"url\":\"https://github.com/advisories/GHSA-gxpj-cx7g-858c\",\"fixAvailable\":null,\"nodes\":[\"node_modules/engine.io-client/node_modules/debug\",\"node_modules/engine.io/node_modules/debug\",\"node_modules/localtunnel/node_modules/debug\",\"node_modules/socket.io-adapter/node_modules/debug\",\"node_modules/socket.io-client/node_modules/debug\",\"node_modules/socket.io-parser/node_modules/debug\",\"node_modules/socket.io/node_modules/debug\"],\"effects\":[\"engine.io\",\"engine.io-client\",\"localtunnel\",\"socket.io\",\"socket.io-adapter\",\"socket.io-client\",\"socket.io-parser\"],\"overallSeverity\":\"LOW\",\"overallRange\":\"<2.6.9\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "deep-extend",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/deep-extend",
+      "message": "dependency deep-extend <0.5.1 : Prototype Pollution in deep-extend => https://github.com/advisories/GHSA-hr2v-3952-633q",
+      "description": "Fix available via `npm audit fix --force` Will install gulp-stylelint@13.0.0, which is a breaking change for \ngulp-stylelint has effects on gulp-stylelint (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<0.5.1\",\"title\":\"Prototype Pollution in deep-extend\",\"url\":\"https://github.com/advisories/GHSA-hr2v-3952-633q\",\"fixAvailable\":null,\"nodes\":[\"node_modules/deep-extend\"],\"effects\":[\"gulp-stylelint\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<0.5.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "dns-packet",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/dns-packet",
+      "message": "dependency dns-packet <1.3.2 : Potential memory exposure in dns-packet => https://github.com/advisories/GHSA-3wcq-x3mq-6r9p",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<1.3.2\",\"title\":\"Potential memory exposure in dns-packet\",\"url\":\"https://github.com/advisories/GHSA-3wcq-x3mq-6r9p\",\"fixAvailable\":null,\"nodes\":[\"node_modules/dns-packet\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<1.3.2\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "dot-prop",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/dot-prop",
+      "message": "dependency dot-prop <4.2.1 : Prototype Pollution in dot-prop => https://github.com/advisories/GHSA-ff7x-qrg7-qggm",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<4.2.1\",\"title\":\"Prototype Pollution in dot-prop\",\"url\":\"https://github.com/advisories/GHSA-ff7x-qrg7-qggm\",\"fixAvailable\":null,\"nodes\":[\"node_modules/dot-prop\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<4.2.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "elliptic",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/elliptic",
+      "message": "dependency elliptic <6.5.4 : Use of a Broken or Risky Cryptographic Algorithm => https://github.com/advisories/GHSA-r9p9-mrjm-926w",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<6.5.4\",\"title\":\"Use of a Broken or Risky Cryptographic Algorithm\",\"url\":\"https://github.com/advisories/GHSA-r9p9-mrjm-926w\",\"fixAvailable\":null,\"nodes\":[\"node_modules/elliptic\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=6.5.3\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "elliptic",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/elliptic",
+      "message": "dependency elliptic <6.5.3 : Signature Malleabillity in elliptic => https://github.com/advisories/GHSA-vh7m-p724-62c2",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<6.5.3\",\"title\":\"Signature Malleabillity in elliptic\",\"url\":\"https://github.com/advisories/GHSA-vh7m-p724-62c2\",\"fixAvailable\":null,\"nodes\":[\"node_modules/elliptic\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=6.5.3\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "express",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/express",
+      "message": "dependency express <3.11.0 : No Charset in Content-Type Header in express => https://github.com/advisories/GHSA-gpvr-g6gh-9mc2",
+      "description": "Fix available via `npm audit fix` has effects on weinre (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<3.11.0\",\"title\":\"No Charset in Content-Type Header in express\",\"url\":\"https://github.com/advisories/GHSA-gpvr-g6gh-9mc2\",\"fixAvailable\":null,\"nodes\":[\"node_modules/weinre/node_modules/express\"],\"effects\":[\"weinre\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=3.10.5 || 4.0.0-rc1 - 4.7.4\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "extend",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/extend",
+      "message": "dependency extend >=3.0.0 <3.0.2 : Prototype Pollution in extend => https://github.com/advisories/GHSA-qrmc-fj45-qfc2",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\">=3.0.0 <3.0.2\",\"title\":\"Prototype Pollution in extend\",\"url\":\"https://github.com/advisories/GHSA-qrmc-fj45-qfc2\",\"fixAvailable\":null,\"nodes\":[\"node_modules/extend\"],\"effects\":[],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"3.0.0 - 3.0.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "fresh",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/fresh",
+      "message": "dependency fresh <0.5.2 : Regular Expression Denial of Service in fresh => https://github.com/advisories/GHSA-9qj9-36jm-prpv",
+      "description": "Fix available via `npm audit fix --force` has effects on browser-sync-client (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<0.5.2\",\"title\":\"Regular Expression Denial of Service in fresh\",\"url\":\"https://github.com/advisories/GHSA-9qj9-36jm-prpv\",\"fixAvailable\":null,\"nodes\":[\"node_modules/browser-sync-client/node_modules/fresh\"],\"effects\":[\"browser-sync-client\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<0.5.2\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "fstream",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/fstream",
+      "message": "dependency fstream <1.0.12 : Arbitrary File Overwrite in fstream => https://github.com/advisories/GHSA-xf7w-r453-m56c",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<1.0.12\",\"title\":\"Arbitrary File Overwrite in fstream\",\"url\":\"https://github.com/advisories/GHSA-xf7w-r453-m56c\",\"fixAvailable\":null,\"nodes\":[\"node_modules/fstream\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<1.0.12\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "glob-parent",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/glob-parent",
+      "message": "dependency glob-parent <5.1.2 : Regular expression denial of service => https://github.com/advisories/GHSA-ww39-953v-wcq6",
+      "description": "Fix available via `npm audit fix --force` Will install gulp@3.9.1, which is a breaking change for \nchokidar,copy-webpack-plugin,fast-glob,glob-base,glob-stream has effects on chokidar,copy-webpack-plugin,fast-glob,glob-base,glob-stream (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<5.1.2\",\"title\":\"Regular expression denial of service\",\"url\":\"https://github.com/advisories/GHSA-ww39-953v-wcq6\",\"fixAvailable\":null,\"nodes\":[\"node_modules/copy-webpack-plugin/node_modules/glob-parent\",\"node_modules/fast-glob/node_modules/glob-parent\",\"node_modules/glob-parent\",\"node_modules/gulp-scss-lint/node_modules/glob-parent\",\"node_modules/gulp/node_modules/glob-parent\",\"node_modules/watchpack/node_modules/glob-parent\",\"node_modules/webpack-dev-server/node_modules/glob-parent\"],\"effects\":[\"chokidar\",\"copy-webpack-plugin\",\"fast-glob\",\"glob-base\",\"glob-stream\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<5.1.2\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "gulp-scss-lint",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/gulp-scss-lint",
+      "message": "dependency gulp-scss-lint <=1.0.0 : OS Command Injection in gulp-scss-lint => https://github.com/advisories/GHSA-g4hj-r7r3-9rwv",
+      "description": "No fix available has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<=1.0.0\",\"title\":\"OS Command Injection in gulp-scss-lint\",\"url\":\"https://github.com/advisories/GHSA-g4hj-r7r3-9rwv\",\"fixAvailable\":null,\"nodes\":[\"node_modules/gulp-scss-lint\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"*\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "handlebars",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/handlebars",
+      "message": "dependency handlebars <4.7.7 : Remote code execution in handlebars when compiling templates => https://github.com/advisories/GHSA-f2jv-r9rf-7988",
+      "description": "Fix available via `npm audit fix` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<4.7.7\",\"title\":\"Remote code execution in handlebars when compiling templates\",\"url\":\"https://github.com/advisories/GHSA-f2jv-r9rf-7988\",\"fixAvailable\":null,\"nodes\":[\"node_modules/handlebars\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=4.7.6\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "handlebars",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/handlebars",
+      "message": "dependency handlebars >=4.0.0 <4.5.3 : Prototype Pollution in handlebars => https://github.com/advisories/GHSA-g9r4-xpmj-mj65",
+      "description": "Fix available via `npm audit fix` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\">=4.0.0 <4.5.3\",\"title\":\"Prototype Pollution in handlebars\",\"url\":\"https://github.com/advisories/GHSA-g9r4-xpmj-mj65\",\"fixAvailable\":null,\"nodes\":[\"node_modules/handlebars\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=4.7.6\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "handlebars",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/handlebars",
+      "message": "dependency handlebars >=4.0.0 <4.5.2 : Arbitrary Code Execution in handlebars => https://github.com/advisories/GHSA-2cf5-4w76-r9qv",
+      "description": "Fix available via `npm audit fix` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\">=4.0.0 <4.5.2\",\"title\":\"Arbitrary Code Execution in handlebars\",\"url\":\"https://github.com/advisories/GHSA-2cf5-4w76-r9qv\",\"fixAvailable\":null,\"nodes\":[\"node_modules/handlebars\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=4.7.6\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "handlebars",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/handlebars",
+      "message": "dependency handlebars >=4.0.0 <4.4.5 : Denial of Service in handlebars => https://github.com/advisories/GHSA-f52g-6jhx-586p",
+      "description": "Fix available via `npm audit fix` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\">=4.0.0 <4.4.5\",\"title\":\"Denial of Service in handlebars\",\"url\":\"https://github.com/advisories/GHSA-f52g-6jhx-586p\",\"fixAvailable\":null,\"nodes\":[\"node_modules/handlebars\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=4.7.6\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "handlebars",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/handlebars",
+      "message": "dependency handlebars <4.3.0 : Prototype Pollution in handlebars => https://github.com/advisories/GHSA-w457-6q6x-cgp9",
+      "description": "Fix available via `npm audit fix` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<4.3.0\",\"title\":\"Prototype Pollution in handlebars\",\"url\":\"https://github.com/advisories/GHSA-w457-6q6x-cgp9\",\"fixAvailable\":null,\"nodes\":[\"node_modules/handlebars\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=4.7.6\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "handlebars",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/handlebars",
+      "message": "dependency handlebars >=4.0.0 <4.0.14 : Prototype Pollution in handlebars => https://github.com/advisories/GHSA-q42p-pg8m-cqh6",
+      "description": "Fix available via `npm audit fix` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\">=4.0.0 <4.0.14\",\"title\":\"Prototype Pollution in handlebars\",\"url\":\"https://github.com/advisories/GHSA-q42p-pg8m-cqh6\",\"fixAvailable\":null,\"nodes\":[\"node_modules/handlebars\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=4.7.6\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "highcharts",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/highcharts",
+      "message": "dependency highcharts <9.0.0 : Options structure open to XSS if passed unfiltered => https://github.com/advisories/GHSA-8j65-4pcq-xq95",
+      "description": "Fix available via `npm audit fix --force` Will install highcharts@9.3.1, which is a breaking change for \n has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<9.0.0\",\"title\":\"Options structure open to XSS if passed unfiltered\",\"url\":\"https://github.com/advisories/GHSA-8j65-4pcq-xq95\",\"fixAvailable\":null,\"nodes\":[\"node_modules/highcharts\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<9.0.0\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "hoek",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/hoek",
+      "message": "dependency hoek <4.2.1 : Prototype Pollution in hoek => https://github.com/advisories/GHSA-jp4x-w63m-7wgm",
+      "description": "Fix available via `npm audit fix --force` has effects on boom,hawk,sntp (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<4.2.1\",\"title\":\"Prototype Pollution in hoek\",\"url\":\"https://github.com/advisories/GHSA-jp4x-w63m-7wgm\",\"fixAvailable\":null,\"nodes\":[\"node_modules/localtunnel/node_modules/hoek\"],\"effects\":[\"boom\",\"hawk\",\"sntp\"],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"<4.2.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "hosted-git-info",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/hosted-git-info",
+      "message": "dependency hosted-git-info <2.8.9 : Regular Expression Denial of Service in hosted-git-info => https://github.com/advisories/GHSA-43f8-2h32-f4cj",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<2.8.9\",\"title\":\"Regular Expression Denial of Service in hosted-git-info\",\"url\":\"https://github.com/advisories/GHSA-43f8-2h32-f4cj\",\"fixAvailable\":null,\"nodes\":[\"node_modules/hosted-git-info\"],\"effects\":[],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"<2.8.9\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "http-proxy",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/http-proxy",
+      "message": "dependency http-proxy <1.18.1 : Denial of Service in http-proxy => https://github.com/advisories/GHSA-6x33-pw7p-hmpq",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<1.18.1\",\"title\":\"Denial of Service in http-proxy\",\"url\":\"https://github.com/advisories/GHSA-6x33-pw7p-hmpq\",\"fixAvailable\":null,\"nodes\":[\"node_modules/http-proxy\",\"node_modules/http-proxy-middleware/node_modules/http-proxy\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<1.18.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "i",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/i",
+      "message": "dependency i <0.3.7 : Inefficient Regular Expression in inflect => https://github.com/advisories/GHSA-x55w-vjjp-222r",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<0.3.7\",\"title\":\"Inefficient Regular Expression in inflect\",\"url\":\"https://github.com/advisories/GHSA-x55w-vjjp-222r\",\"fixAvailable\":null,\"nodes\":[\"node_modules/i\"],\"effects\":[],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"<0.3.7\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "ini",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/ini",
+      "message": "dependency ini <1.3.6 : Prototype Pollution => https://github.com/advisories/GHSA-qqgx-2p2h-9c37",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<1.3.6\",\"title\":\"Prototype Pollution\",\"url\":\"https://github.com/advisories/GHSA-qqgx-2p2h-9c37\",\"fixAvailable\":null,\"nodes\":[\"node_modules/global-modules/node_modules/ini\",\"node_modules/ini\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<1.3.6\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "is-my-json-valid",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/is-my-json-valid",
+      "message": "dependency is-my-json-valid >=2.0.0 <2.17.2 : Regular Expression Denial of Service in is-my-json-valid => https://github.com/advisories/GHSA-f522-ffg8-j8r6",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\">=2.0.0 <2.17.2\",\"title\":\"Regular Expression Denial of Service in is-my-json-valid\",\"url\":\"https://github.com/advisories/GHSA-f522-ffg8-j8r6\",\"fixAvailable\":null,\"nodes\":[\"node_modules/is-my-json-valid\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\">=2.0.0\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "is-svg",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/is-svg",
+      "message": "dependency is-svg >=2.1.0 <4.2.2 : Regular Expression Denial of Service (ReDoS) => https://github.com/advisories/GHSA-7r28-3m3f-r2pr",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\">=2.1.0 <4.2.2\",\"title\":\"Regular Expression Denial of Service (ReDoS)\",\"url\":\"https://github.com/advisories/GHSA-7r28-3m3f-r2pr\",\"fixAvailable\":null,\"nodes\":[\"node_modules/is-svg\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"2.1.0 - 4.2.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "jquery",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/jquery",
+      "message": "dependency jquery >=1.2 <3.5.0 : Potential XSS vulnerability in jQuery => https://github.com/advisories/GHSA-gxr4-xjj5-5px2",
+      "description": "Fix available via `npm audit fix --force` Will install jquery@3.6.0, which is a breaking change for \n has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\">=1.2 <3.5.0\",\"title\":\"Potential XSS vulnerability in jQuery\",\"url\":\"https://github.com/advisories/GHSA-gxr4-xjj5-5px2\",\"fixAvailable\":null,\"nodes\":[\"node_modules/jquery\",\"node_modules/jquery-dotdotdot/node_modules/jquery\",\"node_modules/jquery-sticky/node_modules/jquery\",\"node_modules/rangeslider.js/node_modules/jquery\",\"node_modules/slick-carousel/node_modules/jquery\"],\"effects\":[],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"<=3.4.1\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "jquery",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/jquery",
+      "message": "dependency jquery >=1.0.3 <3.5.0 : Potential XSS vulnerability in jQuery => https://github.com/advisories/GHSA-jpcq-cgw6-v4j6",
+      "description": "Fix available via `npm audit fix --force` Will install jquery@3.6.0, which is a breaking change for \n has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\">=1.0.3 <3.5.0\",\"title\":\"Potential XSS vulnerability in jQuery\",\"url\":\"https://github.com/advisories/GHSA-jpcq-cgw6-v4j6\",\"fixAvailable\":null,\"nodes\":[\"node_modules/jquery\",\"node_modules/jquery-dotdotdot/node_modules/jquery\",\"node_modules/jquery-sticky/node_modules/jquery\",\"node_modules/rangeslider.js/node_modules/jquery\",\"node_modules/slick-carousel/node_modules/jquery\"],\"effects\":[],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"<=3.4.1\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "jquery",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/jquery",
+      "message": "dependency jquery <3.4.0 : XSS in jQuery as used in Drupal, Backdrop CMS, and other products => https://github.com/advisories/GHSA-6c3j-c64m-qhgq",
+      "description": "Fix available via `npm audit fix --force` Will install jquery@3.6.0, which is a breaking change for \n has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<3.4.0\",\"title\":\"XSS in jQuery as used in Drupal, Backdrop CMS, and other products\",\"url\":\"https://github.com/advisories/GHSA-6c3j-c64m-qhgq\",\"fixAvailable\":null,\"nodes\":[\"node_modules/jquery\",\"node_modules/jquery-dotdotdot/node_modules/jquery\",\"node_modules/jquery-sticky/node_modules/jquery\",\"node_modules/rangeslider.js/node_modules/jquery\",\"node_modules/slick-carousel/node_modules/jquery\"],\"effects\":[],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"<=3.4.1\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "jquery",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/jquery",
+      "message": "dependency jquery <3.0.0 : Cross-Site Scripting (XSS) in jquery => https://github.com/advisories/GHSA-rmxg-73gg-4p98",
+      "description": "Fix available via `npm audit fix --force` Will install jquery@3.6.0, which is a breaking change for \n has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<3.0.0\",\"title\":\"Cross-Site Scripting (XSS) in jquery\",\"url\":\"https://github.com/advisories/GHSA-rmxg-73gg-4p98\",\"fixAvailable\":null,\"nodes\":[\"node_modules/jquery\",\"node_modules/jquery-dotdotdot/node_modules/jquery\",\"node_modules/jquery-sticky/node_modules/jquery\",\"node_modules/rangeslider.js/node_modules/jquery\",\"node_modules/slick-carousel/node_modules/jquery\"],\"effects\":[],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"<=3.4.1\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "jquery-ui",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/jquery-ui",
+      "message": "dependency jquery-ui <1.13.0 : XSS in the `altField` option of the Datepicker widget in jquery-ui => https://github.com/advisories/GHSA-9gj3-hwp5-pmwc",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<1.13.0\",\"title\":\"XSS in the `altField` option of the Datepicker widget in jquery-ui\",\"url\":\"https://github.com/advisories/GHSA-9gj3-hwp5-pmwc\",\"fixAvailable\":null,\"nodes\":[\"node_modules/vanderlee-colorpicker/node_modules/jquery-ui\"],\"effects\":[],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"<1.13.0\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "js-yaml",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/js-yaml",
+      "message": "dependency js-yaml <3.13.0 : Denial of Service in js-yaml => https://github.com/advisories/GHSA-2pr6-76vf-7546",
+      "description": "Fix available via `npm audit fix --force` Will install vueify@5.0.2, which is a breaking change for \nsvgo has effects on svgo (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<3.13.0\",\"title\":\"Denial of Service in js-yaml\",\"url\":\"https://github.com/advisories/GHSA-2pr6-76vf-7546\",\"fixAvailable\":null,\"nodes\":[\"node_modules/js-yaml\",\"node_modules/svgo/node_modules/js-yaml\"],\"effects\":[\"svgo\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=3.13.0\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "js-yaml",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/js-yaml",
+      "message": "dependency js-yaml <3.13.1 : Code Injection in js-yaml => https://github.com/advisories/GHSA-8j8c-7jfh-h6hx",
+      "description": "Fix available via `npm audit fix --force` Will install vueify@5.0.2, which is a breaking change for \nsvgo has effects on svgo (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<3.13.1\",\"title\":\"Code Injection in js-yaml\",\"url\":\"https://github.com/advisories/GHSA-8j8c-7jfh-h6hx\",\"fixAvailable\":null,\"nodes\":[\"node_modules/js-yaml\",\"node_modules/svgo/node_modules/js-yaml\"],\"effects\":[\"svgo\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=3.13.0\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "jsonpointer",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/jsonpointer",
+      "message": "dependency jsonpointer <5.0.0 : Prototype Pollution in node-jsonpointer => https://github.com/advisories/GHSA-282f-qqgm-c34q",
+      "description": "Fix available via `npm audit fix --force` has effects on is-my-json-valid (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<5.0.0\",\"title\":\"Prototype Pollution in node-jsonpointer\",\"url\":\"https://github.com/advisories/GHSA-282f-qqgm-c34q\",\"fixAvailable\":null,\"nodes\":[\"node_modules/jsonpointer\"],\"effects\":[\"is-my-json-valid\"],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"<5.0.0\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "kind-of",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/kind-of",
+      "message": "dependency kind-of >=6.0.0 <6.0.3 : Validation Bypass in kind-of => https://github.com/advisories/GHSA-6c8f-qphg-qjgp",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\">=6.0.0 <6.0.3\",\"title\":\"Validation Bypass in kind-of\",\"url\":\"https://github.com/advisories/GHSA-6c8f-qphg-qjgp\",\"fixAvailable\":null,\"nodes\":[\"node_modules/base/node_modules/kind-of\",\"node_modules/clone-deep/node_modules/kind-of\",\"node_modules/define-property/node_modules/kind-of\",\"node_modules/fast-glob/node_modules/kind-of\",\"node_modules/findup-sync/node_modules/kind-of\",\"node_modules/global-modules/node_modules/kind-of\",\"node_modules/gulp/node_modules/kind-of\",\"node_modules/http-proxy-middleware/node_modules/kind-of\",\"node_modules/make-iterator/node_modules/kind-of\",\"node_modules/matchdep/node_modules/kind-of\",\"node_modules/nanomatch/node_modules/kind-of\",\"node_modules/snapdragon-node/node_modules/kind-of\",\"node_modules/watchpack/node_modules/kind-of\",\"node_modules/webpack-dev-server/node_modules/kind-of\",\"node_modules/webpack/node_modules/kind-of\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"6.0.0 - 6.0.2\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "lodash",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/lodash",
+      "message": "dependency lodash <4.17.21 : Command Injection in lodash => https://github.com/advisories/GHSA-35jh-r3h4-6jhm",
+      "description": "Fix available via `npm audit fix` has effects on browser-sync,easy-extender,opt-merger (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<4.17.21\",\"title\":\"Command Injection in lodash\",\"url\":\"https://github.com/advisories/GHSA-35jh-r3h4-6jhm\",\"fixAvailable\":null,\"nodes\":[\"node_modules/browser-sync/node_modules/lodash\",\"node_modules/easy-extender/node_modules/lodash\",\"node_modules/opt-merger/node_modules/lodash\"],\"effects\":[\"browser-sync\",\"easy-extender\",\"opt-merger\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=4.17.20\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "lodash",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/lodash",
+      "message": "dependency lodash <4.17.19 : Prototype Pollution in lodash => https://github.com/advisories/GHSA-p6mc-m468-83gw",
+      "description": "Fix available via `npm audit fix` has effects on browser-sync,easy-extender,opt-merger (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<4.17.19\",\"title\":\"Prototype Pollution in lodash\",\"url\":\"https://github.com/advisories/GHSA-p6mc-m468-83gw\",\"fixAvailable\":null,\"nodes\":[\"node_modules/browser-sync/node_modules/lodash\",\"node_modules/easy-extender/node_modules/lodash\",\"node_modules/opt-merger/node_modules/lodash\"],\"effects\":[\"browser-sync\",\"easy-extender\",\"opt-merger\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=4.17.20\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "lodash",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/lodash",
+      "message": "dependency lodash <4.17.12 : Prototype Pollution in lodash => https://github.com/advisories/GHSA-jf85-cpcp-j695",
+      "description": "Fix available via `npm audit fix` has effects on browser-sync,easy-extender,opt-merger (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<4.17.12\",\"title\":\"Prototype Pollution in lodash\",\"url\":\"https://github.com/advisories/GHSA-jf85-cpcp-j695\",\"fixAvailable\":null,\"nodes\":[\"node_modules/browser-sync/node_modules/lodash\",\"node_modules/easy-extender/node_modules/lodash\",\"node_modules/opt-merger/node_modules/lodash\"],\"effects\":[\"browser-sync\",\"easy-extender\",\"opt-merger\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=4.17.20\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "lodash",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/lodash",
+      "message": "dependency lodash <4.17.11 : Prototype Pollution in lodash => https://github.com/advisories/GHSA-4xc9-xhrj-v574",
+      "description": "Fix available via `npm audit fix` has effects on browser-sync,easy-extender,opt-merger (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<4.17.11\",\"title\":\"Prototype Pollution in lodash\",\"url\":\"https://github.com/advisories/GHSA-4xc9-xhrj-v574\",\"fixAvailable\":null,\"nodes\":[\"node_modules/browser-sync/node_modules/lodash\",\"node_modules/easy-extender/node_modules/lodash\",\"node_modules/opt-merger/node_modules/lodash\"],\"effects\":[\"browser-sync\",\"easy-extender\",\"opt-merger\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=4.17.20\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "lodash",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/lodash",
+      "message": "dependency lodash <4.17.5 : Prototype Pollution in lodash => https://github.com/advisories/GHSA-fvqr-27wr-82fm",
+      "description": "Fix available via `npm audit fix` has effects on browser-sync,easy-extender,opt-merger (check npm audit output to see dependencies tree)",
+      "severity": "LOW",
+      "additionalProperties": "{\"range\":\"<4.17.5\",\"title\":\"Prototype Pollution in lodash\",\"url\":\"https://github.com/advisories/GHSA-fvqr-27wr-82fm\",\"fixAvailable\":null,\"nodes\":[\"node_modules/browser-sync/node_modules/lodash\",\"node_modules/easy-extender/node_modules/lodash\",\"node_modules/opt-merger/node_modules/lodash\"],\"effects\":[\"browser-sync\",\"easy-extender\",\"opt-merger\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=4.17.20\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "lodash.merge",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/lodash.merge",
+      "message": "dependency lodash.merge <4.6.1 : Prototype Pollution in lodash.merge => https://github.com/advisories/GHSA-2m96-9w4j-wgv7",
+      "description": "Fix available via `npm audit fix` has effects on foxy (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<4.6.1\",\"title\":\"Prototype Pollution in lodash.merge\",\"url\":\"https://github.com/advisories/GHSA-2m96-9w4j-wgv7\",\"fixAvailable\":null,\"nodes\":[\"node_modules/lodash.merge\"],\"effects\":[\"foxy\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=4.6.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "lodash.merge",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/lodash.merge",
+      "message": "dependency lodash.merge <4.6.2 : Prototype Pollution in lodash => https://github.com/advisories/GHSA-jf85-cpcp-j695",
+      "description": "Fix available via `npm audit fix` has effects on foxy (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<4.6.2\",\"title\":\"Prototype Pollution in lodash\",\"url\":\"https://github.com/advisories/GHSA-jf85-cpcp-j695\",\"fixAvailable\":null,\"nodes\":[\"node_modules/lodash.merge\"],\"effects\":[\"foxy\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=4.6.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "lodash.template",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/lodash.template",
+      "message": "dependency lodash.template <4.5.0 : Prototype Pollution in lodash => https://github.com/advisories/GHSA-jf85-cpcp-j695",
+      "description": "Fix available via `npm audit fix --force` Will install gulp-postcss@9.0.1, which is a breaking change for \ngulp-util has effects on gulp-util (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<4.5.0\",\"title\":\"Prototype Pollution in lodash\",\"url\":\"https://github.com/advisories/GHSA-jf85-cpcp-j695\",\"fixAvailable\":null,\"nodes\":[\"node_modules/lodash.template\"],\"effects\":[\"gulp-util\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<4.5.0\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "macaddress",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/macaddress",
+      "message": "dependency macaddress <0.2.9 : Command Injection in macaddress => https://github.com/advisories/GHSA-pp57-mqmh-44h7",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<0.2.9\",\"title\":\"Command Injection in macaddress\",\"url\":\"https://github.com/advisories/GHSA-pp57-mqmh-44h7\",\"fixAvailable\":null,\"nodes\":[\"node_modules/macaddress\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<0.2.9\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "materialize-css",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/materialize-css",
+      "message": "dependency materialize-css <=1.0.0 : Cross-Site Scripting in materialize-css => https://github.com/advisories/GHSA-7752-f4gf-94gc",
+      "description": "No fix available has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<=1.0.0\",\"title\":\"Cross-Site Scripting in materialize-css\",\"url\":\"https://github.com/advisories/GHSA-7752-f4gf-94gc\",\"fixAvailable\":null,\"nodes\":[\"node_modules/materialize-css\"],\"effects\":[],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"*\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "mime",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/mime",
+      "message": "dependency mime <1.4.1 : Regular Expression Denial of Service in mime => https://github.com/advisories/GHSA-wrvr-8mpx-r7pp",
+      "description": "Fix available via `npm audit fix` has effects on express,rework (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<1.4.1\",\"title\":\"Regular Expression Denial of Service in mime\",\"url\":\"https://github.com/advisories/GHSA-wrvr-8mpx-r7pp\",\"fixAvailable\":null,\"nodes\":[\"node_modules/gulp-css-rebase-urls/node_modules/mime\",\"node_modules/weinre/node_modules/mime\"],\"effects\":[\"express\",\"rework\"],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"<1.4.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "minimatch",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/minimatch",
+      "message": "dependency minimatch <3.0.2 : Regular Expression Denial of Service in minimatch => https://github.com/advisories/GHSA-hxm2-r34f-qmc5",
+      "description": "Fix available via `npm audit fix` has effects on resp-modifier (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<3.0.2\",\"title\":\"Regular Expression Denial of Service in minimatch\",\"url\":\"https://github.com/advisories/GHSA-hxm2-r34f-qmc5\",\"fixAvailable\":null,\"nodes\":[\"node_modules/foxy/node_modules/minimatch\",\"node_modules/resp-modifier/node_modules/minimatch\"],\"effects\":[\"resp-modifier\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<3.0.2\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "minimist",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/minimist",
+      "message": "dependency minimist >=1.0.0 <1.2.3 : Prototype Pollution in minimist => https://github.com/advisories/GHSA-vh95-rmgr-6w4m",
+      "description": "Fix available via `npm audit fix` has effects on gonzales-pe,mkdirp,optimist (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\">=1.0.0 <1.2.3\",\"title\":\"Prototype Pollution in minimist\",\"url\":\"https://github.com/advisories/GHSA-vh95-rmgr-6w4m\",\"fixAvailable\":null,\"nodes\":[\"node_modules/@babel/core/node_modules/minimist\",\"node_modules/@cnakazawa/watch/node_modules/minimist\",\"node_modules/browser-sync/node_modules/minimist\",\"node_modules/cosmiconfig/node_modules/minimist\",\"node_modules/gonzales-pe/node_modules/minimist\",\"node_modules/gulp-util/node_modules/minimist\",\"node_modules/jsonfilter/node_modules/minimist\",\"node_modules/loader-utils/node_modules/minimist\",\"node_modules/meow/node_modules/minimist\",\"node_modules/minimist\",\"node_modules/opt-merger/node_modules/minimist\",\"node_modules/sane/node_modules/minimist\",\"node_modules/stylehacks/node_modules/minimist\",\"node_modules/subarg/node_modules/minimist\"],\"effects\":[\"gonzales-pe\",\"mkdirp\",\"optimist\"],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"<0.2.1 || >=1.0.0 <1.2.3\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "minimist",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/minimist",
+      "message": "dependency minimist <0.2.1 : Prototype Pollution in minimist => https://github.com/advisories/GHSA-vh95-rmgr-6w4m",
+      "description": "Fix available via `npm audit fix` has effects on gonzales-pe,mkdirp,optimist (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<0.2.1\",\"title\":\"Prototype Pollution in minimist\",\"url\":\"https://github.com/advisories/GHSA-vh95-rmgr-6w4m\",\"fixAvailable\":null,\"nodes\":[\"node_modules/@babel/core/node_modules/minimist\",\"node_modules/@cnakazawa/watch/node_modules/minimist\",\"node_modules/browser-sync/node_modules/minimist\",\"node_modules/cosmiconfig/node_modules/minimist\",\"node_modules/gonzales-pe/node_modules/minimist\",\"node_modules/gulp-util/node_modules/minimist\",\"node_modules/jsonfilter/node_modules/minimist\",\"node_modules/loader-utils/node_modules/minimist\",\"node_modules/meow/node_modules/minimist\",\"node_modules/minimist\",\"node_modules/opt-merger/node_modules/minimist\",\"node_modules/sane/node_modules/minimist\",\"node_modules/stylehacks/node_modules/minimist\",\"node_modules/subarg/node_modules/minimist\"],\"effects\":[\"gonzales-pe\",\"mkdirp\",\"optimist\"],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"<0.2.1 || >=1.0.0 <1.2.3\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "mixin-deep",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/mixin-deep",
+      "message": "dependency mixin-deep <1.3.2 : Prototype Pollution in mixin-deep => https://github.com/advisories/GHSA-fhjf-83wg-r2j9",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<1.3.2\",\"title\":\"Prototype Pollution in mixin-deep\",\"url\":\"https://github.com/advisories/GHSA-fhjf-83wg-r2j9\",\"fixAvailable\":null,\"nodes\":[\"node_modules/mixin-deep\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<1.3.2\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "moment",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/moment",
+      "message": "dependency moment <2.19.3 : Regular Expression Denial of Service in moment => https://github.com/advisories/GHSA-446m-mv8f-q348",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<2.19.3\",\"title\":\"Regular Expression Denial of Service in moment\",\"url\":\"https://github.com/advisories/GHSA-446m-mv8f-q348\",\"fixAvailable\":null,\"nodes\":[\"node_modules/moment\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<2.19.3\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "node-fetch",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/node-fetch",
+      "message": "dependency node-fetch <2.6.1 : The `size` option isn't honored after following a redirect in node-fetch => https://github.com/advisories/GHSA-w7rc-rwvf-8q5r",
+      "description": "Fix available via `npm audit fix --force` has effects on isomorphic-fetch (check npm audit output to see dependencies tree)",
+      "severity": "LOW",
+      "additionalProperties": "{\"range\":\"<2.6.1\",\"title\":\"The `size` option isn't honored after following a redirect in node-fetch\",\"url\":\"https://github.com/advisories/GHSA-w7rc-rwvf-8q5r\",\"fixAvailable\":null,\"nodes\":[\"node_modules/node-fetch\"],\"effects\":[\"isomorphic-fetch\"],\"overallSeverity\":\"LOW\",\"overallRange\":\"<2.6.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "node-forge",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/node-forge",
+      "message": "dependency node-forge <0.10.0 : Prototype Pollution in node-forge => https://github.com/advisories/GHSA-92xj-mqp7-vmcj",
+      "description": "Fix available via `npm audit fix --force` has effects on selfsigned (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<0.10.0\",\"title\":\"Prototype Pollution in node-forge\",\"url\":\"https://github.com/advisories/GHSA-92xj-mqp7-vmcj\",\"fixAvailable\":null,\"nodes\":[\"node_modules/node-forge\"],\"effects\":[\"selfsigned\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<0.10.0\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "node-notifier",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/node-notifier",
+      "message": "dependency node-notifier <8.0.1 : OS Command Injection in node-notifier => https://github.com/advisories/GHSA-5fw9-fq32-wv5p",
+      "description": "Fix available via `npm audit fix --force` Will install jest@27.3.1, which is a breaking change for \n@jest/reporters has effects on @jest/reporters (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<8.0.1\",\"title\":\"OS Command Injection in node-notifier\",\"url\":\"https://github.com/advisories/GHSA-5fw9-fq32-wv5p\",\"fixAvailable\":null,\"nodes\":[\"node_modules/node-notifier\"],\"effects\":[\"@jest/reporters\"],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"<8.0.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "object-path",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/object-path",
+      "message": "dependency object-path <0.11.8 : Prototype Pollution in object-path => https://github.com/advisories/GHSA-8v63-cqqc-6r2c",
+      "description": "Fix available via `npm audit fix` has effects on tfunk (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<0.11.8\",\"title\":\"Prototype Pollution in object-path\",\"url\":\"https://github.com/advisories/GHSA-8v63-cqqc-6r2c\",\"fixAvailable\":null,\"nodes\":[\"node_modules/object-path\"],\"effects\":[\"tfunk\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=0.11.7\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "object-path",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/object-path",
+      "message": "dependency object-path <0.11.6 : Prototype Pollution in object-path => https://github.com/advisories/GHSA-v39p-96qg-c8rf",
+      "description": "Fix available via `npm audit fix` has effects on tfunk (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<0.11.6\",\"title\":\"Prototype Pollution in object-path\",\"url\":\"https://github.com/advisories/GHSA-v39p-96qg-c8rf\",\"fixAvailable\":null,\"nodes\":[\"node_modules/object-path\"],\"effects\":[\"tfunk\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=0.11.7\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "object-path",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/object-path",
+      "message": "dependency object-path <0.11.5 : Prototype pollution in object-path => https://github.com/advisories/GHSA-cwx2-736x-mf6w",
+      "description": "Fix available via `npm audit fix` has effects on tfunk (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<0.11.5\",\"title\":\"Prototype pollution in object-path\",\"url\":\"https://github.com/advisories/GHSA-cwx2-736x-mf6w\",\"fixAvailable\":null,\"nodes\":[\"node_modules/object-path\"],\"effects\":[\"tfunk\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=0.11.7\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "parsejson",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/parsejson",
+      "message": "dependency parsejson <=0.0.3 : Regular Expression Denial of Service in parsejson => https://github.com/advisories/GHSA-q75g-2496-mxpp",
+      "description": "Fix available via `npm audit fix --force` Will install browserify-hmr@0.4.1, which is a breaking change for \nengine.io-client has effects on engine.io-client (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<=0.0.3\",\"title\":\"Regular Expression Denial of Service in parsejson\",\"url\":\"https://github.com/advisories/GHSA-q75g-2496-mxpp\",\"fixAvailable\":null,\"nodes\":[\"node_modules/parsejson\"],\"effects\":[\"engine.io-client\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"*\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "path-parse",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/path-parse",
+      "message": "dependency path-parse <1.0.7 : Regular Expression Denial of Service in path-parse => https://github.com/advisories/GHSA-hj48-42vr-x3v9",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<1.0.7\",\"title\":\"Regular Expression Denial of Service in path-parse\",\"url\":\"https://github.com/advisories/GHSA-hj48-42vr-x3v9\",\"fixAvailable\":null,\"nodes\":[\"node_modules/path-parse\"],\"effects\":[],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"<1.0.7\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "postcss",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/postcss",
+      "message": "dependency postcss >=7.0.0 <7.0.36 : Regular Expression Denial of Service in postcss => https://github.com/advisories/GHSA-hwj9-h5mp-3pm3",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\">=7.0.0 <7.0.36\",\"title\":\"Regular Expression Denial of Service in postcss\",\"url\":\"https://github.com/advisories/GHSA-hwj9-h5mp-3pm3\",\"fixAvailable\":null,\"nodes\":[\"node_modules/@vue/component-compiler-utils/node_modules/postcss\",\"node_modules/css-loader/node_modules/postcss\",\"node_modules/icss-utils/node_modules/postcss\",\"node_modules/postcss-loader/node_modules/postcss\",\"node_modules/postcss-modules-extract-imports/node_modules/postcss\",\"node_modules/postcss-modules-local-by-default/node_modules/postcss\",\"node_modules/postcss-modules-scope/node_modules/postcss\",\"node_modules/postcss-modules-values/node_modules/postcss\",\"node_modules/postcss-safe-parser/node_modules/postcss\",\"node_modules/postcss-sass/node_modules/postcss\",\"node_modules/postcss-sorting/node_modules/postcss\",\"node_modules/stylelint-no-browser-hacks/node_modules/postcss\",\"node_modules/stylelint-order/node_modules/postcss\"],\"effects\":[],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"7.0.0 - 7.0.35\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "qs",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/qs",
+      "message": "dependency qs <6.0.4 : Prototype Pollution Protection Bypass in qs => https://github.com/advisories/GHSA-gqgv-6jq5-jjj9",
+      "description": "Fix available via `npm audit fix` has effects on express (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<6.0.4\",\"title\":\"Prototype Pollution Protection Bypass in qs\",\"url\":\"https://github.com/advisories/GHSA-gqgv-6jq5-jjj9\",\"fixAvailable\":null,\"nodes\":[\"node_modules/weinre/node_modules/qs\"],\"effects\":[\"express\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=6.0.3\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "qs",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/qs",
+      "message": "dependency qs <1.0.0 : Denial-of-Service Memory Exhaustion in qs => https://github.com/advisories/GHSA-jjv7-qpx3-h62q",
+      "description": "Fix available via `npm audit fix` has effects on express (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<1.0.0\",\"title\":\"Denial-of-Service Memory Exhaustion in qs\",\"url\":\"https://github.com/advisories/GHSA-jjv7-qpx3-h62q\",\"fixAvailable\":null,\"nodes\":[\"node_modules/weinre/node_modules/qs\"],\"effects\":[\"express\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=6.0.3\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "randomatic",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/randomatic",
+      "message": "dependency randomatic <3.0.0 : Cryptographically Weak PRNG in randomatic => https://github.com/advisories/GHSA-6g33-f262-xjp4",
+      "description": "Fix available via `npm audit fix --force` has effects on fill-range (check npm audit output to see dependencies tree)",
+      "severity": "LOW",
+      "additionalProperties": "{\"range\":\"<3.0.0\",\"title\":\"Cryptographically Weak PRNG in randomatic\",\"url\":\"https://github.com/advisories/GHSA-6g33-f262-xjp4\",\"fixAvailable\":null,\"nodes\":[\"node_modules/randomatic\"],\"effects\":[\"fill-range\"],\"overallSeverity\":\"LOW\",\"overallRange\":\"<3.0.0\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "serialize-javascript",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/serialize-javascript",
+      "message": "dependency serialize-javascript <3.1.0 : Insecure serialization leading to RCE in serialize-javascript => https://github.com/advisories/GHSA-hxcc-f52p-wc94",
+      "description": "Fix available via `npm audit fix --force` Will install copy-webpack-plugin@9.0.1, which is a breaking change for \ncopy-webpack-plugin,terser-webpack-plugin has effects on copy-webpack-plugin,terser-webpack-plugin (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<3.1.0\",\"title\":\"Insecure serialization leading to RCE in serialize-javascript\",\"url\":\"https://github.com/advisories/GHSA-hxcc-f52p-wc94\",\"fixAvailable\":null,\"nodes\":[\"node_modules/serialize-javascript\"],\"effects\":[\"copy-webpack-plugin\",\"terser-webpack-plugin\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=3.0.0\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "serialize-javascript",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/serialize-javascript",
+      "message": "dependency serialize-javascript <2.1.1 : Cross-Site Scripting in serialize-javascript => https://github.com/advisories/GHSA-h9rv-jmmf-4pgx",
+      "description": "Fix available via `npm audit fix --force` Will install copy-webpack-plugin@9.0.1, which is a breaking change for \ncopy-webpack-plugin,terser-webpack-plugin has effects on copy-webpack-plugin,terser-webpack-plugin (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<2.1.1\",\"title\":\"Cross-Site Scripting in serialize-javascript\",\"url\":\"https://github.com/advisories/GHSA-h9rv-jmmf-4pgx\",\"fixAvailable\":null,\"nodes\":[\"node_modules/serialize-javascript\"],\"effects\":[\"copy-webpack-plugin\",\"terser-webpack-plugin\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=3.0.0\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "set-value",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/set-value",
+      "message": "dependency set-value <4.0.1 : Prototype Pollution in set-value => https://github.com/advisories/GHSA-4jqc-8m5r-9rpr",
+      "description": "Fix available via `npm audit fix --force` has effects on union-value (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<4.0.1\",\"title\":\"Prototype Pollution in set-value\",\"url\":\"https://github.com/advisories/GHSA-4jqc-8m5r-9rpr\",\"fixAvailable\":null,\"nodes\":[\"node_modules/set-value\",\"node_modules/union-value/node_modules/set-value\"],\"effects\":[\"union-value\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=4.0.0\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "set-value",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/set-value",
+      "message": "dependency set-value <2.0.1 : Prototype Pollution in set-value => https://github.com/advisories/GHSA-4g88-fppr-53pp",
+      "description": "Fix available via `npm audit fix --force` has effects on union-value (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<2.0.1\",\"title\":\"Prototype Pollution in set-value\",\"url\":\"https://github.com/advisories/GHSA-4g88-fppr-53pp\",\"fixAvailable\":null,\"nodes\":[\"node_modules/set-value\",\"node_modules/union-value/node_modules/set-value\"],\"effects\":[\"union-value\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=4.0.0\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "socket.io",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/socket.io",
+      "message": "dependency socket.io <2.4.0 : Insecure defaults due to CORS misconfiguration in socket.io => https://github.com/advisories/GHSA-fxwf-4rqh-v8g3",
+      "description": "Fix available via `npm audit fix --force` Will install browserify-hmr@0.4.1, which is a breaking change for \nbrowser-sync,browserify-hmr has effects on browser-sync,browserify-hmr (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<2.4.0\",\"title\":\"Insecure defaults due to CORS misconfiguration in socket.io\",\"url\":\"https://github.com/advisories/GHSA-fxwf-4rqh-v8g3\",\"fixAvailable\":null,\"nodes\":[\"node_modules/socket.io\"],\"effects\":[\"browser-sync\",\"browserify-hmr\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=2.3.0\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "socket.io-parser",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/socket.io-parser",
+      "message": "dependency socket.io-parser <3.3.2 : Resource exhaustion in socket.io-parser => https://github.com/advisories/GHSA-xfhh-g9f5-x4m4",
+      "description": "Fix available via `npm audit fix --force` Will install browserify-hmr@0.4.1, which is a breaking change for \nsocket.io,socket.io-adapter,socket.io-client has effects on socket.io,socket.io-adapter,socket.io-client (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<3.3.2\",\"title\":\"Resource exhaustion in socket.io-parser\",\"url\":\"https://github.com/advisories/GHSA-xfhh-g9f5-x4m4\",\"fixAvailable\":null,\"nodes\":[\"node_modules/socket.io-parser\"],\"effects\":[\"socket.io\",\"socket.io-adapter\",\"socket.io-client\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=3.3.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "sockjs",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/sockjs",
+      "message": "dependency sockjs <0.3.20 : Improper Input Validation in SocksJS-Node => https://github.com/advisories/GHSA-c9g6-9335-x697",
+      "description": "Fix available via `npm audit fix --force` has effects on webpack-dev-server (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<0.3.20\",\"title\":\"Improper Input Validation in SocksJS-Node\",\"url\":\"https://github.com/advisories/GHSA-c9g6-9335-x697\",\"fixAvailable\":null,\"nodes\":[\"node_modules/sockjs\"],\"effects\":[\"webpack-dev-server\"],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"<0.3.20\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "sshpk",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/sshpk",
+      "message": "dependency sshpk <1.13.2 : Regular Expression Denial of Service in sshpk => https://github.com/advisories/GHSA-2m39-62fm-q8r3",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<1.13.2\",\"title\":\"Regular Expression Denial of Service in sshpk\",\"url\":\"https://github.com/advisories/GHSA-2m39-62fm-q8r3\",\"fixAvailable\":null,\"nodes\":[\"node_modules/sshpk\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<1.13.2\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "ssri",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/ssri",
+      "message": "dependency ssri >=5.2.2 <6.0.2 : Regular Expression Denial of Service (ReDoS) => https://github.com/advisories/GHSA-vx3p-948g-6vhq",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\">=5.2.2 <6.0.2\",\"title\":\"Regular Expression Denial of Service (ReDoS)\",\"url\":\"https://github.com/advisories/GHSA-vx3p-948g-6vhq\",\"fixAvailable\":null,\"nodes\":[\"node_modules/ssri\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"5.2.2 - 6.0.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "stringstream",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/stringstream",
+      "message": "dependency stringstream <0.0.6 : Out-of-bounds Read in stringstream => https://github.com/advisories/GHSA-mf6x-7mm4-x2g7",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<0.0.6\",\"title\":\"Out-of-bounds Read in stringstream\",\"url\":\"https://github.com/advisories/GHSA-mf6x-7mm4-x2g7\",\"fixAvailable\":null,\"nodes\":[\"node_modules/stringstream\"],\"effects\":[],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"<0.0.6\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "swiper",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/swiper",
+      "message": "dependency swiper <6.5.1 : Prototype Pollution in swiper => https://github.com/advisories/GHSA-p3hc-fv2j-rp68",
+      "description": "Fix available via `npm audit fix --force` Will install swiper@7.2.0, which is a breaking change for \n has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<6.5.1\",\"title\":\"Prototype Pollution in swiper\",\"url\":\"https://github.com/advisories/GHSA-p3hc-fv2j-rp68\",\"fixAvailable\":null,\"nodes\":[\"node_modules/swiper\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<6.5.1\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "tar",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/tar",
+      "message": "dependency tar <4.4.18 : Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning using symbolic links => https://github.com/advisories/GHSA-qq89-hq3f-393p",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<4.4.18\",\"title\":\"Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning using symbolic links\",\"url\":\"https://github.com/advisories/GHSA-qq89-hq3f-393p\",\"fixAvailable\":null,\"nodes\":[\"node_modules/tar\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=4.4.17\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "tar",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/tar",
+      "message": "dependency tar <4.4.16 : Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning using symbolic links => https://github.com/advisories/GHSA-9r2w-394v-53qc",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<4.4.16\",\"title\":\"Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning using symbolic links\",\"url\":\"https://github.com/advisories/GHSA-9r2w-394v-53qc\",\"fixAvailable\":null,\"nodes\":[\"node_modules/tar\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=4.4.17\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "tar",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/tar",
+      "message": "dependency tar <3.2.2 : Arbitrary File Creation/Overwrite due to insufficient absolute path sanitization => https://github.com/advisories/GHSA-3jfq-g458-7qm9",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<3.2.2\",\"title\":\"Arbitrary File Creation/Overwrite due to insufficient absolute path sanitization\",\"url\":\"https://github.com/advisories/GHSA-3jfq-g458-7qm9\",\"fixAvailable\":null,\"nodes\":[\"node_modules/tar\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=4.4.17\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "tar",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/tar",
+      "message": "dependency tar <3.2.3 : Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning => https://github.com/advisories/GHSA-r628-mhmh-qjhw",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<3.2.3\",\"title\":\"Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning\",\"url\":\"https://github.com/advisories/GHSA-r628-mhmh-qjhw\",\"fixAvailable\":null,\"nodes\":[\"node_modules/tar\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=4.4.17\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "tar",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/tar",
+      "message": "dependency tar <2.2.2 : Arbitrary File Overwrite in tar => https://github.com/advisories/GHSA-j44m-qm6p-hp7m",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<2.2.2\",\"title\":\"Arbitrary File Overwrite in tar\",\"url\":\"https://github.com/advisories/GHSA-j44m-qm6p-hp7m\",\"fixAvailable\":null,\"nodes\":[\"node_modules/tar\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=4.4.17\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "tinymce",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/tinymce",
+      "message": "dependency tinymce <5.7.1 : Cross-site scripting vulnerability in TinyMCE => https://github.com/advisories/GHSA-5vm8-hhgr-jcjp",
+      "description": "Fix available via `npm audit fix --force` Will install tinymce@5.10.1, which is a breaking change for \n has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<5.7.1\",\"title\":\"Cross-site scripting vulnerability in TinyMCE\",\"url\":\"https://github.com/advisories/GHSA-5vm8-hhgr-jcjp\",\"fixAvailable\":null,\"nodes\":[\"node_modules/tinymce\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=5.9.2\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "tinymce",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/tinymce",
+      "message": "dependency tinymce <5.6.0 : Regex denial of service vulnerability in codesample plugin => https://github.com/advisories/GHSA-h96f-fc7c-9r55",
+      "description": "Fix available via `npm audit fix --force` Will install tinymce@5.10.1, which is a breaking change for \n has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "LOW",
+      "additionalProperties": "{\"range\":\"<5.6.0\",\"title\":\"Regex denial of service vulnerability in codesample plugin\",\"url\":\"https://github.com/advisories/GHSA-h96f-fc7c-9r55\",\"fixAvailable\":null,\"nodes\":[\"node_modules/tinymce\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=5.9.2\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "tinymce",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/tinymce",
+      "message": "dependency tinymce <4.9.11 : Cross-site scripting vulnerability in TinyMCE => https://github.com/advisories/GHSA-vrv8-v4w8-f95h",
+      "description": "Fix available via `npm audit fix --force` Will install tinymce@5.10.1, which is a breaking change for \n has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<4.9.11\",\"title\":\"Cross-site scripting vulnerability in TinyMCE\",\"url\":\"https://github.com/advisories/GHSA-vrv8-v4w8-f95h\",\"fixAvailable\":null,\"nodes\":[\"node_modules/tinymce\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=5.9.2\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "tinymce",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/tinymce",
+      "message": "dependency tinymce <4.9.10 : XSS in TinyMCE => https://github.com/advisories/GHSA-c78w-2gw7-gjv3",
+      "description": "Fix available via `npm audit fix --force` Will install tinymce@5.10.1, which is a breaking change for \n has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<4.9.10\",\"title\":\"XSS in TinyMCE\",\"url\":\"https://github.com/advisories/GHSA-c78w-2gw7-gjv3\",\"fixAvailable\":null,\"nodes\":[\"node_modules/tinymce\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=5.9.2\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "tinymce",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/tinymce",
+      "message": "dependency tinymce <4.9.7 : Cross-site scripting vulnerability in TinyMCE => https://github.com/advisories/GHSA-27gm-ghr9-4v95",
+      "description": "Fix available via `npm audit fix --force` Will install tinymce@5.10.1, which is a breaking change for \n has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<4.9.7\",\"title\":\"Cross-site scripting vulnerability in TinyMCE\",\"url\":\"https://github.com/advisories/GHSA-27gm-ghr9-4v95\",\"fixAvailable\":null,\"nodes\":[\"node_modules/tinymce\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=5.9.2\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "tinymce",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/tinymce",
+      "message": "dependency tinymce <5.9.0 : Cross-site scripting vulnerability in TinyMCE => https://github.com/advisories/GHSA-5h9g-x5rv-25wg",
+      "description": "Fix available via `npm audit fix --force` Will install tinymce@5.10.1, which is a breaking change for \n has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<5.9.0\",\"title\":\"Cross-site scripting vulnerability in TinyMCE\",\"url\":\"https://github.com/advisories/GHSA-5h9g-x5rv-25wg\",\"fixAvailable\":null,\"nodes\":[\"node_modules/tinymce\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=5.9.2\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "tinymce",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/tinymce",
+      "message": "dependency tinymce <5.10.0 : Cross-site scripting vulnerability in TinyMCE plugins => https://github.com/advisories/GHSA-r8hm-w5f7-wj39",
+      "description": "Fix available via `npm audit fix --force` Will install tinymce@5.10.1, which is a breaking change for \n has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<5.10.0\",\"title\":\"Cross-site scripting vulnerability in TinyMCE plugins\",\"url\":\"https://github.com/advisories/GHSA-r8hm-w5f7-wj39\",\"fixAvailable\":null,\"nodes\":[\"node_modules/tinymce\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=5.9.2\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "tmpl",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/tmpl",
+      "message": "dependency tmpl <1.0.5 : Regular Expression Denial of Service in tmpl => https://github.com/advisories/GHSA-jgrx-mgxx-jf9v",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<1.0.5\",\"title\":\"Regular Expression Denial of Service in tmpl\",\"url\":\"https://github.com/advisories/GHSA-jgrx-mgxx-jf9v\",\"fixAvailable\":null,\"nodes\":[\"node_modules/tmpl\"],\"effects\":[],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"<1.0.5\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "trim",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/trim",
+      "message": "dependency trim <0.0.3 : Regular Expression Denial of Service in trim => https://github.com/advisories/GHSA-w5p7-h5w8-2hfq",
+      "description": "Fix available via `npm audit fix --force` Will install stylelint@14.0.1, which is a breaking change for \nparse-headers,remark-parse has effects on parse-headers,remark-parse (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<0.0.3\",\"title\":\"Regular Expression Denial of Service in trim\",\"url\":\"https://github.com/advisories/GHSA-w5p7-h5w8-2hfq\",\"fixAvailable\":null,\"nodes\":[\"node_modules/trim\"],\"effects\":[\"parse-headers\",\"remark-parse\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<0.0.3\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "trim-newlines",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/trim-newlines",
+      "message": "dependency trim-newlines <3.0.1 : Regular Expression Denial of Service in trim-newlines => https://github.com/advisories/GHSA-7p7h-4mm5-852v",
+      "description": "Fix available via `npm audit fix --force` Will install node-sass@6.0.1, which is a breaking change for \nmeow has effects on meow (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<3.0.1\",\"title\":\"Regular Expression Denial of Service in trim-newlines\",\"url\":\"https://github.com/advisories/GHSA-7p7h-4mm5-852v\",\"fixAvailable\":null,\"nodes\":[\"node_modules/stylelint-no-browser-hacks/node_modules/trim-newlines\",\"node_modules/trim-newlines\"],\"effects\":[\"meow\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<3.0.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "ua-parser-js",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/ua-parser-js",
+      "message": "dependency ua-parser-js <0.7.22 : Regular Expression Denial of Service in ua-parser-js => https://github.com/advisories/GHSA-662x-fhqg-9p8v",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<0.7.22\",\"title\":\"Regular Expression Denial of Service in ua-parser-js\",\"url\":\"https://github.com/advisories/GHSA-662x-fhqg-9p8v\",\"fixAvailable\":null,\"nodes\":[\"node_modules/ua-parser-js\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=0.7.23\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "ua-parser-js",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/ua-parser-js",
+      "message": "dependency ua-parser-js >=0.7.14 <0.7.24 : Regular Expression Denial of Service (ReDoS) in ua-parser-js => https://github.com/advisories/GHSA-78cj-fxph-m83p",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\">=0.7.14 <0.7.24\",\"title\":\"Regular Expression Denial of Service (ReDoS) in ua-parser-js\",\"url\":\"https://github.com/advisories/GHSA-78cj-fxph-m83p\",\"fixAvailable\":null,\"nodes\":[\"node_modules/ua-parser-js\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=0.7.23\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "underscore",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/underscore",
+      "message": "dependency underscore >=1.3.2 <1.12.1 : Arbitrary Code Execution in underscore => https://github.com/advisories/GHSA-cf4h-3jhx-xvhq",
+      "description": "Fix available via `npm audit fix` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\">=1.3.2 <1.12.1\",\"title\":\"Arbitrary Code Execution in underscore\",\"url\":\"https://github.com/advisories/GHSA-cf4h-3jhx-xvhq\",\"fixAvailable\":null,\"nodes\":[\"node_modules/underscore\",\"node_modules/weinre/node_modules/underscore\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"1.3.2 - 1.12.0\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "url-parse",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/url-parse",
+      "message": "dependency url-parse <1.5.2 : Open redirect in url-parse => https://github.com/advisories/GHSA-hh27-ffr2-f2jc",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<1.5.2\",\"title\":\"Open redirect in url-parse\",\"url\":\"https://github.com/advisories/GHSA-hh27-ffr2-f2jc\",\"fixAvailable\":null,\"nodes\":[\"node_modules/url-parse\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=1.5.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "url-parse",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/url-parse",
+      "message": "dependency url-parse <1.5.0 : Path traversal in url-parse => https://github.com/advisories/GHSA-9m6j-fcg5-2442",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<1.5.0\",\"title\":\"Path traversal in url-parse\",\"url\":\"https://github.com/advisories/GHSA-9m6j-fcg5-2442\",\"fixAvailable\":null,\"nodes\":[\"node_modules/url-parse\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=1.5.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "validator",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/validator",
+      "message": "dependency validator <3.22.1 : Regular Expression Denial of Service in validator => https://github.com/advisories/GHSA-f5w6-r7rg-mcgq",
+      "description": "No fix available has effects on gulp-css-rebase-urls (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<3.22.1\",\"title\":\"Regular Expression Denial of Service in validator\",\"url\":\"https://github.com/advisories/GHSA-f5w6-r7rg-mcgq\",\"fixAvailable\":null,\"nodes\":[\"node_modules/validator\"],\"effects\":[\"gulp-css-rebase-urls\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=13.6.0\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "validator",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/validator",
+      "message": "dependency validator <13.7.0 : Inefficient Regular Expression Complexity in validator.js => https://github.com/advisories/GHSA-qgmg-gppg-76g5",
+      "description": "No fix available has effects on gulp-css-rebase-urls (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<13.7.0\",\"title\":\"Inefficient Regular Expression Complexity in validator.js\",\"url\":\"https://github.com/advisories/GHSA-qgmg-gppg-76g5\",\"fixAvailable\":null,\"nodes\":[\"node_modules/validator\"],\"effects\":[\"gulp-css-rebase-urls\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=13.6.0\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "video.js",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/video.js",
+      "message": "dependency video.js <7.14.3 : Cross-site Scripting in video.js => https://github.com/advisories/GHSA-pp7m-6j83-m7r6",
+      "description": "Fix available via `npm audit fix --force` Will install video.js@7.15.4, which is a breaking change for \n has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<7.14.3\",\"title\":\"Cross-site Scripting in video.js\",\"url\":\"https://github.com/advisories/GHSA-pp7m-6j83-m7r6\",\"fixAvailable\":null,\"nodes\":[\"node_modules/video.js\"],\"effects\":[],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"<7.14.3\",\"isDirect\":true}"
+    },
+    {
+      "moduleName": "websocket-extensions",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/websocket-extensions",
+      "message": "dependency websocket-extensions <0.1.4 : Regular Expression Denial of Service in websocket-extensions (NPM package) => https://github.com/advisories/GHSA-g78m-2chm-r7qv",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<0.1.4\",\"title\":\"Regular Expression Denial of Service in websocket-extensions (NPM package)\",\"url\":\"https://github.com/advisories/GHSA-g78m-2chm-r7qv\",\"fixAvailable\":null,\"nodes\":[\"node_modules/websocket-extensions\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<0.1.4\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "ws",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/ws",
+      "message": "dependency ws >=5.0.0 <5.2.3 : ReDoS in Sec-Websocket-Protocol header => https://github.com/advisories/GHSA-6fc8-4gx4-v693",
+      "description": "Fix available via `npm audit fix --force` Will install browserify-hmr@0.4.1, which is a breaking change for \nengine.io,engine.io-client has effects on engine.io,engine.io-client (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\">=5.0.0 <5.2.3\",\"title\":\"ReDoS in Sec-Websocket-Protocol header\",\"url\":\"https://github.com/advisories/GHSA-6fc8-4gx4-v693\",\"fixAvailable\":null,\"nodes\":[\"node_modules/engine.io-client/node_modules/ws\",\"node_modules/jsdom/node_modules/ws\",\"node_modules/webpack-dev-server/node_modules/ws\",\"node_modules/ws\"],\"effects\":[\"engine.io\",\"engine.io-client\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=1.1.4 || 5.0.0 - 5.2.2 || 6.0.0 - 6.2.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "ws",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/ws",
+      "message": "dependency ws >=6.0.0 <6.2.2 : ReDoS in Sec-Websocket-Protocol header => https://github.com/advisories/GHSA-6fc8-4gx4-v693",
+      "description": "Fix available via `npm audit fix --force` Will install browserify-hmr@0.4.1, which is a breaking change for \nengine.io,engine.io-client has effects on engine.io,engine.io-client (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\">=6.0.0 <6.2.2\",\"title\":\"ReDoS in Sec-Websocket-Protocol header\",\"url\":\"https://github.com/advisories/GHSA-6fc8-4gx4-v693\",\"fixAvailable\":null,\"nodes\":[\"node_modules/engine.io-client/node_modules/ws\",\"node_modules/jsdom/node_modules/ws\",\"node_modules/webpack-dev-server/node_modules/ws\",\"node_modules/ws\"],\"effects\":[\"engine.io\",\"engine.io-client\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=1.1.4 || 5.0.0 - 5.2.2 || 6.0.0 - 6.2.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "ws",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/ws",
+      "message": "dependency ws >=0.2.6 <1.1.5 : Denial of Service in ws => https://github.com/advisories/GHSA-5v72-xg48-5rpm",
+      "description": "Fix available via `npm audit fix --force` Will install browserify-hmr@0.4.1, which is a breaking change for \nengine.io,engine.io-client has effects on engine.io,engine.io-client (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\">=0.2.6 <1.1.5\",\"title\":\"Denial of Service in ws\",\"url\":\"https://github.com/advisories/GHSA-5v72-xg48-5rpm\",\"fixAvailable\":null,\"nodes\":[\"node_modules/engine.io-client/node_modules/ws\",\"node_modules/jsdom/node_modules/ws\",\"node_modules/webpack-dev-server/node_modules/ws\",\"node_modules/ws\"],\"effects\":[\"engine.io\",\"engine.io-client\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=1.1.4 || 5.0.0 - 5.2.2 || 6.0.0 - 6.2.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "xmlhttprequest-ssl",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/xmlhttprequest-ssl",
+      "message": "dependency xmlhttprequest-ssl <1.6.1 : Improper Certificate Validation in xmlhttprequest-ssl => https://github.com/advisories/GHSA-72mh-269x-7mh5",
+      "description": "Fix available via `npm audit fix --force` Will install browserify-hmr@0.4.1, which is a breaking change for \nengine.io-client has effects on engine.io-client (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<1.6.1\",\"title\":\"Improper Certificate Validation in xmlhttprequest-ssl\",\"url\":\"https://github.com/advisories/GHSA-72mh-269x-7mh5\",\"fixAvailable\":null,\"nodes\":[\"node_modules/xmlhttprequest-ssl\"],\"effects\":[\"engine.io-client\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=1.6.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "xmlhttprequest-ssl",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/xmlhttprequest-ssl",
+      "message": "dependency xmlhttprequest-ssl <1.6.2 : Arbitrary Code Injection => https://github.com/advisories/GHSA-h4j5-c7cj-74xg",
+      "description": "Fix available via `npm audit fix --force` Will install browserify-hmr@0.4.1, which is a breaking change for \nengine.io-client has effects on engine.io-client (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<1.6.2\",\"title\":\"Arbitrary Code Injection\",\"url\":\"https://github.com/advisories/GHSA-h4j5-c7cj-74xg\",\"fixAvailable\":null,\"nodes\":[\"node_modules/xmlhttprequest-ssl\"],\"effects\":[\"engine.io-client\"],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<=1.6.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "y18n",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/y18n",
+      "message": "dependency y18n =4.0.0 : Prototype Pollution => https://github.com/advisories/GHSA-c4w7-xm78-47vh",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"=4.0.0\",\"title\":\"Prototype Pollution\",\"url\":\"https://github.com/advisories/GHSA-c4w7-xm78-47vh\",\"fixAvailable\":null,\"nodes\":[\"node_modules/cacache/node_modules/y18n\",\"node_modules/copy-webpack-plugin/node_modules/y18n\",\"node_modules/jest-runtime/node_modules/y18n\",\"node_modules/jest/node_modules/y18n\",\"node_modules/webpack-cli/node_modules/y18n\",\"node_modules/y18n\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<3.2.2 || =4.0.0\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "y18n",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/y18n",
+      "message": "dependency y18n <3.2.2 : Prototype Pollution => https://github.com/advisories/GHSA-c4w7-xm78-47vh",
+      "description": "Fix available via `npm audit fix --force` has effects on  (check npm audit output to see dependencies tree)",
+      "severity": "HIGH",
+      "additionalProperties": "{\"range\":\"<3.2.2\",\"title\":\"Prototype Pollution\",\"url\":\"https://github.com/advisories/GHSA-c4w7-xm78-47vh\",\"fixAvailable\":null,\"nodes\":[\"node_modules/cacache/node_modules/y18n\",\"node_modules/copy-webpack-plugin/node_modules/y18n\",\"node_modules/jest-runtime/node_modules/y18n\",\"node_modules/jest/node_modules/y18n\",\"node_modules/webpack-cli/node_modules/y18n\",\"node_modules/y18n\"],\"effects\":[],\"overallSeverity\":\"HIGH\",\"overallRange\":\"<3.2.2 || =4.0.0\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "yargs-parser",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/yargs-parser",
+      "message": "dependency yargs-parser <=5.0.0 : Prototype Pollution in yargs-parser => https://github.com/advisories/GHSA-p9pc-299p-vxgp",
+      "description": "Fix available via `npm audit fix --force` Will install node-sass@6.0.1, which is a breaking change for \nmeow,yargs has effects on meow,yargs (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\"<=5.0.0\",\"title\":\"Prototype Pollution in yargs-parser\",\"url\":\"https://github.com/advisories/GHSA-p9pc-299p-vxgp\",\"fixAvailable\":null,\"nodes\":[\"node_modules/jest-runtime/node_modules/yargs-parser\",\"node_modules/jest/node_modules/yargs-parser\",\"node_modules/stylelint-no-browser-hacks/node_modules/yargs-parser\",\"node_modules/webpack-cli/node_modules/yargs-parser\",\"node_modules/webpack-dev-server/node_modules/yargs-parser\",\"node_modules/yargs-parser\"],\"effects\":[\"meow\",\"yargs\"],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"<=5.0.0 || 6.0.0 - 13.1.1\",\"isDirect\":false}"
+    },
+    {
+      "moduleName": "yargs-parser",
+      "fileName": "./package.json",
+      "category": "npmAudit",
+      "directory": "./node_modules/yargs-parser",
+      "message": "dependency yargs-parser >=6.0.0 <13.1.2 : Prototype Pollution in yargs-parser => https://github.com/advisories/GHSA-p9pc-299p-vxgp",
+      "description": "Fix available via `npm audit fix --force` Will install node-sass@6.0.1, which is a breaking change for \nmeow,yargs has effects on meow,yargs (check npm audit output to see dependencies tree)",
+      "severity": "NORMAL",
+      "additionalProperties": "{\"range\":\">=6.0.0 <13.1.2\",\"title\":\"Prototype Pollution in yargs-parser\",\"url\":\"https://github.com/advisories/GHSA-p9pc-299p-vxgp\",\"fixAvailable\":null,\"nodes\":[\"node_modules/jest-runtime/node_modules/yargs-parser\",\"node_modules/jest/node_modules/yargs-parser\",\"node_modules/stylelint-no-browser-hacks/node_modules/yargs-parser\",\"node_modules/webpack-cli/node_modules/yargs-parser\",\"node_modules/webpack-dev-server/node_modules/yargs-parser\",\"node_modules/yargs-parser\"],\"effects\":[\"meow\",\"yargs\"],\"overallSeverity\":\"NORMAL\",\"overallRange\":\"<=5.0.0 || 6.0.0 - 13.1.1\",\"isDirect\":false}"
+    }
+  ]
+}

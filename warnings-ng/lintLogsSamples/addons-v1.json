@@ -1,0 +1,425 @@
+{
+    "count": 43,
+    "summary": {
+        "errors": 0,
+        "notices": 0,
+        "warnings": 43
+    },
+    "metadata": {
+        "id": null,
+        "manifestVersion": 2,
+        "name": "tools",
+        "type": 1,
+        "version": "2.0.3",
+        "totalScannedFileSize": 691030,
+        "emptyFiles": [
+            "lib/mmenu-js/addons/drag/_configs.js"
+        ],
+        "jsLibs": {},
+        "unknownMinifiedFiles": [
+            "php-unit-test-jobs.js",
+            "common.js",
+            "githubPullRequest.js",
+            "jenkins.js",
+            "jira.js",
+            "background/background.js",
+            "popup/popup.js",
+            "popup/releaseNotes.js",
+            "lib/mmenu-js/_version.js",
+            "lib/mmenu-js/_modules/dragevents/_version.js",
+            "nodeModules.js",
+            "lib/mmenu-js/mmenu.js"
+        ]
+    },
+    "errors": [],
+    "notices": [],
+    "warnings": [
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 17,
+            "file": "lib/mmenu-js/addons/counters/mmenu.counters.js",
+            "line": 59
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 17,
+            "file": "lib/mmenu-js/addons/iconbar/mmenu.iconbar.js",
+            "line": 28
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 21,
+            "file": "lib/mmenu-js/addons/navbars/mmenu.navbars.js",
+            "line": 78
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 9,
+            "file": "lib/mmenu-js/addons/navbars/_navbar.breadcrumbs.js",
+            "line": 37
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 9,
+            "file": "lib/mmenu-js/addons/navbars/_navbar.breadcrumbs.js",
+            "line": 45
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 9,
+            "file": "lib/mmenu-js/addons/navbars/_navbar.close.js",
+            "line": 14
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 9,
+            "file": "lib/mmenu-js/addons/navbars/_navbar.next.js",
+            "line": 24
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 9,
+            "file": "lib/mmenu-js/addons/navbars/_navbar.prev.js",
+            "line": 31
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 9,
+            "file": "lib/mmenu-js/addons/navbars/_navbar.title.js",
+            "line": 36
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 13,
+            "file": "lib/mmenu-js/addons/sectionindexer/mmenu.sectionindexer.js",
+            "line": 24
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 9,
+            "file": "lib/mmenu-js/addons/searchfield/mmenu.searchfield.js",
+            "line": 127
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 5,
+            "file": "lib/mmenu-js/addons/searchfield/mmenu.searchfield.js",
+            "line": 286
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 29,
+            "file": "lib/mmenu-js/addons/searchfield/mmenu.searchfield.js",
+            "line": 377
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 13,
+            "file": "lib/mmenu-js/core/offcanvas/mmenu.offcanvas.js",
+            "line": 83
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 29,
+            "file": "lib/mmenu-js/core/oncanvas/mmenu.oncanvas.js",
+            "line": 531
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 9,
+            "file": "lib/mmenu-js/core/oncanvas/mmenu.oncanvas.js",
+            "line": 615
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 21,
+            "file": "lib/mmenu-js/core/screenreader/mmenu.screenreader.js",
+            "line": 131
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 21,
+            "file": "lib/mmenu-js/core/screenreader/mmenu.screenreader.js",
+            "line": 144
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to outerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 17,
+            "file": "lib/mmenu-js/wrappers/bootstrap/mmenu.bootstrap.js",
+            "line": 52
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 9,
+            "file": "lib/mmenu-js/wrappers/bootstrap/mmenu.bootstrap.js",
+            "line": 73
+        },
+        {
+            "_type": "warning",
+            "code": "DANGEROUS_EVAL",
+            "message": "The Function constructor is eval.",
+            "description": "Evaluation of strings as code can lead to security vulnerabilities and performance issues, even in the most innocuous of circumstances. Please avoid using `eval` and the `Function` constructor when at all possible.'",
+            "column": 9971,
+            "file": "nodeModules.js",
+            "line": 1
+        },
+        {
+            "_type": "warning",
+            "code": "DANGEROUS_EVAL",
+            "message": "The Function constructor is eval.",
+            "description": "Evaluation of strings as code can lead to security vulnerabilities and performance issues, even in the most innocuous of circumstances. Please avoid using `eval` and the `Function` constructor when at all possible.'",
+            "column": 78635,
+            "file": "nodeModules.js",
+            "line": 1
+        },
+        {
+            "_type": "warning",
+            "code": "DANGEROUS_EVAL",
+            "message": "The Function constructor is eval.",
+            "description": "Evaluation of strings as code can lead to security vulnerabilities and performance issues, even in the most innocuous of circumstances. Please avoid using `eval` and the `Function` constructor when at all possible.'",
+            "column": 83014,
+            "file": "nodeModules.js",
+            "line": 1
+        },
+        {
+            "_type": "warning",
+            "code": "DANGEROUS_EVAL",
+            "message": "The Function constructor is eval.",
+            "description": "Evaluation of strings as code can lead to security vulnerabilities and performance issues, even in the most innocuous of circumstances. Please avoid using `eval` and the `Function` constructor when at all possible.'",
+            "column": 83401,
+            "file": "nodeModules.js",
+            "line": 1
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 10794,
+            "file": "lib/mmenu-js/mmenu.js",
+            "line": 1
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 11703,
+            "file": "lib/mmenu-js/mmenu.js",
+            "line": 1
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 26838,
+            "file": "lib/mmenu-js/mmenu.js",
+            "line": 1
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 27980,
+            "file": "lib/mmenu-js/mmenu.js",
+            "line": 1
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 28202,
+            "file": "lib/mmenu-js/mmenu.js",
+            "line": 1
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 28594,
+            "file": "lib/mmenu-js/mmenu.js",
+            "line": 1
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 29251,
+            "file": "lib/mmenu-js/mmenu.js",
+            "line": 1
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 30162,
+            "file": "lib/mmenu-js/mmenu.js",
+            "line": 1
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 32728,
+            "file": "lib/mmenu-js/mmenu.js",
+            "line": 1
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 35424,
+            "file": "lib/mmenu-js/mmenu.js",
+            "line": 1
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 36738,
+            "file": "lib/mmenu-js/mmenu.js",
+            "line": 1
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 1304,
+            "file": "lib/mmenu-js/mmenu.js",
+            "line": 12
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 4218,
+            "file": "lib/mmenu-js/mmenu.js",
+            "line": 12
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 4498,
+            "file": "lib/mmenu-js/mmenu.js",
+            "line": 12
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 10431,
+            "file": "lib/mmenu-js/mmenu.js",
+            "line": 12
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 14801,
+            "file": "lib/mmenu-js/mmenu.js",
+            "line": 12
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 23173,
+            "file": "lib/mmenu-js/mmenu.js",
+            "line": 12
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to outerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 29285,
+            "file": "lib/mmenu-js/mmenu.js",
+            "line": 12
+        },
+        {
+            "_type": "warning",
+            "code": "UNSAFE_VAR_ASSIGNMENT",
+            "message": "Unsafe assignment to innerHTML",
+            "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+            "column": 29653,
+            "file": "lib/mmenu-js/mmenu.js",
+            "line": 12
+        }
+    ]
+}

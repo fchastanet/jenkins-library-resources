@@ -1,0 +1,392 @@
+{
+  "_class": "io.jenkins.plugins.analysis.core.restapi.ReportApi",
+  "issues": [
+    {
+      "fileName": "./dist/lib/mmenu-js/addons/counters/mmenu.counters.js",
+      "category": "addons",
+      "lineStart": 59,
+      "columnStart": 17,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/addons/iconbar/mmenu.iconbar.js",
+      "category": "addons",
+      "lineStart": 28,
+      "columnStart": 17,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/addons/navbars/mmenu.navbars.js",
+      "category": "addons",
+      "lineStart": 78,
+      "columnStart": 21,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/addons/navbars/_navbar.breadcrumbs.js",
+      "category": "addons",
+      "lineStart": 37,
+      "columnStart": 9,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/addons/navbars/_navbar.breadcrumbs.js",
+      "category": "addons",
+      "lineStart": 45,
+      "columnStart": 9,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/addons/navbars/_navbar.close.js",
+      "category": "addons",
+      "lineStart": 14,
+      "columnStart": 9,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/addons/navbars/_navbar.next.js",
+      "category": "addons",
+      "lineStart": 24,
+      "columnStart": 9,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/addons/navbars/_navbar.prev.js",
+      "category": "addons",
+      "lineStart": 31,
+      "columnStart": 9,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/addons/navbars/_navbar.title.js",
+      "category": "addons",
+      "lineStart": 36,
+      "columnStart": 9,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/addons/sectionindexer/mmenu.sectionindexer.js",
+      "category": "addons",
+      "lineStart": 24,
+      "columnStart": 13,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/addons/searchfield/mmenu.searchfield.js",
+      "category": "addons",
+      "lineStart": 127,
+      "columnStart": 9,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/addons/searchfield/mmenu.searchfield.js",
+      "category": "addons",
+      "lineStart": 286,
+      "columnStart": 5,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/addons/searchfield/mmenu.searchfield.js",
+      "category": "addons",
+      "lineStart": 377,
+      "columnStart": 29,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/core/offcanvas/mmenu.offcanvas.js",
+      "category": "addons",
+      "lineStart": 83,
+      "columnStart": 13,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/core/oncanvas/mmenu.oncanvas.js",
+      "category": "addons",
+      "lineStart": 531,
+      "columnStart": 29,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/core/oncanvas/mmenu.oncanvas.js",
+      "category": "addons",
+      "lineStart": 615,
+      "columnStart": 9,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/core/screenreader/mmenu.screenreader.js",
+      "category": "addons",
+      "lineStart": 131,
+      "columnStart": 21,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/core/screenreader/mmenu.screenreader.js",
+      "category": "addons",
+      "lineStart": 144,
+      "columnStart": 21,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/wrappers/bootstrap/mmenu.bootstrap.js",
+      "category": "addons",
+      "lineStart": 52,
+      "columnStart": 17,
+      "message": "Unsafe assignment to outerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/wrappers/bootstrap/mmenu.bootstrap.js",
+      "category": "addons",
+      "lineStart": 73,
+      "columnStart": 9,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/nodeModules.js",
+      "category": "addons",
+      "lineStart": 1,
+      "columnStart": 9971,
+      "message": "The Function constructor is eval.",
+      "description": "Evaluation of strings as code can lead to security vulnerabilities and performance issues, even in the most innocuous of circumstances. Please avoid using `eval` and the `Function` constructor when at all possible.'",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/nodeModules.js",
+      "category": "addons",
+      "lineStart": 1,
+      "columnStart": 78635,
+      "message": "The Function constructor is eval.",
+      "description": "Evaluation of strings as code can lead to security vulnerabilities and performance issues, even in the most innocuous of circumstances. Please avoid using `eval` and the `Function` constructor when at all possible.'",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/nodeModules.js",
+      "category": "addons",
+      "lineStart": 1,
+      "columnStart": 83014,
+      "message": "The Function constructor is eval.",
+      "description": "Evaluation of strings as code can lead to security vulnerabilities and performance issues, even in the most innocuous of circumstances. Please avoid using `eval` and the `Function` constructor when at all possible.'",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/nodeModules.js",
+      "category": "addons",
+      "lineStart": 1,
+      "columnStart": 83401,
+      "message": "The Function constructor is eval.",
+      "description": "Evaluation of strings as code can lead to security vulnerabilities and performance issues, even in the most innocuous of circumstances. Please avoid using `eval` and the `Function` constructor when at all possible.'",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/mmenu.js",
+      "category": "addons",
+      "lineStart": 1,
+      "columnStart": 10794,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/mmenu.js",
+      "category": "addons",
+      "lineStart": 1,
+      "columnStart": 11703,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/mmenu.js",
+      "category": "addons",
+      "lineStart": 1,
+      "columnStart": 26838,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/mmenu.js",
+      "category": "addons",
+      "lineStart": 1,
+      "columnStart": 27980,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/mmenu.js",
+      "category": "addons",
+      "lineStart": 1,
+      "columnStart": 28202,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/mmenu.js",
+      "category": "addons",
+      "lineStart": 1,
+      "columnStart": 28594,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/mmenu.js",
+      "category": "addons",
+      "lineStart": 1,
+      "columnStart": 29251,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/mmenu.js",
+      "category": "addons",
+      "lineStart": 1,
+      "columnStart": 30162,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/mmenu.js",
+      "category": "addons",
+      "lineStart": 1,
+      "columnStart": 32728,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/mmenu.js",
+      "category": "addons",
+      "lineStart": 1,
+      "columnStart": 35424,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/mmenu.js",
+      "category": "addons",
+      "lineStart": 1,
+      "columnStart": 36738,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/mmenu.js",
+      "category": "addons",
+      "lineStart": 12,
+      "columnStart": 1304,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/mmenu.js",
+      "category": "addons",
+      "lineStart": 12,
+      "columnStart": 4218,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/mmenu.js",
+      "category": "addons",
+      "lineStart": 12,
+      "columnStart": 4498,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/mmenu.js",
+      "category": "addons",
+      "lineStart": 12,
+      "columnStart": 10431,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/mmenu.js",
+      "category": "addons",
+      "lineStart": 12,
+      "columnStart": 14801,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/mmenu.js",
+      "category": "addons",
+      "lineStart": 12,
+      "columnStart": 23173,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/mmenu.js",
+      "category": "addons",
+      "lineStart": 12,
+      "columnStart": 29285,
+      "message": "Unsafe assignment to outerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./dist/lib/mmenu-js/mmenu.js",
+      "category": "addons",
+      "lineStart": 12,
+      "columnStart": 29653,
+      "message": "Unsafe assignment to innerHTML",
+      "description": "Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance degradation.",
+      "severity": "NORMAL"
+    }
+  ]
+}

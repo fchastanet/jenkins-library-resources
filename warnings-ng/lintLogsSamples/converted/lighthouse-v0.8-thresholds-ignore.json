@@ -1,0 +1,31 @@
+{
+  "_class": "io.jenkins.plugins.analysis.core.restapi.ReportApi",
+  "issues": [
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "runWarnings",
+      "type": "warning",
+      "directory": "dist",
+      "message": "error during run",
+      "severity": "HIGH"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "performance",
+      "directory": "dist",
+      "message": "Performance",
+      "type": "category",
+      "description": "",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "pwa",
+      "directory": "dist",
+      "message": "Progressive Web App - These checks validate the aspects of a Progressive Web App. [Learn more](https://developers.google.com/web/progressive-web-apps/checklist).",
+      "type": "category",
+      "description": "These checks are required by the baseline [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist) but are not automatically checked by Lighthouse. They do not affect your score but it's important that you verify them manually.",
+      "severity": "HIGH"
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "_class": "io.jenkins.plugins.analysis.core.restapi.ReportApi",
+  "issues": [
+    {
+      "fileName": "/home/vagrant/projects/browser_extension/src/apps/github/pullRequest.js",
+      "category": "EsLint - Variables",
+      "lineStart": 2,
+      "columnStart": 7,
+      "message": "no-unused-vars",
+      "description": "'browser' is assigned a value but never used.. Rule Recommended: disallow unused variables https://eslint.org/docs/rules/no-unused-vars",
+      "severity": "HIGH"
+    },
+    {
+      "fileName": "/home/vagrant/projects/browser_extension/src/apps/github/pullRequest.js",
+      "category": "EsLint - Stylistic Issues",
+      "lineStart": 27,
+      "columnStart": 7,
+      "message": "object-curly-spacing",
+      "description": "A space is required after '{'.. Rule: enforce consistent spacing inside braces https://eslint.org/docs/rules/object-curly-spacing",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "/home/vagrant/projects/browser_extension/src/apps/github/pullRequest.js",
+      "category": "EsLint - Stylistic Issues",
+      "lineStart": 27,
+      "columnStart": 55,
+      "message": "object-curly-spacing",
+      "description": "A space is required before '}'.. Rule: enforce consistent spacing inside braces https://eslint.org/docs/rules/object-curly-spacing",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "/home/vagrant/projects/browser_extension/src/apps/jira/JiraController.js",
+      "category": "EsLint - Stylistic Issues",
+      "lineStart": 276,
+      "columnStart": 28,
+      "message": "object-curly-spacing",
+      "description": "A space is required after '{'.. Rule: enforce consistent spacing inside braces https://eslint.org/docs/rules/object-curly-spacing",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "/home/vagrant/projects/browser_extension/src/apps/jira/JiraController.js",
+      "category": "EsLint - Stylistic Issues",
+      "lineStart": 276,
+      "columnStart": 34,
+      "message": "object-curly-spacing",
+      "description": "A space is required before '}'.. Rule: enforce consistent spacing inside braces https://eslint.org/docs/rules/object-curly-spacing",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "/home/vagrant/projects/browser_extension/src/apps/jira/bootstrap.js",
+      "category": "EsLint - ECMAScript 6",
+      "lineStart": 8,
+      "columnStart": 1,
+      "message": "no-var",
+      "description": "Unexpected var, use let or const instead.. Rule: require `let` or `const` instead of `var` https://eslint.org/docs/rules/no-var",
+      "severity": "LOW"
+    },
+    {
+      "fileName": "/home/vagrant/projects/browser_extension/src/apps/jira/bootstrap.js",
+      "category": "EsLint - Variables",
+      "lineStart": 8,
+      "columnStart": 5,
+      "message": "no-unused-vars",
+      "description": "'a' is defined but never used.. Rule Recommended: disallow unused variables https://eslint.org/docs/rules/no-unused-vars",
+      "severity": "HIGH"
+    },
+    {
+      "fileName": "/home/vagrant/projects/browser_extension/src/apps/jira/bootstrap.js",
+      "category": "EsLint - Best Practices",
+      "lineStart": 9,
+      "columnStart": 1,
+      "message": "no-unused-expressions",
+      "description": "Expected an assignment or function call and instead saw an expression.. Rule: disallow unused expressions https://eslint.org/docs/rules/no-unused-expressions",
+      "severity": "LOW"
+    },
+    {
+      "fileName": "/home/vagrant/projects/browser_extension/src/apps/jira/bootstrap.js",
+      "category": "EsLint - Variables",
+      "lineStart": 9,
+      "columnStart": 1,
+      "message": "no-undef",
+      "description": "'b' is not defined.. Rule Recommended: disallow the use of undeclared variables unless mentioned in `/*global */` comments https://eslint.org/docs/rules/no-undef",
+      "severity": "HIGH"
+    },
+    {
+      "fileName": "/home/vagrant/projects/browser_extension/src/apps/jira/bootstrap.js",
+      "category": "EsLint - Stylistic Issues",
+      "lineStart": 9,
+      "columnStart": 2,
+      "message": "semi",
+      "description": "Missing semicolon.. Rule: require or disallow semicolons instead of ASI https://eslint.org/docs/rules/semi",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "callback-return",
+      "description": "callback-return deprecated - require `return` statements after callbacks - https://eslint.org/docs/rules/callback-return",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "global-require",
+      "description": "global-require deprecated - require `require()` calls to be placed at top-level module scope - https://eslint.org/docs/rules/global-require",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "handle-callback-err",
+      "description": "handle-callback-err deprecated - require error handling in callbacks - https://eslint.org/docs/rules/handle-callback-err",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "id-blacklist",
+      "description": "id-blacklist deprecated - disallow specified identifiers - https://eslint.org/docs/rules/id-blacklist",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "indent-legacy",
+      "description": "indent-legacy deprecated - enforce consistent indentation - https://eslint.org/docs/rules/indent-legacy",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "lines-around-directive",
+      "description": "lines-around-directive deprecated - require or disallow newlines around directives - https://eslint.org/docs/rules/lines-around-directive",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "newline-after-var",
+      "description": "newline-after-var deprecated - require or disallow an empty line after variable declarations - https://eslint.org/docs/rules/newline-after-var",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "newline-before-return",
+      "description": "newline-before-return deprecated - require an empty line before `return` statements - https://eslint.org/docs/rules/newline-before-return",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "no-buffer-constructor",
+      "description": "no-buffer-constructor deprecated - disallow use of the `Buffer()` constructor - https://eslint.org/docs/rules/no-buffer-constructor",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "no-catch-shadow",
+      "description": "no-catch-shadow deprecated - disallow `catch` clause parameters from shadowing variables in the outer scope - https://eslint.org/docs/rules/no-catch-shadow",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "no-mixed-requires",
+      "description": "no-mixed-requires deprecated - disallow `require` calls to be mixed with regular variable declarations - https://eslint.org/docs/rules/no-mixed-requires",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "no-native-reassign",
+      "description": "no-native-reassign deprecated - disallow assignments to native objects or read-only global variables - https://eslint.org/docs/rules/no-native-reassign",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "no-negated-in-lhs",
+      "description": "no-negated-in-lhs deprecated - disallow negating the left operand in `in` expressions - https://eslint.org/docs/rules/no-negated-in-lhs",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "no-new-require",
+      "description": "no-new-require deprecated - disallow `new` operators with calls to `require` - https://eslint.org/docs/rules/no-new-require",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "no-path-concat",
+      "description": "no-path-concat deprecated - disallow string concatenation with `__dirname` and `__filename` - https://eslint.org/docs/rules/no-path-concat",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "no-process-env",
+      "description": "no-process-env deprecated - disallow the use of `process.env` - https://eslint.org/docs/rules/no-process-env",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "no-process-exit",
+      "description": "no-process-exit deprecated - disallow the use of `process.exit()` - https://eslint.org/docs/rules/no-process-exit",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "no-restricted-modules",
+      "description": "no-restricted-modules deprecated - disallow specified modules when loaded by `require` - https://eslint.org/docs/rules/no-restricted-modules",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "no-spaced-func",
+      "description": "no-spaced-func deprecated - disallow spacing between function identifiers and their applications (deprecated) - https://eslint.org/docs/rules/no-spaced-func",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "no-sync",
+      "description": "no-sync deprecated - disallow synchronous methods - https://eslint.org/docs/rules/no-sync",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "prefer-reflect",
+      "description": "prefer-reflect deprecated - require `Reflect` methods where applicable - https://eslint.org/docs/rules/prefer-reflect",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "require-jsdoc",
+      "description": "require-jsdoc deprecated - require JSDoc comments - https://eslint.org/docs/rules/require-jsdoc",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "valid-jsdoc",
+      "description": "valid-jsdoc deprecated - enforce valid JSDoc comments - https://eslint.org/docs/rules/valid-jsdoc",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "import/imports-first",
+      "description": "import/imports-first deprecated - null - https://github.com/benmosher/eslint-plugin-import/blob/7b25c1cb95ee18acc1531002fd343e1e6031f9ed/docs/rules/imports-first.md",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "node/no-hide-core-modules",
+      "description": "node/no-hide-core-modules deprecated - disallow third-party modules which are hiding core modules - https://github.com/mysticatea/eslint-plugin-node/blob/v11.1.0/docs/rules/no-hide-core-modules.md",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "./.eslintrc.js",
+      "category": "EsLint - Deprecated rules",
+      "message": "node/no-unsupported-features",
+      "description": "node/no-unsupported-features deprecated - disallow unsupported ECMAScript features on the specified version - https://github.com/mysticatea/eslint-plugin-node/blob/v11.1.0/docs/rules/no-unsupported-features.md",
+      "severity": "NORMAL"
+    }
+  ]
+}

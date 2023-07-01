@@ -1,0 +1,104 @@
+[
+  {
+    "source": "/deploy/src/popup/popup.css",
+    "deprecations": [
+      {
+        "line": 36,
+        "column": 1,
+        "rule": "no-descending-specificity",
+        "severity": "error",
+        "text": "deprecations Expected selector \"#ckToolbar .repo-element\" to come before selector \"#ckToolbar .multi-repos-list > .repo-element\" (no-descending-specificity)"
+      }
+    ],
+    "invalidOptionWarnings": [
+      {
+        "line": 36,
+        "column": 1,
+        "rule": "no-descending-specificity",
+        "severity": "error",
+        "text": "invalidOptionWarnings Expected selector \"#ckToolbar .repo-element\" to come before selector \"#ckToolbar .multi-repos-list > .repo-element\" (no-descending-specificity)"
+      }
+    ],
+    "parseErrors": [
+      {
+        "line": 36,
+        "column": 1,
+        "rule": "no-descending-specificity",
+        "severity": "error",
+        "text": "parseErrors Expected selector \"#ckToolbar .repo-element\" to come before selector \"#ckToolbar .multi-repos-list > .repo-element\" (no-descending-specificity)"
+      }
+    ],
+    "errored": false,
+    "warnings": []
+  },
+  {
+    "source": "/deploy/src/popup/releaseNotes.css",
+    "deprecations": [],
+    "invalidOptionWarnings": [],
+    "parseErrors": [],
+    "errored": false,
+    "warnings": []
+  },
+  {
+    "source": "/deploy/src/apps/jira/LoadingProgress.css",
+    "deprecations": [],
+    "invalidOptionWarnings": [],
+    "parseErrors": [],
+    "errored": false,
+    "warnings": []
+  },
+  {
+    "source": "/deploy/src/apps/jira/branch-name.css",
+    "deprecations": [],
+    "invalidOptionWarnings": [],
+    "parseErrors": [],
+    "errored": true,
+    "warnings": [
+      {
+        "line": 36,
+        "column": 1,
+        "rule": "no-descending-specificity",
+        "severity": "error",
+        "text": "warnings Expected selector \"#ckToolbar .repo-element\" to come before selector \"#ckToolbar .multi-repos-list > .repo-element\" (no-descending-specificity)"
+      }
+    ]
+  },
+  {
+    "source": "/deploy/src/apps/jira/logs.css",
+    "deprecations": [],
+    "invalidOptionWarnings": [],
+    "parseErrors": [],
+    "errored": true,
+    "warnings": [
+      {
+        "line": 82,
+        "column": 1,
+        "rule": "no-descending-specificity",
+        "severity": "error",
+        "text": "Expected selector \"aui-inline-dialog.extension-stats-modal .value\" to come before selector \"aui-inline-dialog.extension-stats-modal .stat-element-info .value\" (no-descending-specificity)"
+      },
+      {
+        "line": 82,
+        "column": 1,
+        "rule": "no-descending-specificity",
+        "severity": "error",
+        "text": "Expected selector \"aui-inline-dialog.extension-stats-modal .value\" to come before selector \"aui-inline-dialog.extension-stats-modal .stat-element-warn .value\" (no-descending-specificity)"
+      },
+      {
+        "line": 82,
+        "column": 1,
+        "rule": "no-descending-specificity",
+        "severity": "error",
+        "text": "Expected selector \"aui-inline-dialog.extension-stats-modal .value\" to come before selector \"aui-inline-dialog.extension-stats-modal .stat-element-error .value\" (no-descending-specificity)"
+      }
+    ]
+  },
+  {
+    "source": "/deploy/src/apps/jira/translation.css",
+    "deprecations": [],
+    "invalidOptionWarnings": [],
+    "parseErrors": [],
+    "errored": false,
+    "warnings": []
+  }
+]

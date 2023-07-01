@@ -1,0 +1,103 @@
+{
+  "_class": "io.jenkins.plugins.analysis.core.restapi.ReportApi",
+  "issues": [
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "first-contentful-paint",
+      "directory": "dist",
+      "message": "First Contentful Paint - First Contentful Paint marks the time at which the first text or image is painted. [Learn more](https://web.dev/first-contentful-paint/).",
+      "type": "audit",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "largest-contentful-paint",
+      "directory": "dist",
+      "message": "Largest Contentful Paint - Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more](https://web.dev/lighthouse-largest-contentful-paint/)",
+      "type": "audit",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "total-blocking-time",
+      "directory": "dist",
+      "message": "Total Blocking Time - Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds. [Learn more](https://web.dev/lighthouse-total-blocking-time/).",
+      "type": "audit",
+      "severity": "HIGH"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "max-potential-fid",
+      "directory": "dist",
+      "message": "Max Potential First Input Delay - The maximum potential First Input Delay that your users could experience is the duration of the longest task. [Learn more](https://web.dev/lighthouse-max-potential-fid/).",
+      "type": "audit",
+      "severity": "HIGH"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "redirects",
+      "directory": "dist",
+      "message": "Avoid multiple page redirects - Redirects introduce additional delays before the page can be loaded. [Learn more](https://web.dev/redirects/).",
+      "type": "audit",
+      "severity": "LOW"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "mainthread-work-breakdown",
+      "directory": "dist",
+      "message": "Minimize main-thread work - Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. [Learn more](https://web.dev/mainthread-work-breakdown/)",
+      "type": "audit",
+      "severity": "HIGH"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "uses-long-cache-ttl",
+      "directory": "dist",
+      "message": "Serve static assets with an efficient cache policy - A long cache lifetime can speed up repeat visits to your page. [Learn more](https://web.dev/uses-long-cache-ttl/).",
+      "type": "audit",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "unused-javascript",
+      "directory": "dist",
+      "message": "Reduce unused JavaScript - Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn more](https://web.dev/unused-javascript/).",
+      "type": "audit",
+      "severity": "HIGH"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "legacy-javascript",
+      "directory": "dist",
+      "message": "Avoid serving legacy JavaScript to modern browsers - Polyfills and transforms enable legacy browsers to use new JavaScript features. However, many aren't necessary for modern browsers. For your bundled JavaScript, adopt a modern script deployment strategy using module/nomodule feature detection to reduce the amount of code shipped to modern browsers, while retaining support for legacy browsers. [Learn More](https://philipwalton.com/articles/deploying-es2015-code-in-production-today/)",
+      "type": "audit",
+      "severity": "NORMAL"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "runWarnings",
+      "type": "warning",
+      "directory": "dist",
+      "message": "error during run",
+      "severity": "HIGH"
+    },
+    {
+      "fileName": "http://localhost:39827/index.html#/1",
+      "category": "pwa",
+      "directory": "dist",
+      "message": "Progressive Web App - These checks validate the aspects of a Progressive Web App. [Learn more](https://developers.google.com/web/progressive-web-apps/checklist).",
+      "type": "category",
+      "description": "These checks are required by the baseline [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist) but are not automatically checked by Lighthouse. They do not affect your score but it's important that you verify them manually.",
+      "severity": "HIGH"
+    },
+    {
+      "fileName": "lighthouse-v0.8-thresholds-overriden.js",
+      "category": "error",
+      "directory": "/home/wsl/projects/jenkins_library_resources/warnings-ng/lintLogsSamples/conf",
+      "message": "audit 'redirects' with displayMode numeric should be set with thresholdWarning property",
+      "description": "",
+      "type": "error",
+      "severity": "LOW"
+    }
+  ]
+}
