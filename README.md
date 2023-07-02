@@ -19,16 +19,16 @@ Several converters for Jenkins warnings NG have been implemented:
 - eslint-v1
 - addons-v1
 
-All these converters are using [https://stedolan.github.io/jq/manual/](jq).
+All these converters are using [jq](https://stedolan.github.io/jq/manual/).
 A jq program is a "filter": it takes an input, and produces an output. There
 are a lot of builtin filters for extracting a particular field of an object,
 or converting a number to a string, or various other standard tasks.
 
 Here we are converting npm, stylelint, eslint, lighthouse json output
-to [https://github.com/jenkinsci/warnings-ng-plugin](Jenkins Warnings NG) plugin
-[https://tinyurl.com/azk6tyt2](issues in ng format)
+to [Jenkins Warnings NG](https://github.com/jenkinsci/warnings-ng-plugin) plugin
+[issues in ng format](https://tinyurl.com/azk6tyt2)
 
-You can find some [warnings-ng/lintLogsSamples](conversion examples)
+You can find some [conversion examples](warnings-ng/lintLogsSamples)
 
 Lighthouse plugin uses 2 conversions:
 

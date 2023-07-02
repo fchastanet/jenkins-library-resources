@@ -2,19 +2,19 @@
 
 ## Jenkins warnings Ng plugin format sample
 
-[https://tinyurl.com/azk6tyt2](issues in ng format)
+[issues in ng format](https://tinyurl.com/azk6tyt2)
 
 ## JQ doc
 
-[https://programminghistorian.org/en/lessons/json-and-jq](doc for jq)
-[https://jqplay.org/](jq player online)
-[https://jqterm.com](jq player online alternative)
-[https://remysharp.com/drafts/jq-recipes](jq recipes)
+[doc for jq](https://programminghistorian.org/en/lessons/json-and-jq)
+[jq player online](https://jqplay.org/)
+[jq player online alternative](https://jqterm.com)
+[jq recipes](https://remysharp.com/drafts/jq-recipes)
 
 ## JQ filters implemented
 
-[https://tinyurl.com/yxwr553w](addons linter convert)
-[https://tinyurl.com/yyvjqfeu](npm audit convert)
-[https://tinyurl.com/yxph73d7](npm outdated convert)
-[https://tinyurl.com/y2w7tluf](stylelint convert)
-[https://tinyurl.com/yynlcuuj](eslint convert)
+[addons linter convert](https://tinyurl.com/yxwr553w)
+[npm audit convert](https://tinyurl.com/yyvjqfeu)
+[npm outdated convert](https://tinyurl.com/yxph73d7)
+[stylelint convert](https://tinyurl.com/y2w7tluf)
+[eslint convert](https://tinyurl.com/yynlcuuj)
