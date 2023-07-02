@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "timonwong.shellcheck",
+    "streetsidesoftware.code-spell-checker",
+    "foxundermoon.shell-format",
+    "esbenp.prettier-vscode",
+    "exiasr.hadolint",
+    "shd101wyy.markdown-preview-enhanced",
+    "yzhang.markdown-all-in-one"
+  ]
+}

@@ -1,4 +1,4 @@
-# jenkins_library_resources
+# jenkins-library-resources
 
 - [1. Introduction](#1-introduction)
 - [2. Build](#2-build)
@@ -7,7 +7,7 @@
 
 ## 1. Introduction
 
-Resources used by [jenkins_library](https://github.com/fchastanet/jenkins_library)
+Resources used by [jenkins-library](https://github.com/fchastanet/jenkins-library)
 
 Several converters for Jenkins warnings NG have been implemented:
 
@@ -19,10 +19,14 @@ Several converters for Jenkins warnings NG have been implemented:
 - eslint-v1
 - addons-v1
 
-All these converters are using [https://stedolan.github.io/jq/manual/](jq). A jq program is a "filter": it takes an input, and produces an output. There are a lot of builtin filters for extracting a particular field of an object, or converting a number to a string, or various other standard tasks. 
+All these converters are using [https://stedolan.github.io/jq/manual/](jq).
+A jq program is a "filter": it takes an input, and produces an output. There
+are a lot of builtin filters for extracting a particular field of an object,
+or converting a number to a string, or various other standard tasks.
 
-Here we are converting npm, stylelint, eslint, lighthouse json output to [https://github.com/jenkinsci/warnings-ng-plugin](Jenkins Warnings NG) plugin 
-[https://github.com/jenkinsci/warnings-ng-plugin/blob/master/plugin/src/test/resources/io/jenkins/plugins/analysis/warnings/steps/issues.json](issues in ng format)
+Here we are converting npm, stylelint, eslint, lighthouse json output
+to [https://github.com/jenkinsci/warnings-ng-plugin](Jenkins Warnings NG) plugin
+[https://tinyurl.com/azk6tyt2](issues in ng format)
 
 You can find some [warnings-ng/lintLogsSamples](conversion examples)
 
@@ -40,8 +44,9 @@ Eg:
 }
 ```
 
-if performance is lower or equal to 0.93 but above 0.8, performance severity will be set to WARNING
-if performance is lower or equal to 0.8, performance severity will be set to HIGH
+if performance is lower or equal to 0.93 but above 0.8, performance severity
+will be set to WARNING if performance is lower or equal to 0.8, performance
+severity will be set to HIGH
 else performance severity will be set to LOW
 For all other categories, we will get the default
 
@@ -65,7 +70,7 @@ docker run --rm \
   -v "$(pwd)/warnings-ng":/usr/app \
   lint-converters node "/usr/app/converters/lighthouse.js" \
   /usr/app/lintLogsSamples/converted/lighthouse-v0.8.json \
-  '{"default":{"thresholdWarning":0.9,"thresholdHigh":0.8}}'
+  /usr/app/lintLogsSamples/conf/lighthouse-v0.8-thresholds-default.js
 ```
 
 ## 4. Regenerate all the samples

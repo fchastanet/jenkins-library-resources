@@ -2,7 +2,7 @@
 
 ## Jenkins warnings Ng plugin format sample
 
-[https://github.com/jenkinsci/warnings-ng-plugin/blob/master/plugin/src/test/resources/io/jenkins/plugins/analysis/warnings/steps/issues.json](issues in ng format)
+[https://tinyurl.com/azk6tyt2](issues in ng format)
 
 ## JQ doc
 

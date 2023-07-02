@@ -93,7 +93,7 @@
     {
       "fileName": "lighthouse-v0.8-thresholds-overriden.js",
       "category": "error",
-      "directory": "/home/wsl/projects/jenkins_library_resources/warnings-ng/lintLogsSamples/conf",
+      "directory": "/home/wsl/fchastanet/jenkins-library-resources/warnings-ng/lintLogsSamples/conf",
       "message": "audit 'redirects' with displayMode numeric should be set with thresholdWarning property",
       "description": "",
       "type": "error",

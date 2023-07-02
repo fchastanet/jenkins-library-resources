@@ -6,7 +6,7 @@ jqFile="${1:-lighthouse-v0.8}"
 categoriesThreshold="$2"
 
 jq -f "/usr/app/converters/${jqFile}.jq" \
-  /tmp/srcReportFile > /tmp/tempReport
+	/tmp/srcReportFile >/tmp/tempReport
 
 node '/usr/app/converters/lighthouse.js' \
-  /tmp/tempReport "${categoriesThreshold}"
+	/tmp/tempReport "${categoriesThreshold}"

@@ -1,0 +1,30 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "search.useIgnoreFiles": false,
+  "search.exclude": {
+    "**/node_modules": true,
+  },
+  "files.associations": {
+    "**/.vscode/*.json": "jsonc"
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.exclude": {
+    // set this to true to hide the folder
+    "**/.idea": true,
+    "**/node_modules": true,
+  },
+  "markdown.extension.toc.omittedFromToc": {
+    "*.md": ["# %%"]
+  },
+  "markdown.extension.toc.levels": "2..6",
+  "shellcheck.customArgs": ["--source-path=SCRIPTDIR", "--external-sources"],
+  "jenkins.pipeline.linter.connector.user": "admin",
+  "cSpell.words": [
+    "checkstyle",
+    "Dockerfiles",
+    "fchastanet",
+    "Jenkinsfiles",
+    "stylelintrc"
+  ],
+}
